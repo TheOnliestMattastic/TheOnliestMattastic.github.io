@@ -1,5 +1,5 @@
 # TheOnliestMattastic.github.io
-**CompTIA A+ certifited** IT enthusiast with hands-on experience in system administration, troubleshooting, and technical support across Linux and Windows environments. Skilled in hardware assembly, Bsh scripting, and customer-focused problem resolution. Known for creative problem-solving and self-driven learning, with proven ability to optimize systems and support diverse users. 
+**CompTIA A+ certifited** IT enthusiast with hands-on experience in system administration, troubleshooting, and technical support across Linux and Windows environments. Skilled in hardware assembly, Bash scripting, and customer-focused problem resolution. Known for creative problem-solving and self-driven learning, with proven ability to optimize systems and support diverse users. 
 
 
 ## Projects
@@ -15,7 +15,20 @@
 ## Technical Skills
 
 
-## Transferable Skills
+## Core Competencies
+
+### System Administration
+- GNU/Linux | Fedora, Nobara, Pop!_0S
+- Microsoft Windows 10/11
+- OS installation
+- System Optimization
+- User account management
+
+### Networking
+
+### Languages
+
+### Tools & Security
 
 
 ## Career Paths
