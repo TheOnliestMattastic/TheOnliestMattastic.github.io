@@ -11,14 +11,18 @@
 - Saves about three hours of manual effort every week
 - Improves system reliability
 
+### Battle Tactics Arena
+Final project for CS50's Intro to Computer Science online course by HarvardX. 
+- 2D turn-based strategy game
+- Written in Lua using the open-source LÖVE framework
+- Utilized third-party libraries enabling techniques such as Object-Oriented Programming & state machines
+- Implimented custom User Interface, hand-drawn pixel art, and simple animations
+
 
 ## Technical Skills
 
-
-## Core Competencies
-
 ### System Administration
-- GNU/Linux | Fedora, Nobara, Pop!_0S
+- GNU/Linux (Fedora, Nobara, Pop!_0S)
 - Microsoft Windows 10/11
 - OS installation
 - System Optimization
@@ -27,9 +31,15 @@
 ### Networking
 
 ### Languages
+- Bash
+- C/C++
+- Markdown
+- PowerShell
+- Python
 
 ### Tools & Security
 
+## Core Competencies
 
 ## Career Paths
 
