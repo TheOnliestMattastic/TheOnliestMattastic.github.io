@@ -5,10 +5,8 @@
 ## Projects
 
 ### Bash Scripts
-- Automated system backups and cleanups
-- Automated file sychronization using rclone
-- Automated keystrokes and CLI inputs for a video game (Schedule I)
-- Saves about three hours of manual effort every week
+Automated system backups, cleanups, and file sychronization using cron, rclone, and Syncthing
+- Saved about three hours of manual effort every week
 - Improves system reliability
 
 ### Battle Tactics Arena
@@ -28,8 +26,6 @@ Final project for CS50's Intro to Computer Science online course by HarvardX.
 - System Optimization
 - User account management
 
-### Networking
-
 ### Languages
 - Bash
 - C/C++
@@ -37,9 +33,35 @@ Final project for CS50's Intro to Computer Science online course by HarvardX.
 - PowerShell
 - Python
 
-### Tools & Security
+### Tools & Software
+- Git/GitHub
+- Visual Studio Code
+- Vim
+- cron
+- rclone
+- Syncthing
+- Timeshift
+- KeePassXC
+- OBS Studio
+- Ventoy
+
+### Networking
+- SOHO network setup
+- Wi-Fi security
+- Router configuration
+- Connectivity troubleshooting
+
 
 ## Core Competencies
+
+### Leadership & Training
+- Managed on-board training and inventory audits
+- adapted instruction for diverse learners, overcoming languages and experience gaps
+- Improved team readiness, compliance, and morale
+
+### Customer Servie & Communication 
+- Practiced empathetic listening & deescalation techniques
+- resolved client concerns ensuring customer satisfaction and continued service
 
 ## Career Paths
 
