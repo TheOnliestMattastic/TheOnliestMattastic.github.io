@@ -58,40 +58,43 @@ Owned and operated a variaty of desktop, laptop, and mobile systems to accomodat
 ## Core Skills
 
 ### Leadership & Training
-Often favored as a trainer for on-boarding newly hired employees for displaying patience with communications and known ability to breakdown complex topics into easily understandable chunks. 
-- Managed yearly inventory audits coordinating with cross functional teams achieving 98% accuracy
-- Improved team readiness, compliance, and morale
-- Adapted instructions or methods to accomodate diverse learners, overcoming language barriars and experience gaps
+Often favored as a trainer for on-boarding newly hired employees for effective verbal and written communication and known ability to breakdown complex topics into easily understandable chunks. 
+- Managed yearly inventory audits coordinating with cross functional teams, achieving 98% accuracy
+- Adapted instructions or methods to accomodate diverse learners, overcoming language barriars & experience gaps
+- Improved team readiness, compliance, & morale
 
 ### Customer Servie & Communication 
 - Practiced empathetic listening & deescalation techniques
-- resolved client concerns ensuring customer satisfaction and continued service
+- Resolved client concerns ensuring customer satisfaction & continued service
+
+## Relevant Experience
+
+### System Builds & Optimization
+- Assembled custom PCs for software development & AAA gaming
+- Upgraded various desktop & laptop components including memory, storage, & GPU, improving system performance & user experience
 
 
 ## Certifications
 
 ### CompTIA A+ 
-- (Sep 2025)
+- Sep 2025
 
 ### Unreal Engine 5 C++ Developer
-- *Udemy* (Apr 2024)
+- Udemy, Apr 2024
 
 ### CS50's Introduction to Computer Science
-- *HarvardX* (Dec 2021)
+- HarvardX, Dec 2021
 
 
 ## Education
 
 ### Bachelor of Arts in Creative Writing & Psychology 
-- *City College of New York* (Jan 2023)
-- Summa Cum Laude (GPA 4.0)
-- Dean's List (all semesters)
-- Goodman Funds Poetry Award (faculty-selected honor for literay merit)
+- City College of New York, Jan 2023
+- Summa Cum Laude, GPA 4.0
+- Dean's List, all semesters
+- Goodman Funds Poetry Award, faculty-selected honor for literay merit
 
 ### Associate of Arts in English with a concentration in Creative Writing
-- *City College of Southern Nevada* (Dec 2017)
+- City College of Southern Nevada, Dec 2017
 - High Honors (GPA 4.0)
 - Dean's List (all semesters)
-
-
-## Career Paths
