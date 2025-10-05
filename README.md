@@ -17,8 +17,7 @@ Final project for CS50's Intro to Computer Science online course by HarvardX.
 - Implimented custom User Interface, hand-drawn pixel art, and simple animations
 
 ### Temples & Trolls
-Open-world RPG in C++ using Unreal Engine 5. Personal solo project currently under development.
-- 
+Open-world RPG in C++ using Unreal Engine 5. Personal solo project currently under development
 
 
 ## Technical Skills
