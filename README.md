@@ -3,98 +3,62 @@
 
 
 ## Projects
-
-### Bash Scripts
-Automated system backups, cleanups, and file synchronization using cron, rclone, and Syncthing
+**Bash Scripts**
+Developed tools to automate repetitive tasks, including system backups, cleanup, and file synchronization.
 - Saved about three hours of manual effort every week
-- Improves system reliability
+- Improved system reliability and user productivity
 
-### Battle Tactics Arena
-Final project for CS50's Intro to Computer Science online course by HarvardX. 
-- 2D turn-based strategy game
-- Written in Lua using the open-source LÖVE framework
-- Utilized third-party libraries enabling techniques such as object-oriented programming & state machines
-- Implemented custom user interface, hand-drawn pixel art, and simple animations
+**Battle Tactics Arena** -- Final project for CS50 
+A 2D turn-based strategy game built in Lua using the open-source LÖVE framework.
+- Implemented state machines for game flow and OOP for entity management
+- Designed custom UI, hand-drawn pixel art assets, and frame-by-frame animations
 
-### Temples & Trolls
-Open-world RPG in C++ using Unreal Engine 5. Personal solo project currently under development
+**Temples & Trolls**
+Solo open world RPG using Unreal Engine 5
+- Developing core gameplay systems: character movement, inventory, quest logic
+- Using Blueprints and C++ for extensibility
+- Utilizing marketplace assets and FOSS applications to extend and optimize workflow, including Blender, Material Maker, Krita, and Diversion
 
 
 ## Technical Skills
-
-### System Administration
-Owned and operated a variety of desktop, laptop, and mobile systems to accommodate specific purposes, including Windows 10/11, Linux (Fedora, Nobara, Pop!_OS), macOS, and Android. Currently maintain a custom dual-boot system laptop (Linux & Windows) personally upgraded with 1TB SATA SSD, 1TB NVMe SSD, and 64GB RAM.
-- OS installation
-- System Optimization
-- User account management
-- Patch management
-
-### Languages
-- Bash
-- C/C++
-- Markdown
-- PowerShell
-- Python
-
-### Tools & Software
-- Git/GitHub
-- Visual Studio Code
-- Vim
-- cron
-- rclone
-- Syncthing
-- Timeshift
-- KeePassXC
-- OBS Studio
-- Ventoy
-
-### Networking
-- SOHO network setup
-- Wi-Fi security
-- Router configuration
-- Connectivity troubleshooting
+- **Languages**: Bash, C/C++, Python, PowerShell, Markdown
+- **Operating Systems**: Windows 10/11, Linux (Fedora, Pop!_OS, Nobara), macOS, Android
+- **Dev Tools**: Git, VS Code, Vim, OBS Studio, KeePassXC, Ventoy
+- **SysAdmin**: OS Installation, Patch Management, User Accounts, Disk Imaging (Timeshift)
+- **Networking**: SOHO Setup, Wi-Fi Security, Router Config, Troubleshooting
 
 
 ## Core Skills
-
-### Leadership & Training
-Often favored as a trainer for on-boarding newly hired employees for effective verbal and written communication and known ability to break down complex topics into easily understandable chunks. 
+**Leadership & Training**
+- Led onboard training for newly hired employees for effective verbal and written communication and
 - Managed yearly inventory audits, coordinating with cross-functional teams, achieving 98% accuracy
+- Proven ability to break down complex topics into easily understandable chunks. 
 - Adapted instructions or methods to accommodate diverse learners, overcoming language barriers & experience gaps
 - Improved team readiness, compliance, & morale
 
-### Customer Service & Communication 
+**Customer Service & Communication**
 - Practiced empathetic listening & de-escalation techniques
 - Resolved client concerns, ensuring customer satisfaction & continued service
 
-## Relevant Experience
 
-### System Builds & Optimization
+## Relevant Experience
+**System Builds & Optimization**
 - Assembled custom PCs for software development & AAA gaming
 - Upgraded various desktop & laptop components, including memory, storage, & GPU, improving system performance & user experience
 
 
 ## Certifications
-
-### CompTIA A+ 
-- Sep 2025
-
-### Unreal Engine 5 C++ Developer
-- Udemy, Apr 2024
-
-### CS50's Introduction to Computer Science
-- HarvardX, Dec 2021
+- **CompTIA A+** -- Sep 2025
+- **Unreal Engine 5 C++ Developer**, *Udemy* -- Apr 2024
+- **CS50's Introduction to Computer Science**, *HarvardX* -- Dec 2021
 
 
 ## Education
+**Bachelor of Arts in Creative Writing & Psychology**, *City College of New York* -- Jan 2023
+- Summa Cum Laude -- GPA 4.0
+- Dean's List -- all semesters
+- Goodman Funds Poetry Award -- a faculty-selected honor for literary merit
 
-### Bachelor of Arts in Creative Writing & Psychology 
-- City College of New York, Jan 2023
-- Summa Cum Laude, GPA 4.0
-- Dean's List, all semesters
-- Goodman Funds Poetry Award, a faculty-selected honor for literary merit
-
-### Associate of Arts in English with a Concentration in Creative Writing
-- City College of Southern Nevada, Dec 2017
-- High Honors, GPA 4.0
-- Dean's List, all semesters
+**Associate of Arts in English with a Concentration in Creative Writing**, *City College of Southern Nevada* -- Dec 2017
+- High Honors -- GPA 4.0
+- Dean's List -- all semesters
