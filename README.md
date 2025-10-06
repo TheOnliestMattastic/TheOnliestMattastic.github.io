@@ -1,11 +1,11 @@
 # TheOnliestMattastic.github.io
-**CompTIA A+ certifited** IT enthusiast with hands-on experience in system administration, troubleshooting, and technical support across Linux and Windows environments. Skilled in hardware assembly, Bash scripting, and customer-focused problem resolution. Known for creative problem-solving and self-driven learning, with proven ability to optimize systems and support diverse users. 
+**CompTIA A+ certified** IT enthusiast with hands-on experience in system administration, troubleshooting, and technical support across Linux and Windows environments. Skilled in hardware assembly, Bash scripting, and customer-focused problem resolution. Known for creative problem-solving and self-driven learning, with proven ability to optimize systems and support diverse users. 
 
 
 ## Projects
 
 ### Bash Scripts
-Automated system backups, cleanups, and file sychronization using cron, rclone, and Syncthing
+Automated system backups, cleanups, and file synchronization using cron, rclone, and Syncthing
 - Saved about three hours of manual effort every week
 - Improves system reliability
 
@@ -13,8 +13,8 @@ Automated system backups, cleanups, and file sychronization using cron, rclone, 
 Final project for CS50's Intro to Computer Science online course by HarvardX. 
 - 2D turn-based strategy game
 - Written in Lua using the open-source LÖVE framework
-- Utilized third-party libraries enabling techniques such as Object-Oriented Programming & state machines
-- Implimented custom User Interface, hand-drawn pixel art, and simple animations
+- Utilized third-party libraries enabling techniques such as object-oriented programming & state machines
+- Implemented custom user interface, hand-drawn pixel art, and simple animations
 
 ### Temples & Trolls
 Open-world RPG in C++ using Unreal Engine 5. Personal solo project currently under development
@@ -23,7 +23,7 @@ Open-world RPG in C++ using Unreal Engine 5. Personal solo project currently und
 ## Technical Skills
 
 ### System Administration
-Owned and operated a variaty of desktop, laptop, and mobile systems to accomodate specific purposes, including Windows 10/11, Linux (Fedora, Nobara, Pop!_0S), macOS&, and Andriod. Currently maintain a custom dual boot system laptop (Linux & Windows) personally upgraded with 1TB SATA SSD, 1TB NVMe SSD, and 64GB RAM.
+Owned and operated a variety of desktop, laptop, and mobile systems to accommodate specific purposes, including Windows 10/11, Linux (Fedora, Nobara, Pop!_OS), macOS, and Android. Currently maintain a custom dual-boot system laptop (Linux & Windows) personally upgraded with 1TB SATA SSD, 1TB NVMe SSD, and 64GB RAM.
 - OS installation
 - System Optimization
 - User account management
@@ -58,20 +58,20 @@ Owned and operated a variaty of desktop, laptop, and mobile systems to accomodat
 ## Core Skills
 
 ### Leadership & Training
-Often favored as a trainer for on-boarding newly hired employees for effective verbal and written communication and known ability to breakdown complex topics into easily understandable chunks. 
-- Managed yearly inventory audits coordinating with cross functional teams, achieving 98% accuracy
-- Adapted instructions or methods to accomodate diverse learners, overcoming language barriars & experience gaps
+Often favored as a trainer for on-boarding newly hired employees for effective verbal and written communication and known ability to break down complex topics into easily understandable chunks. 
+- Managed yearly inventory audits, coordinating with cross-functional teams, achieving 98% accuracy
+- Adapted instructions or methods to accommodate diverse learners, overcoming language barriers & experience gaps
 - Improved team readiness, compliance, & morale
 
-### Customer Servie & Communication 
-- Practiced empathetic listening & deescalation techniques
-- Resolved client concerns ensuring customer satisfaction & continued service
+### Customer Service & Communication 
+- Practiced empathetic listening & de-escalation techniques
+- Resolved client concerns, ensuring customer satisfaction & continued service
 
 ## Relevant Experience
 
 ### System Builds & Optimization
 - Assembled custom PCs for software development & AAA gaming
-- Upgraded various desktop & laptop components including memory, storage, & GPU, improving system performance & user experience
+- Upgraded various desktop & laptop components, including memory, storage, & GPU, improving system performance & user experience
 
 
 ## Certifications
@@ -92,9 +92,9 @@ Often favored as a trainer for on-boarding newly hired employees for effective v
 - City College of New York, Jan 2023
 - Summa Cum Laude, GPA 4.0
 - Dean's List, all semesters
-- Goodman Funds Poetry Award, faculty-selected honor for literay merit
+- Goodman Funds Poetry Award, a faculty-selected honor for literary merit
 
-### Associate of Arts in English with a concentration in Creative Writing
+### Associate of Arts in English with a Concentration in Creative Writing
 - City College of Southern Nevada, Dec 2017
-- High Honors (GPA 4.0)
-- Dean's List (all semesters)
+- High Honors, GPA 4.0
+- Dean's List, all semesters
