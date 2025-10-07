@@ -1,3 +1,5 @@
-theme: jekyll-theme-minimal
-title: Matthew Poole Chicano
-description: IT Enthusiast | Indie Game Dev | Linux Nerd
+theme: jekyll-theme-magic
+title: "Matthew Poole Chicano"
+description: "IT Enthusiast | Indie Game Dev | Linux Nerd"
+avatar: "/images/pfp.png"
+menu: [ "Home", "Projects", "About" ]
