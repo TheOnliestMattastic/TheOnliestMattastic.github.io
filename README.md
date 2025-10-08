@@ -1,4 +1,4 @@
-# TheOnliestMattastic 🛠️
+# TheOnliestMattastic
 
 **CompTIA A+ certified** IT Support specialist with hands-on experience in Linux/Windows system optimization, Bash automation scripting, and SOHO networking. I build intuitive, user-focused solutions by translating creative problem-solving from game development, psychology, and real-world roles — including military/non-profit client support and retail inventory audits — into measurable outcomes.
 
@@ -8,7 +8,7 @@
 
 ---
 
-## 🔍 Why I’m a Strong Fit for IT Support Roles
+## Why I’m a Strong Fit for IT Support Roles
 
 > *"I build intuitive solutions by connecting technical precision with real-world problem-solving — from fixing POS systems during cafe transitions to resolving access issues for military/non-profit clients with 100% SOP compliance."*
 > — Matthew P. Chicano
@@ -17,19 +17,19 @@
 
 ## 🛠️ Projects
 
-### 💡 Bash Automation System 
+### Bash Automation System 
 **Saved 3+ hours weekly** through Bash/cron scripts for backups, cleanup, and file sync (Rclone/Timeshift), preventing data loss and improving system reliability.
 
-### 🎮 Battle Tactics Arena 
+### Battle Tactics Arena 
 **CS50 Final Project**: 2D turn-based strategy game in Lua (LÖVE framework). 
 - Applied state machine logic & OOP patterns to solve real user interaction challenges
 
-### 🌟 Temples & Trolls 
+### Temples & Trolls 
 **Unreal Engine 5 RPG** (ongoing): Reduced critical crashes by **50%** via systematic debugging and user testing — *directly applying IT troubleshooting techniques* to game development workflows.
 
 ---
 
-## 💼 Technical Skills
+## Technical Skills
 
 | Category                  | Skills                                                                   |
 |---------------------------|--------------------------------------------------------------------------|
@@ -40,7 +40,7 @@
 
 ---
 
-## 📚 Relevant Experience
+## Relevant Experience
 
 | Experience                  | Impact & IT Relevance                                                                                                                                    |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -50,7 +50,7 @@
 
 ---
 
-## 📚 Education
+## Education
 
 **B.A. Creative Writing & Psychology** | City College of New York (Jan 2023)
 - *Summa Cum Laude* (GPA 4.0); Dean’s List all semesters
