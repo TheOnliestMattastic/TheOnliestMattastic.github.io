@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Projects
+## Projects
 
 ### Bash Automation System 
 **Saved 3+ hours weekly** through Bash/cron scripts for backups, cleanup, and file sync (Rclone/Timeshift), preventing data loss and improving system reliability.
