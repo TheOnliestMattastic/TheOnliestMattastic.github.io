@@ -6,8 +6,6 @@
 [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
 [![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
 
----
-
 ## Projects
 
 ### Bash Automation System
@@ -20,8 +18,6 @@
 ### Temples & Trolls 
 **Unreal Engine 5 RPG** (ongoing): Reduced critical crashes by **50%** via systematic debugging and user testing — *directly applying IT troubleshooting techniques* to game development workflows.  
 
----
-
 ## Technical Skills
 
 | Category                  | Skills                                                                   |
@@ -31,17 +27,13 @@
 | **Tools**                 | Git/GitHub, VS Code, Rclone, Timeshift, Syncthing                        |
 | **Security**              | KeePassXC, ClamAV                                                        |
 
----
-
 ## Relevant Experience
 
 | Experience                  | Impact & IT Relevance                                                                                                                                    |
 |-----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Retail Inventory Audits** | Led 3+ annual audits achieving **98% accuracy** through standardized workflows — *directly transferable to user account management & system reliability* |
-| **Military/Non-Profit HR**  | Resolved complex access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance** — *proving ability to follow security protocols under pressure*                                                                                                                                                       |
+| **Military/Non-Profit HR**  | Resolved complex access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance** — *proving ability to follow security protocols under pressure*    |
 | **Cafe POS Systems**        | Troubleshot thermal printers & tablet ordering systems as keyholder — *demonstrating rapid troubleshooting of critical infrastructure*                   |
-
----
 
 ## Education
 
