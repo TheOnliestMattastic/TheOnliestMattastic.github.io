@@ -2,9 +2,9 @@
 
 **CompTIA A+ certified** IT Support candidate with hands-on experience in Linux/Windows system optimization, Bash automation scripting, and SOHO networking. I build intuitive, user-focused solutions by translating creative problem-solving from game development, psychology, and real-world roles — including military/non-profit client support and retail inventory audits — into measurable outcomes.  
 
-- [![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
-- [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
-- [![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
+[![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
+[![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
+[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
 
 ---
 
