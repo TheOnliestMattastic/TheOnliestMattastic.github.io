@@ -8,7 +8,7 @@ Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’
 
 ### 📄 Download My Resume
 
-[Download PDF](https://github.com/TheOnliestMattastic/raw/main/resume.pdf)
+[Download PDF](https://github.com/TheOnliestMattastic/TheOnliestMattastic.github.io/blob/main/resume.pdf)
 
 ---
 
