@@ -1,6 +1,6 @@
-# Matthew Poole Chicano
+# Matthew Poole Chicano  
 
-**CompTIA A+ certified** IT Support candidate with hands-on experience in Linux/Windows optimization, Bash automation, and SOHO networking. I translate creative problem-solving from game development, psychology, and creative writing into reliable, user-focused technical solutions that reduce downtime and streamline maintenance.  
+Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT enthusiast who’s spent most of my life writing stories, designing games, and solving puzzles that *actually work*. You’ll find me troubleshooting systems with the same curiosity I use to craft a compelling scene or debug a character’s motivation.  
 
 [![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
 [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
@@ -8,85 +8,87 @@
 
 ---
 
-### 👋 Quick Facts
+## 🪪 Quick Facts
 
 - **Location:** Brooklyn, NY  
 - **Email:** [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
-- **Website:** [TheOnliestMattastic.github.io](https://TheOnliestMattastic.github.io)  
 - **GitHub:** [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
-- **Certifications:** CompTIA A+ (expires Sep 2028); CS50's Intro to CS (HarvardX); UE5 C++ Developer (Udemy)
+- **Certifications:** CompTIA A+ (expires Sep 2028); CS50's Intro to CS (HarvardX); UE5 C++ Developer (Udemy)  
 
 ---
 
-### 📐 Projects
+## 📐 Projects
 
-- **Bash Automation System** — Bash, cron, Rclone, Timeshift  
-  - Saved **3+ hours weekly** through scheduled backups, cleanup, and file sync across 10+ accounts; prevented data loss and reduced manual maintenance.  
+### 🔐 **My Bash Automation Toolkit**  
+I wrote scripts that do backups, cleanup, and file sync *automatically* (using cron, Rclone, Timeshift).  
+**Why it’s special**: Instead of asking users “*Do I need to manually back up this?*,” the system runs quietly in the background — like a friend who remembers your coffee order. 🔥 *Saved 3+ hours/week, zero data loss.*  
 
-- **Battle Tactics Arena** — Lua (LÖVE)  
-  - CS50 final project: 2D turn-based strategy prototype using state machines and OOP patterns to improve user interaction and state reliability.  
+### 🎮 **Battle Tactics Arena** (CS50 Final Project)  
+*2D strategy game in Lua*: Used OOP and state machines to make turn-based gameplay feel intuitive — no confusing menus or crashes.  
+**Real-life takeaway**: *This is exactly how I approach system recovery*. When a user’s OS freezes, I reframe it as “*What’s the next state?*” — then rebuild from there.  
 
-- **Temples & Trolls** — Unreal Engine 5 (ongoing)  
-  - Reduced critical crashes by **50%** via structured debugging, crash logging, and iterative user testing; applied IT troubleshooting workflows to game development.  
-
-##### 🖇️ Links 
-- Bash Automation repo: [github.com/TheOnliestMattastic/myScripts](https://github.com/TheOnliestMattastic/myScripts)  
-
----
-
-### 🧰 Technical Skills
-
-| Category                  | Skills                                                                   |
-|---------------------------|--------------------------------------------------------------------------|
-| **Scripting & Languages** | Bash; Python; PowerShell; R; Markdown; C/C++; Lua                        |
-| **Infrastructure**        | Linux (Fedora; Pop!_OS); Windows 10/11; OS installation; SOHO networking |
-| **Tools & Automation**    | Git/GitHub; VS Code; cron; Rclone; Timeshift; Syncthing                  |
-| **Security & Maintenance**| KeePassXC; ClamAV                                                        |
+### 🏰 **Temples & Trolls** (UE5 RPG)  
+*Ongoing project*: I’m building an RPG where every crash is a story clue. Through user tests, I’ve cut critical crashes by **50%** by designing *anticipatory* fixes (like adding “save points” for system failures).  
 
 ---
 
-### 💼 Experience Highlights
+## 🧰 Technical Skills
 
-| Role / Context            | Impact & Relevance                                                                                                              |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **System builds & support**| Assembled/configured 50+ desktops/laptops; maintained **99% uptime** and high user satisfaction across devices                  |
-| **Retail inventory audits**| Led 3+ annual audits achieving **98% accuracy** with standardized workflows — transferable to asset and account management     |
-| **Military & non-profit**  | Resolved access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance**               |
-| **Cafe POS support**       | Troubleshot POS hardware and tablet ordering systems; supported relocation and printer integrations                              |
-| **Endpoint troubleshooting**| Diagnosed & resolved 20+ OS boot/network failures; reduced recurrence by **40%** via documented triage and remediation workflows |
-
----
-
-### 🎓 Education
-
-**B.A. Creative Writing & Psychology** — City College of New York (Jan 2023)  
-- *Summa Cum Laude* (GPA 4.0); Dean’s List  
-- Goodman Fund Poetry Award  
-- Relevant coursework: Statistics & Experimental Psychology (R, data analysis); Creative Writing (communication, critical review)
-
-**A.A. English w/ Creative Writing** — City College of Southern Nevada (Dec 2017)  
-- *High Honors* (GPA 4.0); Dean’s List  
-- Vice President, Creative Writing Club  
-- Steiner's Creative Writing Scholarship
+| Category                   | Tools & Skills                                      | 
+|----------------------------|-----------------------------------------------------|
+| **Scripting & Automation** | Bash, Python, PowerShell, Lua, R, Markdown          | 
+| **Infrastructure**         | Linux (Fedora, Pop!_OS), Windows 10/11, OS installs | 
+| **Tools & Maintenance**    | Git/GitHub, VS Code, Rclone, Timeshift, Syncthing   |
+| **Security & UX**          | KeePassXC, ClamAV, psychological UX patterns        |
 
 ---
 
-### ⚙️ How I work
+## 💼 Experience Highlights
 
-- Document-first: troubleshooting with reproducible steps and playbooks.  
-- Automation-first: reduce manual work with scripts and scheduled jobs.  
-- Empathetic support: translate technical problems into clear, actionable guidance for non-technical users.
-
----
-
-### 🔗 Links & contact
-
-- Portfolio: [TheOnliestMattastic.github.io](https://TheOnliestMattastic.github.io)  
-- GitHub: [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
-- Email: [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)
+| Role / Context               | Impact & Relevance                                                                                                               |
+|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **System builds & support**  | Assembled/configured 20+ desktops/laptops; maintained **99% uptime** and high user satisfaction across devices                   |
+| **Retail inventory audits**  | Led 3+ annual audits achieving **98% accuracy** with standardized workflows — transferable to asset and account management       |
+| **Military & non-profit**    | Resolved access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance**               |
+| **Cafe POS support**         | Troubleshot POS hardware and tablet ordering systems; supported relocation and printer integration                              |
+| **Endpoint troubleshooting** | Diagnosed & resolved 20+ OS boot/network failures; reduced recurrence by **40%** via documented triage and remediation workflows |
 
 ---
 
-### 📣 Call to action
+## 📚 Education
 
-Interested in collaborating or hiring for entry-level IT support / help desk roles? Email me and I’ll share detailed troubleshooting guides, repo links, or a tailored resume.
+**B.A. Creative Writing & Psychology** (City College of New York)  
+- *Summa Cum Laude* (4.0 GPA): Turns confusing tech into stories users *actually understand*  
+- Goodman Fund Poetry Award: Taught me to find beauty in small fixes  
+
+**A.A. Creative Writing** (City College of Southern Nevada)  
+- *High Honors* (4.0 GPA): Foundation in narrative structure → helps me explain system workflows in ways that feel *natural*, not technical.  
+- Vice President, Creative Writing Club → practiced turning abstract concepts into clear, actionable guidance for non-experts.  
+
+---
+
+## 🌱 Why I’m Here (and How My Background Helps)
+
+I didn’t get into IT through a corporate job — I built it through **real life**:  
+- As a **military HR clerk**, I learned to document workflows so clearly they’d *never* get lost (now I turn system errors into playbooks).  
+- When fixing café POS printers during a relocation, I realized **empathy beats technical jargon** — *you* need to understand *why* something fails before you fix it.  
+- My creative writing and psychology background taught me to spot patterns in user frustration (like how game crashes happen *before* the user even notices).  
+
+This isn’t “just IT.” It’s about **solving problems with care** — whether it’s a frozen Linux boot or a user who can’t find their files.  
+
+---
+
+## 🔧 How I work
+
+- **Document-first**: Troubleshooting with reproducible steps and playbooks.  
+- **Automation-first**: Reducing manual work with scripts and scheduled jobs.  
+- **Empathetic support**: Translating technical problems into clear, actionable guidance for non-technical users.  
+
+---
+
+## 👋 Let’s Connect
+
+Interested in collaborating or hiring for entry-level IT support / help desk roles? Email me and I’ll get back to you promptly.  
+
+📧 [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
+🌐 [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)
