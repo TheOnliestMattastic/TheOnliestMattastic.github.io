@@ -1,45 +1,49 @@
-# Matthew Poole Chicano  
+# Matthew Poole Chicano
 
-Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT enthusiast who’s spent most of my life writing stories, designing games, and solving puzzles that *actually work*. You’ll find me troubleshooting systems with the same curiosity I use to craft a compelling scene or debug a character’s motivation.  
+Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’s spent most of my life writing stories, designing games, and solving puzzles that *actually work*. You’ll find me troubleshooting systems with the same curiosity I use to craft a compelling scene or debug a character’s motivation.  
 
 [![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
 [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
-[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
+[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)  
+
+### 📄 Download My Resume
+
+[Download PDF](https://github.com/TheOnliestMattastic/raw/main/resume.pdf)
 
 ---
 
-## 🪪 Quick Facts
+## 🪪 Contact
 
 - **Location:** Brooklyn, NY  
 - **Email:** [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
 - **GitHub:** [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
-- **Certifications:** CompTIA A+ (expires Sep 2028); CS50's Intro to CS (HarvardX); UE5 C++ Developer (Udemy)  
 
 ---
 
 ## 📐 Projects
 
-### 🔐 **My Bash Automation Toolkit**  
+### 🔐 **My Bash Automation Toolkit**
 I wrote scripts that do backups, cleanup, and file sync *automatically* (using cron, Rclone, Timeshift).  
 **Why it’s special**: Instead of asking users “*Do I need to manually back up this?*,” the system runs quietly in the background — like a friend who remembers your coffee order. 🔥 *Saved 3+ hours/week, zero data loss.*  
 
-### 🎮 **Battle Tactics Arena** (CS50 Final Project)  
+### 🎮 **Battle Tactics Arena** (CS50 Final Project)
 *2D strategy game in Lua*: Used OOP and state machines to make turn-based gameplay feel intuitive — no confusing menus or crashes.  
 **Real-life takeaway**: *This is exactly how I approach system recovery*. When a user’s OS freezes, I reframe it as “*What’s the next state?*” — then rebuild from there.  
 
-### 🏰 **Temples & Trolls** (UE5 RPG)  
-*Ongoing project*: I’m building an RPG where every crash is a story clue. Through user tests, I’ve cut critical crashes by **50%** by designing *anticipatory* fixes (like adding “save points” for system failures).  
+### 🏰 **Temples & Trolls** (UE5 RPG)
+*Ongoing project*: Reduced critical crashes by **50%** through systematic debugging and iterative user testing.  
+**Relevance**: This demonstrates my ability to apply *IT troubleshooting workflows* to game development.  
 
 ---
 
 ## 🧰 Technical Skills
 
-| Category                   | Tools & Skills                                      | 
-|----------------------------|-----------------------------------------------------|
-| **Scripting & Automation** | Bash, Python, PowerShell, Lua, R, Markdown          | 
-| **Infrastructure**         | Linux (Fedora, Pop!_OS), Windows 10/11, OS installs | 
-| **Tools & Maintenance**    | Git/GitHub, VS Code, Rclone, Timeshift, Syncthing   |
-| **Security & UX**          | KeePassXC, ClamAV, psychological UX patterns        |
+| Category                   | Tools & Skills                                                           | 
+|----------------------------|--------------------------------------------------------------------------|
+| **Scripting & Automation** | Bash, Python, PowerShell, Lua, R, Markdown                               | 
+| **Infrastructure**         | Linux (Fedora, Pop!_OS), Windows 10/11, OS installation, SOHO networking | 
+| **Tools & Maintenance**    | Git/GitHub, VS Code, Rclone, Timeshift, Syncthing                        |
+| **Security & UX**          | KeePassXC, ClamAV, psychological UX patterns                             |
 
 ---
 
@@ -50,7 +54,7 @@ I wrote scripts that do backups, cleanup, and file sync *automatically* (using c
 | **System builds & support**  | Assembled/configured 20+ desktops/laptops; maintained **99% uptime** and high user satisfaction across devices                   |
 | **Retail inventory audits**  | Led 3+ annual audits achieving **98% accuracy** with standardized workflows — transferable to asset and account management       |
 | **Military & non-profit**    | Resolved access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance**               |
-| **Cafe POS support**         | Troubleshot POS hardware and tablet ordering systems; supported relocation and printer integration                              |
+| **Cafe POS support**         | Troubleshot POS hardware and tablet ordering systems; supported relocation and printer integration                               |
 | **Endpoint troubleshooting** | Diagnosed & resolved 20+ OS boot/network failures; reduced recurrence by **40%** via documented triage and remediation workflows |
 
 ---
