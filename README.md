@@ -1,4 +1,4 @@
-# Matthew Poole Chicano
+# The One & Onliest Mattastic 
 
 Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’s spent most of my life writing stories, designing games, and solving puzzles that *actually work*. You’ll find me troubleshooting systems with the same curiosity I use to craft a compelling scene or debug a character’s motivation.  
 
