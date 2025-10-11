@@ -1,5 +1,6 @@
 title: "Matthew Poole Chicano"
-description: "IT Enthusiast | Indie Game Dev | Linux Nerd"
+description: "IT Support Specialist | Creative Problem Solver | Game Dev Enthusiast"
 logo: "/images/pfp.png"
-menu: [ "Home", "Projects", "About" ]
 theme: jekyll-theme-minimal
+favicon: "/images/favicon.ico"
+markdown: kramdown
