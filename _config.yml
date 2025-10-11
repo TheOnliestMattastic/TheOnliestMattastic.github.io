@@ -2,5 +2,5 @@ title: "Matthew Poole Chicano"
 description: "IT Support Specialist | Creative Problem Solver | Game Dev Enthusiast"
 logo: "/images/pfp.png"
 theme: jekyll-theme-minimal
-favicon: "/images/favicon.ico"
+favicon: "/favicon.ico"
 markdown: kramdown
