@@ -4,15 +4,12 @@ Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’
 
 [![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
 [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
-[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)  
-
-### 📄 Download My Resume
-
-[Download PDF](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)
+[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
+[![Resume](https://img.shields.io/badge/Download%20Resume-PDF-green)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)  
 
 ---
 
-## 🪪 Contact
+### 🪪 Contact
 
 - **Location:** Brooklyn, NY  
 - **Email:** [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
@@ -20,23 +17,23 @@ Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’
 
 ---
 
-## 📐 Projects
+### 📐 Projects
 
-### 🔐 **My Bash Automation Toolkit**
-I wrote scripts that do backups, cleanup, and file sync *automatically* (using cron, Rclone, Timeshift).  
-**Why it’s special**: Instead of asking users “*Do I need to manually back up this?*,” the system runs quietly in the background — like a friend who remembers your coffee order. 🔥 *Saved 3+ hours/week, zero data loss.*  
+#### 🔐 **My Bash Automation Toolkit**
+Scripts that do backups, cleanup, and file sync *automatically* (using cron, Rclone, Timeshift).  
+**Why it’s special**: Instead of asking users “*Do I need to manually back this up?*,” the system runs quietly in the background — like a friend who remembers your coffee order. 🔥 *Saved 3+ hours/week, zero data loss.*  
 
-### 🎮 **Battle Tactics Arena** (CS50 Final Project)
-*2D strategy game in Lua*: Used OOP and state machines to make turn-based gameplay feel intuitive — no confusing menus or crashes.  
+#### 🎮 **Battle Tactics Arena** (CS50 Final Project)
+*2D strategy prototype in Lua (LÖVE framework)*: Used OOP patterns and state machine logic to make turn-based gameplay feel intuitive — no confusing menus or crashes.  
 **Real-life takeaway**: *This is exactly how I approach system recovery*. When a user’s OS freezes, I reframe it as “*What’s the next state?*” — then rebuild from there.  
 
-### 🏰 **Temples & Trolls** (UE5 RPG)
+#### 🏰 **Temples & Trolls** (UE5 RPG)
 *Ongoing project*: Reduced critical crashes by **50%** through systematic debugging and iterative user testing.  
-**Relevance**: This demonstrates my ability to apply *IT troubleshooting workflows* to game development.  
+**Relevance**: This demonstrates my ability to apply *IT troubleshooting workflows* within software development pipelines. 
 
 ---
 
-## 🧰 Technical Skills
+### 🧰 Technical Skills
 
 | Category                   | Tools & Skills                                                           | 
 |----------------------------|--------------------------------------------------------------------------|
@@ -47,7 +44,7 @@ I wrote scripts that do backups, cleanup, and file sync *automatically* (using c
 
 ---
 
-## 💼 Experience Highlights
+### 💼 Experience Highlights
 
 | Role / Context               | Impact & Relevance                                                                                                               |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
@@ -59,7 +56,7 @@ I wrote scripts that do backups, cleanup, and file sync *automatically* (using c
 
 ---
 
-## 📚 Education
+### 📚 Education
 
 **B.A. Creative Writing & Psychology** (City College of New York)  
 - *Summa Cum Laude* (4.0 GPA): Turns confusing tech into stories users *actually understand*  
@@ -71,7 +68,7 @@ I wrote scripts that do backups, cleanup, and file sync *automatically* (using c
 
 ---
 
-## 🌱 Why I’m Here (and How My Background Helps)
+### 🌱 Why I’m Here (and How My Background Helps)
 
 I didn’t get into IT through a corporate job — I built it through **real life**:  
 - As a **military HR clerk**, I learned to document workflows so clearly they’d *never* get lost (now I turn system errors into playbooks).  
@@ -82,7 +79,7 @@ This isn’t “just IT.” It’s about **solving problems with care** — whet
 
 ---
 
-## 🔧 How I work
+### 🔧 How I work
 
 - **Document-first**: Troubleshooting with reproducible steps and playbooks.  
 - **Automation-first**: Reducing manual work with scripts and scheduled jobs.  
@@ -90,7 +87,7 @@ This isn’t “just IT.” It’s about **solving problems with care** — whet
 
 ---
 
-## 👋 Let’s Connect
+### 👋 Let’s Connect
 
 Interested in collaborating or hiring for entry-level IT support / help desk roles? Email me and I’ll get back to you promptly.  
 
