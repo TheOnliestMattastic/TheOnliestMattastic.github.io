@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheOnliestMattastic | Portfolio</title>
+  <title>Matthew Poole Chicano | Portfolio</title>
 
   <!-- Favicon setup -->
   <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
@@ -59,6 +59,32 @@
     .resume-link:hover {
       background: #d98200;
     }
+    nav {
+      position: sticky;
+      top: 0;
+      background: #fff;
+      border-bottom: 2px solid var(--secondary);
+      z-index: 1000;
+    }
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0.5rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    nav li {
+      margin: 0 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--primary);
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: var(--accent);
+    }
     main {
       max-width: 900px;
       margin: 2rem auto;
@@ -74,6 +100,18 @@
     h2 {
       color: var(--secondary);
       margin-top: 0;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+    }
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+    th, td {
+      padding: 0.5rem;
+      text-align: left;
     }
     ul {
       padding-left: 1.2rem;
@@ -93,52 +131,135 @@
     }
   </style>
 </head>
+<!-- Sticky Navigation -->
+<nav>
+  <ul>
+    <li><a href="#intro">About</a></li>
+    <li><a href="#quick-facts">Quick Facts</a></li>
+    <li><a href="#achievements">Achievements</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#how-i-work">How I Work</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 <body>
   <header>
-    <h1>Matthew Poole Chicano | TheOnliestMattastic</h1>
-    <p>Indie Game Developer | Aspiring Junior Developer | IT Support Enthusiast</p>
+    <h1>Matthew Poole Chicano</h1>
+    <p>Indie Game Developer • Aspiring Junior Developer • IT Support Enthusiast</p>
     <a class="resume-link" href="/assets/docs/resume.pdf" download>Download My Resume</a>
   </header>
 
   <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Welcome! I’m Matthew, transitioning from creative writing and psychology into IT. 
-        I specialize in troubleshooting, scripting, and customer-focused support. 
-        My goal is to secure an entry-level IT support/help desk role where I can apply my skills and grow further.
-      </p>
+    <section id="intro">
+      <p>Hey there! 👋 I’m Matthew — a game developer at heart, IT and automation enthusiast by practice, and a lifelong storyteller. My journey is a bit unconventional: no formal work history yet, but years of self-driven project work, troubleshooting, and learning by doing.</p>
+    </section>
+
+    <section id="quick-facts">
+      <h2>🧑‍💻 Quick Facts</h2>
+      <ul>
+        <li><strong>Location:</strong> Brooklyn, NY</li>
+        <li><strong>Email:</strong> <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></li>
+        <li><strong>GitHub:</strong> <a href="https://github.com/TheOnliestMattastic">TheOnliestMattastic</a></li>
+        <li><strong>Immediate Goal:</strong> Entry-level IT, software dev, or data science</li>
+        <li><strong>Professional Dream:</strong> Game development</li>
+        <li><strong>Resume:</strong> <a href="/assets/docs/resume.pdf">Download PDF</a></li>
+      </ul>
+    </section>
+
+    <section id="achievements">
+      <h2>🏆 Achievements</h2>
+      <ul>
+        <li>CompTIA A+ Certified</li>
+        <li>CS50 Intro to CS Certified</li>
+        <li>Unreal Engine 5 C++ Game Developer Certificate</li>
+        <li>Steiner's Creative Writing Scholarship (College of Southern Nevada)</li>
+        <li>Speaker, Spring Poetry Festival (City College of New York)</li>
+        <li>Goodman Fund Poetry Award (CCNY)</li>
+        <li>Summa Cum Laude Graduate (CCNY, 4.0 GPA)</li>
+      </ul>
     </section>
 
     <section id="skills">
-      <h2>Skills</h2>
+      <h2>🛠️ What I Do Best</h2>
+      <h3>Technical Skills</h3>
+      <table>
+        <tr><th>Area</th><th>Tools & Tech</th></tr>
+        <tr><td>Scripting & Automation</td><td>Bash, Python, PowerShell, Lua, R, Markdown</td></tr>
+        <tr><td>Infrastructure</td><td>Linux (Fedora, Pop!_OS), Windows 10/11, Networking</td></tr>
+        <tr><td>Dev & Analysis</td><td>Unreal Engine 5 (C++), Git/GitHub, VS Code, Rclone, Timeshift, Syncthing</td></tr>
+        <tr><td>Security & UX</td><td>KeePassXC, ClamAV, Psychological UX Patterns</td></tr>
+      </table>
+      <h3>Transferable Skills</h3>
       <ul>
-        <li>Desktop & SOHO systems: hardware assembly, OS installation, troubleshooting</li>
-        <li>Scripting & automation with Bash, PowerShell, and Python</li>
-        <li>Network setup and security for home offices</li>
-        <li>Customer-focused technical support & documentation</li>
-        <li>Version control with Git/GitHub</li>
+        <li><strong>Adaptability:</strong> Built projects across multiple platforms, self-taught new tech as needed.</li>
+        <li><strong>Communication:</strong> Speaker at poetry festivals, club VP, and always document-first in tech.</li>
+        <li><strong>Detail & Documentation:</strong> Documented workflows as HR Clerk for Army National Guard and The Animal Foundation.</li>
       </ul>
     </section>
 
     <section id="projects">
-      <h2>Projects</h2>
+      <h2>🧩 Projects & Portfolio</h2>
+
+      <h3>🔥 My Bash Automation Toolkit</h3>
+      <p><a href="https://github.com/TheOnliestMattastic/My-Bash-Toolkit">View repo</a></p>
+      <p>A collection of scripts for backup, cleanup, file sync (cron, Rclone, Timeshift).</p>
+      <p><em>Why I’m proud:</em> It works in the background—like a friend who remembers your coffee order and just gets things done.</p>
+      <p><em>What I learned:</em> Automating IT tasks, reducing manual errors, and making systems reliable.</p>
+
+      <h3>🎮 Battle Tactics Arena (Prototype)</h3>
+      <p>Turn-based strategy (Lua + LÖVE framework). Not yet uploaded, but ask me about it!</p>
+      <p><em>Why I’m proud:</em> Designed intuitive gameplay logic and OOP patterns.</p>
+      <p><em>What I learned:</em> To approach system recovery and debugging as a series of logical game states.</p>
+
+      <h3>🏰 Solo UE5 Open-World RPG (Ongoing)</h3>
+      <p>Building an ambitious open-world RPG in Unreal Engine 5, solo.</p>
+      <p><em>Why I’m excited:</em> It’s teaching me large-scale project planning, asset management, C++ architecture, and iterative user testing.</p>
+
+      <h3>📊 Psychology Research: Impact of Tobacco on BP & HR</h3>
+      <p><a href="https://github.com/TheOnliestMattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR">View repo</a></p>
+      <p>Reproducible data analysis of smoking effects on blood pressure and heart rate.</p>
+      <p><em>What I learned:</em> Data wrangling, reproducibility, and technical writing for non-experts.</p>
+    </section>
+
+    <section id="education">
+      <h2>🏫 Education</h2>
+      <p><strong>B.A. Creative Writing & Psychology</strong> (City College of New York) — <em>Summa Cum Laude (4.0)</em></p>
+      <p><strong>A.A. Creative Writing</strong> (College of Southern Nevada) — <em>High Honors (4.0)</em></p>
+    </section>
+
+    <section id="how-i-work">
+      <h2>💡 How I Work</h2>
       <ul>
-        <li>Automation scripts for backups and system maintenance</li>
-        <li>Game prototypes built with Unity and Unreal Engine</li>
-        <li>System optimization and troubleshooting case studies</li>
+        <li><strong>Document-first:</strong> Clear playbooks and troubleshooting steps for every fix.</li>
+        <li><strong>Automation-first:</strong> Scripting for reliability and peace of mind.</li>
+        <li><strong>Empathetic support:</strong> Tech advice for real people, not just power users.</li>
+      </ul>
+    </section>
+
+    <section id="experience">
+      <h2>🚀 Personal Experience</h2>
+      <ul>
+        <li>Built, configured, and supported dozens of computers for friends, family, and myself.</li>
+        <li>Diagnosed and fixed OS/network issues—documenting each solution for future reference.</li>
+        <li>Led and supported creative teams, delivered talks, and managed club activities.</li>
+        <li>Served as HR Clerk for both the Army National Guard and The Animal Foundation (non-profit)—handling sensitive records, process documentation, and compliance.</li>
       </ul>
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/TheOnliestMattastic" target="_blank">TheOnliestMattastic</a></p>
+      <h2>🤝 Let’s Connect!</h2>
+      <p>Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? Shoot me an email or connect on GitHub—I reply quickly and love new challenges.</p>
+      <p><strong>Email:</strong> <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/TheOnliestMattastic">TheOnliestMattastic</a></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Matthew | TheOnliestMattastic</p>
+    <p>&copy; 2025 Matthew Poole Chicano | TheOnliestMattastic</p>
   </footer>
+  <button id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'});" style="position: fixed; bottom: 20px; right: 20px; padding: 10px 15px; background: var(--accent); color: #fff; border: none; border-radius: 5px; cursor: pointer; display: none;">↑ Top</button>
 </body>
 </html>
