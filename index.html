@@ -3,82 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TheOnliestMattastic | IT Portfolio</title>
+  <title>TheOnliestMattastic | Portfolio</title>
 
-  <!-- Favicon setup (adjust paths if you put icons in a subfolder) -->
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <!-- Favicon setup -->
+  <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="Mattastic" />
+  <link rel="manifest" href="/assets/icons/site.webmanifest" />
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Basic styling for readability -->
+  <!-- Styling -->
   <style>
+    :root {
+      --primary: #2b5797;
+      --secondary: #5bbad5;
+      --accent: #f39c12;
+      --bg: #f4f8fb;
+      --text: #333;
+    }
     body {
-      font-family: Arial, sans-serif;
+      font-family: "Segoe UI", Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background: var(--bg);
+      color: var(--text);
       line-height: 1.6;
-      background: #f9f9f9;
-      color: #333;
     }
     header {
-      background: #222;
+      background: var(--primary);
       color: #fff;
-      padding: 1.5rem;
+      padding: 2rem 1rem;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2rem;
+      font-size: 2.5rem;
     }
-    nav {
-      margin-top: 0.5rem;
+    header p {
+      margin: 0.5rem 0 1rem;
+      font-size: 1.2rem;
     }
-    nav a {
+    .resume-link {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: var(--accent);
       color: #fff;
-      margin: 0 1rem;
       text-decoration: none;
+      border-radius: 4px;
+      font-weight: bold;
     }
-    nav a:hover {
-      text-decoration: underline;
+    .resume-link:hover {
+      background: #d98200;
     }
     main {
-      max-width: 800px;
+      max-width: 900px;
       margin: 2rem auto;
       padding: 0 1rem;
     }
     section {
       margin-bottom: 2rem;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: var(--secondary);
+      margin-top: 0;
+    }
+    ul {
+      padding-left: 1.2rem;
     }
     footer {
-      background: #222;
+      background: var(--primary);
       color: #fff;
       text-align: center;
       padding: 1rem;
       font-size: 0.9rem;
     }
+    a {
+      color: var(--primary);
+    }
+    a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
   <header>
-    <h1>Matthew | TheOnliestMattastic</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+    <h1>Matthew Poole Chicano | TheOnliestMattastic</h1>
+    <p>Indie Game Developer | Aspiring Junior Developer | IT Support Enthusiast</p>
+    <a class="resume-link" href="/assets/docs/resume.pdf" download>Download My Resume</a>
   </header>
 
   <main>
     <section id="about">
       <h2>About Me</h2>
       <p>
-        Welcome to my portfolio! I’m Matthew, an aspiring IT support and help desk professional with a background in creative writing and psychology. 
-        I specialize in troubleshooting, scripting, and customer-focused technical support.
+        Welcome! I’m Matthew, transitioning from creative writing and psychology into IT. 
+        I specialize in troubleshooting, scripting, and customer-focused support. 
+        My goal is to secure an entry-level IT support/help desk role where I can apply my skills and grow further.
       </p>
     </section>
 
@@ -95,7 +123,6 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <p>Here are a few highlights of my personal and technical projects:</p>
       <ul>
         <li>Automation scripts for backups and system maintenance</li>
         <li>Game prototypes built with Unity and Unreal Engine</li>
@@ -105,10 +132,8 @@
 
     <section id="contact">
       <h2>Contact</h2>
-      <p>
-        Feel free to reach out via <a href="mailto:your.email@example.com">email</a> or connect with me on 
-        <a href="https://github.com/TheOnliestMattastic" target="_blank">GitHub</a>.
-      </p>
+      <p>Email: <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></p>
+      <p>GitHub: <a href="https://github.com/TheOnliestMattastic" target="_blank">TheOnliestMattastic</a></p>
     </section>
   </main>
 
