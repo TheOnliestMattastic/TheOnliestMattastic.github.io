@@ -1,95 +1,107 @@
-# The One & Onliest Mattastic 
-
-Hey there! 👋 I’m Matthew — a **CompTIA A+ certified** IT candidate who’s spent most of my life writing stories, designing games, and solving puzzles that *actually work*. You’ll find me troubleshooting systems with the same curiosity I use to craft a compelling scene or debug a character’s motivation.  
+# Matthew Poole Chicano
 
 [![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
 [![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
 [![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
 [![Resume](https://img.shields.io/badge/Download%20Resume-PDF-green)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)  
 
+Hey there! 👋 I’m Matthew — a game developer at heart, IT and automation enthusiast by practice, and a lifelong storyteller. My journey is a bit unconventional: no formal work history yet, but years of self-driven project work, troubleshooting, and learning by doing.  
+
 ---
 
-### 🪪 Contact
+## 🧑‍💻 Quick Facts
 
 - **Location:** Brooklyn, NY  
 - **Email:** [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
-- **GitHub:** [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
+- **GitHub:** [TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
+- **Immediate Goal:** Entry-level IT, software dev, or data science  
+- **Professional Dream:** Game development  
+- **Resume:** [Download PDF](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)
 
 ---
 
-### 📐 Projects
+## 🏆 Achievements
 
-#### 🔐 **My Bash Automation Toolkit**
-Scripts that do backups, cleanup, and file sync *automatically* (using cron, Rclone, Timeshift).  
-**Why it’s special**: Instead of asking users “*Do I need to manually back this up?*,” the system runs quietly in the background — like a friend who remembers your coffee order. 🔥 *Saved 3+ hours/week, zero data loss.*  
-
-#### 🎮 **Battle Tactics Arena** (CS50 Final Project)
-*2D strategy prototype in Lua (LÖVE framework)*: Used OOP patterns and state machine logic to make turn-based gameplay feel intuitive — no confusing menus or crashes.  
-**Real-life takeaway**: *This is exactly how I approach system recovery*. When a user’s OS freezes, I reframe it as “*What’s the next state?*” — then rebuild from there.  
-
-#### 🏰 **Temples & Trolls** (UE5 RPG)
-*Ongoing project*: Reduced critical crashes by **50%** through systematic debugging and iterative user testing.  
-**Relevance**: This demonstrates my ability to apply *IT troubleshooting workflows* within software development pipelines. 
+- **CompTIA A+ Certified**
+- **CS50 Intro to CS Certified**
+- **Unreal Engine 5 C++ Game Developer Certificate**
+- **Steiner's Creative Writing Scholarship** (College of Southern Nevada)
+- **Speaker, Spring Poetry Festival** (City College of New York)
+- **Goodman Fund Poetry Award** (CCNY)
+- **Summa Cum Laude Graduate** (CCNY, 4.0 GPA)
 
 ---
 
-### 🧰 Technical Skills
+## 🛠️ What I Do Best
 
-| Category                   | Tools & Skills                                                           | 
-|----------------------------|--------------------------------------------------------------------------|
-| **Scripting & Automation** | Bash, Python, PowerShell, Lua, R, Markdown                               | 
-| **Infrastructure**         | Linux (Fedora, Pop!_OS), Windows 10/11, OS installation, SOHO networking | 
-| **Tools & Maintenance**    | Git/GitHub, VS Code, Rclone, Timeshift, Syncthing                        |
-| **Security & UX**          | KeePassXC, ClamAV, psychological UX patterns                             |
+### **Technical Skills**
+| Area                  | Tools & Tech                                      |
+|-----------------------|---------------------------------------------------|
+| Scripting & Automation| Bash, Python, PowerShell, Lua, R, Markdown        |
+| Infrastructure        | Linux (Fedora, Pop!_OS), Windows 10/11, Networking|
+| Dev & Analysis        | Unreal Engine 5 (C++), Git/GitHub, VS Code, Rclone, Timeshift, Syncthing |
+| Security & UX         | KeePassXC, ClamAV, Psychological UX Patterns      |
 
----
-
-### 💼 Experience Highlights
-
-| Role / Context               | Impact & Relevance                                                                                                               |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
-| **System builds & support**  | Assembled/configured 20+ desktops/laptops; maintained **99% uptime** and high user satisfaction across devices                   |
-| **Retail inventory audits**  | Led 3+ annual audits achieving **98% accuracy** with standardized workflows — transferable to asset and account management       |
-| **Military & non-profit**    | Resolved access/record-keeping issues for Army National Guard & The Animal Foundation with **100% SOP compliance**               |
-| **Cafe POS support**         | Troubleshot POS hardware and tablet ordering systems; supported relocation and printer integration                               |
-| **Endpoint troubleshooting** | Diagnosed & resolved 20+ OS boot/network failures; reduced recurrence by **40%** via documented triage and remediation workflows |
+### **Transferable Skills**
+- **Adaptability:** Built projects across multiple platforms (Linux, Windows, Web, UE5), self-taught new tech as needed.
+- **Communication:** Speaker at poetry festivals, club VP, and always document-first in tech—making complicated stuff clear for everyone.
+- **Detail & Documentation:** Documented workflows as HR Clerk for Army National Guard and The Animal Foundation (non-profit), ensuring clarity and compliance in sensitive environments.
 
 ---
 
-### 📚 Education
+## 🧩 Projects & Portfolio
 
-**B.A. Creative Writing & Psychology** (City College of New York)  
-- *Summa Cum Laude* (4.0 GPA): Turns confusing tech into stories users *actually understand*  
-- Goodman Fund Poetry Award: Taught me to find beauty in small fixes  
+### 🔥 **My Bash Automation Toolkit**
+[View repo](https://github.com/TheOnliestMattastic/My-Bash-Toolkit)  
+A collection of scripts for backup, cleanup, file sync (cron, Rclone, Timeshift).  
+**Why I’m proud:** It works in the background—like a friend who remembers your coffee order and just gets things done.  
+_What I learned:_ Automating IT tasks, reducing manual errors, and making systems reliable.
 
-**A.A. Creative Writing** (City College of Southern Nevada)  
-- *High Honors* (4.0 GPA): Foundation in narrative structure → helps me explain system workflows in ways that feel *natural*, not technical.  
-- Vice President, Creative Writing Club → practiced turning abstract concepts into clear, actionable guidance for non-experts.  
+### 🎮 **Battle Tactics Arena (Prototype)**
+*Turn-based strategy (Lua + LÖVE framework). Not yet uploaded, but ask me about it!*  
+**Why I’m proud:** Designed intuitive gameplay logic and OOP patterns.  
+_What I learned:_ To approach system recovery and debugging as a series of logical game states.
 
----
+### 🏰 **Solo UE5 Open-World RPG (Ongoing)**
+Building an ambitious open-world RPG in Unreal Engine 5, solo.  
+**Why I’m excited:** It’s teaching me large-scale project planning, asset management, C++ architecture, and iterative user testing.
 
-### 🌱 Why I’m Here (and How My Background Helps)
-
-I didn’t get into IT through a corporate job — I built it through **real life**:  
-- As a **military HR clerk**, I learned to document workflows so clearly they’d *never* get lost (now I turn system errors into playbooks).  
-- When fixing café POS printers during a relocation, I realized **empathy beats technical jargon** — *you* need to understand *why* something fails before you fix it.  
-- My creative writing and psychology background taught me to spot patterns in user frustration (like how game crashes happen *before* the user even notices).  
-
-This isn’t “just IT.” It’s about **solving problems with care** — whether it’s a frozen Linux boot or a user who can’t find their files.  
-
----
-
-### 🔧 How I work
-
-- **Document-first**: Troubleshooting with reproducible steps and playbooks.  
-- **Automation-first**: Reducing manual work with scripts and scheduled jobs.  
-- **Empathetic support**: Translating technical problems into clear, actionable guidance for non-technical users.  
+### 📊 **Psychology Research: Impact of Tobacco on BP & HR**
+[View repo](https://github.com/TheOnliestMattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR)  
+Reproducible data analysis of smoking effects on blood pressure and heart rate.  
+_What I learned:_ Data wrangling, reproducibility, and technical writing for non-experts.
 
 ---
 
-### 👋 Let’s Connect
+## 🏫 Education
 
-Interested in collaborating or hiring for entry-level IT support / help desk roles? Email me and I’ll get back to you promptly.  
+**B.A. Creative Writing & Psychology** (City College of New York) — *Summa Cum Laude (4.0)*  
+**A.A. Creative Writing** (College of Southern Nevada) — *High Honors (4.0)*
 
-📧 [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
-🌐 [github.com/TheOnliestMattastic](https://github.com/TheOnliestMattastic)
+---
+
+## 💡 How I Work
+
+- **Document-first:** Clear playbooks and troubleshooting steps for every fix.
+- **Automation-first:** Scripting for reliability and peace of mind.
+- **Empathetic support:** Tech advice for real people, not just power users.
+
+---
+
+## 🚀 Personal Experience
+
+While I don’t have “formal” work experience yet, I’ve:
+- Built, configured, and supported dozens of computers for friends, family, and myself.
+- Diagnosed and fixed OS/network issues—documenting each solution for future reference.
+- Led and supported creative teams, delivered talks, and managed club activities.
+- Served as HR Clerk for both the Army National Guard and The Animal Foundation (non-profit)—handling sensitive records, process documentation, and compliance.
+
+---
+
+## 🤝 Let’s Connect!
+
+Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles?  
+Shoot me an email or connect on GitHub—I reply quickly and love new challenges.
+
+**Email:** [matthew.poole485@gmail.com](mailto:matthew.poole485@gmail.com)  
+**GitHub:** [TheOnliestMattastic](https://github.com/TheOnliestMattastic)
