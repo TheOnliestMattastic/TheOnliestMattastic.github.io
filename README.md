@@ -35,12 +35,12 @@ Hey there! 👋 I’m Matthew — a game developer at heart, IT and automation e
 ## 🛠️ What I Do Best
 
 ### **Technical Skills**
-| Area                  | Tools & Tech                                      |
-|-----------------------|---------------------------------------------------|
-| Scripting & Automation| Bash, Python, PowerShell, Lua, R, Markdown        |
-| Infrastructure        | Linux (Fedora, Pop!_OS), Windows 10/11, Networking|
-| Dev & Analysis        | Unreal Engine 5 (C++), Git/GitHub, VS Code, Rclone, Timeshift, Syncthing |
-| Security & UX         | KeePassXC, ClamAV, Psychological UX Patterns      |
+| Area                   | Tools & Tech                                                             |
+|------------------------|--------------------------------------------------------------------------|
+| Scripting & Automation | Bash, Python, PowerShell, Lua, R, Markdown                               |
+| Infrastructure         | Linux (Fedora, Pop!_OS), Windows 10/11, Networking                       |
+| Dev & Analysis         | Unreal Engine 5 (C++), Git/GitHub, VS Code, Rclone, Timeshift, Syncthing |
+| Security & UX          | KeePassXC, ClamAV, Psychological UX Patterns                             |
 
 ### **Transferable Skills**
 - **Adaptability:** Built projects across multiple platforms (Linux, Windows, Web, UE5), self-taught new tech as needed.
