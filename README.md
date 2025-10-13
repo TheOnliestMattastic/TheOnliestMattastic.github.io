@@ -1,9 +1,9 @@
 # Matthew Poole Chicano
 
-[![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/images/A+-pdf.pdf)
-[![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/images/CS50_introCS.pdf)
-[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/images/UE5_C++Dev.pdf)
-[![Resume](https://img.shields.io/badge/Download%20Resume-PDF-green)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)  
+[![CompTIA A+](https://img.shields.io/badge/CompTIA%20A+-Certified-green)](/assets/docs/A+-pdf.pdf)
+[![CS50](https://img.shields.io/badge/CS50%20Intro%20to%20CS-blue)](/assets/docs/CS50_introCS.pdf)
+[![UE5 C++](https://img.shields.io/badge/Unreal%20Engine%205-C%2B%2B-blue)](/assets/docs/UE5_C++Dev.pdf)
+[![Resume](https://img.shields.io/badge/Download%20Resume-PDF-green)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf)  
 
 Hey there! 👋 I’m Matthew — a game developer at heart, IT and automation enthusiast by practice, and a lifelong storyteller. My journey is a bit unconventional: no formal work history yet, but years of self-driven project work, troubleshooting, and learning by doing.  
 
@@ -16,7 +16,7 @@ Hey there! 👋 I’m Matthew — a game developer at heart, IT and automation e
 - **GitHub:** [TheOnliestMattastic](https://github.com/TheOnliestMattastic)  
 - **Immediate Goal:** Entry-level IT, software dev, or data science  
 - **Professional Dream:** Game development  
-- **Resume:** [Download PDF](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/resume.pdf)
+- **Resume:** [Download PDF](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf)
 
 ---
 
