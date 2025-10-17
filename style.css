@@ -85,6 +85,12 @@ h2 {
   border-radius: 2px;
 }
 
+img, .ascii-logo, .project-card img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 .header { position: relative; }
 .header .ascii-logo { position: relative; top: 0; left: 0; }
 
