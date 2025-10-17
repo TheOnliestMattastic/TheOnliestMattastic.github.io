@@ -138,6 +138,7 @@ img, .ascii-logo, .project-card img {
   text-align: left;
   margin: 1rem 0;
   display: inline-block;
+  overflow-x: auto;
 }
 
 /* Theme toggle button (fixed top-right) */
