@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Matthew Poole Chicano | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 
-  <!-- Favicon setup (kept from original) -->
+  <!-- Favicon and App Icons -->
   <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg" />
   <link rel="shortcut icon" href="/assets/icons/favicon.ico" />
@@ -15,245 +15,218 @@
   <meta name="msapplication-TileColor" content="#2b5797">
   <meta name="theme-color" content="#282a36">
 
-  <style>
-    /* Dracula palette */
-    :root{
-      --bg: #282a36;
-      --fg: #f8f8f2;
-      --muted: #6272a4;
-      --purple: #bd93f9;
-      --pink: #ff79c6;
-      --cyan: #8be9fd;
-      --green: #50fa7b;
-      --orange: #ffb86c;
-      --card-bg: #44475a;
-      --card-shadow: rgba(0,0,0,0.35);
-    }
-
-    /* Light theme override (optional) */
-    body.light {
-      --bg: #f8f8f2;
-      --fg: #2b2b2b;
-      --muted: #6b6b7a;
-      --purple: #7a6cff;
-      --pink: #d0527a;
-      --cyan: #0a84ff;
-      --green: #00b37a;
-      --orange: #d97b3f;
-      --card-bg: #ffffff;
-      --card-shadow: rgba(0,0,0,0.08);
-    }
-    body{
-      background:var(--bg);
-      color:var(--fg);
-      font-family: "Inter", "Segoe UI", system-ui, -apple-system, "Segoe UI Emoji", Arial, sans-serif;
-      line-height:1.6;
-      transition: background .25s, color .25s;
-    }
-
-    /* Sticky nav */
-    nav{
-      position:sticky; top:0; z-index:1000;
-      background: linear-gradient(180deg, rgba(40,42,54,.98), rgba(40,42,54,.9));
-      border-bottom: 1px solid rgba(189,147,249,0.08);
-      backdrop-filter: blur(4px);
-    }
-    nav ul{
-      display:flex; flex-wrap:wrap; justify-content:center;
-      list-style:none; margin:0; padding:.5rem 1rem;
-      gap:.5rem 1.25rem;
-    }
-    nav a{
-      color:var(--muted); text-decoration:none; font-weight:600;
-      padding:.35rem .5rem; border-radius:6px;
-    }
-    nav a:hover{ color:var(--cyan); background: rgba(139,233,253,0.04); }
-
-    header{
-      padding:2rem 1rem; text-align:center; border-bottom:2px solid rgba(189,147,249,0.06);
-    }
-    header h1{ margin:0; font-size:2rem; color:var(--pink); letter-spacing:.4px; }
-    header p{ margin:.5rem 0 1rem; color:var(--green); font-weight:600; }
-
-    .resume-link{
-      display:inline-block; margin-top:1rem; padding:.6rem 1.1rem;
-      background:var(--purple); color:var(--bg); text-decoration:none; border-radius:8px; font-weight:700;
-      box-shadow: 0 6px 18px rgba(0,0,0,0.25);
-    }
-    .resume-link:hover{ background:var(--pink); color:var(--fg); }
-
-    main{
-      max-width:980px; margin:2rem auto; padding:0 1rem;
-    }
-    section{
-      background:var(--card-bg); color:var(--fg);
-      padding:1.25rem; border-radius:10px; margin-bottom:1.5rem;
-      box-shadow: 0 8px 20px var(--card-shadow);
-      border: 1px solid rgba(255,255,255,0.02);
-    }
-
-    h2{ color:var(--purple); margin-top:0; }
-    h3{ color:var(--cyan); margin-bottom:.25rem; }
-
-    table{ width:100%; border-collapse:collapse; margin:1rem 0; }
-    table th, table td{ padding:.5rem; text-align:left; border-bottom:1px solid rgba(0,0,0,0.06); color:var(--fg); }
-    table th{ color:var(--muted); font-weight:700; }
-
-    ul{ padding-left:1.25rem; margin:0.5rem 0; }
-
-    a{ color:var(--cyan); }
-    a:hover{ text-decoration:underline; }
-
-    footer{
-      background:transparent; color:var(--muted); text-align:center; padding:1rem; font-size:.9rem;
-    }
-
-    /* Code block / inline code styling to match theme */
-    pre, code {
-      font-family: "Fira Code", ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", monospace;
-      background: rgba(255,255,255,0.02);
-      color:var(--green); padding:.2rem .4rem; border-radius:6px;
-    }
-    pre{ overflow:auto; padding:.75rem; }
-
-    /* Responsive adjustments */
-    @media (max-width:720px){
-      header h1{ font-size:1.6rem; }
-      .resume-link{ padding:.5rem .85rem; }
-      main{ margin:1rem auto; }
-    }
-
-    /* small visual accent for sections */
-    .muted { color: var(--muted); font-size:.95rem; }
-  </style>
+  <title>Matthew Poole Chicano | Portfolio</title>
+  <meta name="description" content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT." />
 </head>
-
-<nav>
-  <ul>
-    <li><a href="#intro">About</a></li>
-    <li><a href="#quick-facts">Quick Facts</a></li>
-    <li><a href="#achievements">Achievements</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#how-i-work">How I Work</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
 
 <body>
   <header>
+    <!-- Theme Toggle Button & Logo -->
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <pre class="ascii-logo"><code>
+___________.__             ________         .__  .__                 __   
+\__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
+  |    |   |  |  \_/ __ \   /   |   \ /    \|  | |  |/ __ \ /  ___/\   __\
+  |    |   |   Y  \  ___/  /    |    \   |  \  |_|  \  ___/ \___ \  |  |  
+  |____|   |___|  /\___  > \_______  /___|  /____/__|\___  >____  > |__|  
+                \/     \/          \/     \/             \/     \/        
+   _____          __    __                   __  .__                      
+  /     \ _____ _/  |__/  |______    _______/  |_|__| ____                
+ /  \ /  \\__  \\   __\   __\__  \  /  ___/\   __\  |/ ___\               
+/    Y    \/ __ \|  |  |  |  / __ \_\___ \  |  | |  \  \___               
+\____|__  (____  /__|  |__| (____  /____  > |__| |__|\___  >              
+        \/     \/                \/     \/               \/               
+</code></pre>
+
     <h1>Matthew Poole Chicano</h1>
-    <p class="muted">Indie Game Developer • Aspiring Junior Developer • IT Support Enthusiast</p>
-    <a class="resume-link" href="/assets/docs/resume.pdf" download>Download My Resume</a>
+    <h2> Indie Game Dev | IT & Automation Enthusiast | Storyteller </h2>
   </header>
 
   <main>
-    <section id="intro">
-      <p class="muted">Hey there! I’m Matthew — a game developer at heart, IT and automation enthusiast by practice, and a lifelong storyteller. My journey is a bit unconventional: no formal work history yet, but years of self-driven project work, troubleshooting, and learning by doing.</p>
-    </section>
+    <div class="project-card">
+      <h2> 👋 Hello, Welcome to My Portfolio!</h2>
+      <p>
+        I'm a game developer at heart, <b>CompTIA A+ certified</b> IT and automation enthusiast by practice, and a lifelong storyteller. My journey is a bit unconventional—starting in creative writing and psychology, then diving into IT support and game development, with no formal work experience in tech yet. But what I lack in traditional credentials, I make up for with passion, self-taught skills, and a relentless drive to learn and create.
+      </p>
+    </div>
 
-    <section id="quick-facts">
+    <div class="project-card">
       <h2>🧑‍💻 Quick Facts</h2>
       <ul>
+        <li><strong><a href="https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url" target="_blank">CompTIA A+ Certified</a></strong></li>
         <li><strong>Location:</strong> Brooklyn, NY</li>
         <li><strong>Email:</strong> <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></li>
         <li><strong>GitHub:</strong> <a href="https://github.com/TheOnliestMattastic">TheOnliestMattastic</a></li>
         <li><strong>Immediate Goal:</strong> Entry-level IT, software dev, or data science</li>
         <li><strong>Professional Dream:</strong> Game development</li>
-        <li><strong>Resume:</strong> <a href="/assets/docs/resume.pdf">Download PDF</a></li>
+        <li><strong>Resume:</strong> <a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf">Download PDF</a></li>
       </ul>
-    </section>
+    </div>
 
-    <section id="achievements">
+        <div class="project-card">
+      <h2>🚀 Projects</h2>
+
+      <div class="project-card">
+        <h3>📊 Impact of Tobacco on BP & HR</h3>
+        <p>
+          Undergraduate research project analyzing how smoking intensity influences blood pressure and heart rate, with emphasis on <b>data visualization, statistical modeling, and reproducible reporting</b>.
+        </p>
+        <p><b>Tech:</b> R · ggplot2 · R Markdown</p> 
+        <div class="buttons">
+          <a href="https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/" target="_blank" class="btn code">Live Report</a>
+          <a href="https://github.com/theonliestmattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR" target="_blank" class="btn code">Code</a>
+        </div>
+      </div>    
+
+      <div class="project-card">
+        <h3>🧰 My Bash Automation Toolkit</h3>
+        <p>
+          A curated collection of custom Bash scripts designed to <b>streamline everyday tasks</b>—because life’s too short to babysit your filesystem. Each script is documented for <b>portability, clarity, and reuse</b>.
+        </p>
+        <p><b>Tech:</b> Bash · rclone · xdotool</p>
+        <div class="buttons">
+          <a href="https://theonliestmattastic.github.io/My-Bash-Toolkit/" target="_blank" class="btn code">Live Site</a>
+          <a href="https://github.com/TheOnliestMattastic/My-Bash-Toolkit" target="_blank" class="btn code">Code</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <h3>👾 Open-World RPG (Work in Progress)</h3>
+        <p>
+          My passion project: a solo-developed RPG in Unreal Engine (C++). Currently building gameplay systems, experimenting with procedural encounters, and documenting the dev roadmap.
+        </p>
+        <p><b>Tech:</b> Unreal Engine · C++ · Blender · Krita</p>
+        <p><em>(Repo coming soon with roadmap, screenshots, and devlog notes.)</em></p>
+      </div>
+    </div>
+
+    <div class="project-card">
       <h2>🏆 Achievements</h2>
       <ul>
-        <li>CompTIA A+ Certified</li>
-        <li>CS50 Intro to CS Certified</li>
+        <li><b>CompTIA A+ Certified</b></li>
+        <li>CS50 Intro to Computer Science Certificate</li>
         <li>Unreal Engine 5 C++ Game Developer Certificate</li>
         <li>Steiner's Creative Writing Scholarship (College of Southern Nevada)</li>
         <li>Speaker, Spring Poetry Festival (City College of New York)</li>
         <li>Goodman Fund Poetry Award (CCNY)</li>
         <li>Summa Cum Laude Graduate (CCNY, 4.0 GPA)</li>
       </ul>
-    </section>
+    </div>
 
-    <section id="skills">
-      <h2>🛠️ What I Do Best</h2>
+    <div class="project-card">
+      <h2>🔧 Tools & Technologies</h2>
+      <ul>
+        <li><strong>Scripting & Automation:</strong> Bash, Lua (familar)</li>
+        <li><strong>Programming Languages:</strong> C++, R (basic)</li>
+        <li><strong>Web Technologies:</strong> Markdown, HTML/CSS</li>
+        <li><strong>Operating Systems:</strong> Linux (Nobara/Fedora, Pop!_OS), Windows 10/11, macOS</li>
+        <li><strong>Game Development:</strong> Unreal Engine 5 (C++), LÖVE (Lua), Blender, Krita</li>
+        <li><strong>Version Control:</strong> Git/GitHub, Diversion</li>
+        <li><strong>Backup & Sync:</strong> Rclone, Timeshift, Syncthing</li>
+      </ul>
+    </div>
 
-      <h3>Technical Skills</h3>
-      <table>
-        <tr><th>Area</th><th>Tools & Tech</th></tr>
-        <tr><td>Scripting & Automation</td><td>Bash, Python, PowerShell, Lua, R, Markdown</td></tr>
-        <tr><td>Infrastructure</td><td>Linux (Fedora, Pop!_OS), Windows 10/11, Networking</td></tr>
-        <tr><td>Dev & Analysis</td><td>Unreal Engine 5 (C++), Git/GitHub, VS Code, Rclone, Timeshift, Syncthing</td></tr>
-        <tr><td>Security & UX</td><td>KeePassXC, ClamAV, Psychological UX Patterns</td></tr>
-      </table>
-
-      <h3>Transferable Skills</h3>
+    <div class="project-card">
+      <h2>Transferable Skills</h2>
       <ul>
         <li><strong>Adaptability:</strong> Built projects across multiple platforms, self-taught new tech as needed.</li>
         <li><strong>Communication:</strong> Speaker at poetry festivals, club VP, and always document-first in tech.</li>
         <li><strong>Detail & Documentation:</strong> Documented workflows as HR Clerk for Army National Guard and The Animal Foundation.</li>
       </ul>
-    </section>
+    </div>
 
-    <section id="projects">
-      <h2>🧩 Projects & Portfolio</h2>
+    <div class="project-card">
+      <h2>🌟 Core Strengths</h2>
+      <ul>
+        <li><b>Self-motivated learner:</b> Taught myself scripting, automation, and game dev tools.</li>
+        <li><b>Problem solver:</b> Diagnosed and fixed diverse tech issues for friends and family.</li>
+        <li><b>Detail-oriented:</b> Documented workflows and solutions for repeatable success.</li>
+        <li><b>Creative thinker:</b> Merged storytelling with technical skills in projects.</li>
+        <li><b>Effective communicator:</b> Presented at festivals, led clubs, and wrote clear docs.</li>
+      </ul>
+    </div>
 
-      <h3>🔥 My Bash Automation Toolkit</h3>
-      <p><a href="https://github.com/TheOnliestMattastic/My-Bash-Toolkit">View repo</a></p>
-      <p class="muted">A collection of scripts for backup, cleanup, file sync (cron, Rclone, Timeshift).</p>
-      <p><em>Why I’m proud:</em> It works in the background—like a friend who remembers your coffee order and just gets things done.</p>
-      <p><em>What I learned:</em> Automating IT tasks, reducing manual errors, and making systems reliable.</p>
+    <div class="project-card">
+      <h2>🌱 Currently Learning</h2>
+      <ul>
+        <li><b>PowerShell scripting</b> for Windows automation</li>
+        <li><b>Python programming</b> for data analysis and game dev</li>
+        <li>Advanced Unreal Engine 5 features and <b>C++ techniques</b></li>
+        <li>Linux system administration and advanced <b>Bash scripting</b></li>
+      </ul>
+    </div>
 
-      <h3>🎮 Battle Tactics Arena (Prototype)</h3>
-      <p class="muted">Turn-based strategy (Lua + LÖVE framework). Not yet uploaded, but ask me about it!</p>
-
-      <h3>🏰 Solo UE5 Open-World RPG (Ongoing)</h3>
-      <p class="muted">Building an ambitious open-world RPG in Unreal Engine 5, solo.</p>
-
-      <h3>📊 Psychology Research: Impact of Tobacco on BP & HR</h3>
-      <p><a href="https://github.com/TheOnliestMattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR">View repo</a></p>
-      <p class="muted">Reproducible data analysis of smoking effects on blood pressure and heart rate.</p>
-    </section>
-
-    <section id="education">
+    <div class="project-card">
       <h2>🏫 Education</h2>
-      <p><strong>B.A. Creative Writing & Psychology</strong> (City College of New York) — <em>Summa Cum Laude (4.0)</em></p>
-      <p><strong>A.A. Creative Writing</strong> (College of Southern Nevada) — <em>High Honors (4.0)</em></p>
-    </section>
+      <p><strong>B.A. Creative Writing & Psychology:</strong> City College of New York — <em>Summa Cum Laude (GPA 4.0)</em></p>
+      <p><strong>A.A. Creative Writing:</strong> College of Southern Nevada — <em>High Honors (GPA 4.0)</em></p>
+    </div>
 
-    <section id="how-i-work">
+    <div class="project-card">
       <h2>💡 How I Work</h2>
       <ul>
         <li><strong>Document-first:</strong> Clear playbooks and troubleshooting steps for every fix.</li>
         <li><strong>Automation-first:</strong> Scripting for reliability and peace of mind.</li>
         <li><strong>Empathetic support:</strong> Tech advice for real people, not just power users.</li>
-      </ul>
-    </section>
+      </ul>      
+    </div>
 
-    <section id="experience">
+    <div class="project-card">
       <h2>🚀 Personal Experience</h2>
       <ul>
         <li>Built, configured, and supported dozens of computers for friends, family, and myself.</li>
         <li>Diagnosed and fixed OS/network issues—documenting each solution for future reference.</li>
         <li>Led and supported creative teams, delivered talks, and managed club activities.</li>
         <li>Served as HR Clerk for both the Army National Guard and The Animal Foundation—handling sensitive records, process documentation, and compliance.</li>
-      </ul>
-    </section>
+      </ul>      
+    </div>
 
-    <section id="contact">
+    <div class="project-card">
+      <h2>⚖️ Values</h2>
+      <p>
+        I care about clear education, fair wages, and the struggle against class and income inequality. I bring those values into collaborative projects, documentation that reduces barriers to entry, and code that’s meant to teach as much as it runs.
+      </p>
+    </div>
+
+    <div class="project-card">
       <h2>🤝 Let’s Connect!</h2>
-      <p class="muted">Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? Shoot me an email or connect on GitHub—I reply quickly and love new challenges.</p>
-      <p><strong>Email:</strong> <a href="mailto:matthew.poole485@gmail.com">matthew.poole485@gmail.com</a></p>
-      <p><strong>GitHub:</strong> <a href="https://github.com/TheOnliestMattastic">TheOnliestMattastic</a></p>
-    </section>
+      <p>
+        Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? Shoot me an email or connect on GitHub—I reply quickly and love new challenges.
+      </p>
+      <div class="buttons">
+        <a href="mailto:matthew.poole485@gmail.com" target="_blank" class="btn code">matthew.poole485@gmail.com</a>
+        <a href="https://github.com/theonliestmattastic" target="_blank" class="btn code">Visit GitHub Profile</a>
+        <a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf" target="_blank" class="btn code">Download Resume</a>
+      </div>
+    </div>
   </main>
 
   <footer>
-    <p>&copy; 2025 Matthew Poole Chicano | TheOnliestMattastic</p>
+    <p><q>Sometimes the questions are complicated and the answers are simple.</q> — Dr. Seuss</p>
   </footer>
+
+  <!-- Change light/dark theme & remember choice-->
+  <script>
+    const toggleBtn = document.getElementById('theme-toggle');
+    const currentTheme = localStorage.getItem('theme');
+
+    if (currentTheme) {
+      document.documentElement.setAttribute('data-theme', currentTheme);
+      toggleBtn.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+    }
+
+    toggleBtn.addEventListener('click', () => {
+      let theme = document.documentElement.getAttribute('data-theme');
+      if (theme === 'dark') {
+        document.documentElement.setAttribute('data-theme', 'light');
+        localStorage.setItem('theme', 'light');
+        toggleBtn.textContent = '🌙';
+      } else {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        localStorage.setItem('theme', 'dark');
+        toggleBtn.textContent = '☀️';
+      }
+    });
+  </script>
 </body>
 </html>
