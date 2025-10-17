@@ -98,35 +98,15 @@ img, .ascii-logo, .project-card img {
 .buttons {
   margin-top: 1rem;
   display: flex;
-  gap: 1rem;
+  gap: .25rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
-.btn {
-  text-decoration: none;
-  padding: 0.6rem 1.2rem;
-  border-radius: 6px;
-  font-weight: bold;
-  transition: background 0.2s ease;
+.buttons.card {
+  justify-content: left;
 }
 
-.btn.demo {
-  background: var(--accent);
-  color: #fff;
-}
-
-.btn.demo:hover {
-  background: var(--accent-hover);
-}
-
-.btn.code {
-  background: var(--secondary);
-  color: #f8f8f2;
-}
-
-.btn.code:hover {
-  background: var(--secondary-hover);
-}
 
 /* ASCII Art Logo Styling */
 .ascii-logo {
