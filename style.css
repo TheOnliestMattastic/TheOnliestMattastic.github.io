@@ -65,6 +65,10 @@ h1, h2 {
   transition: background 0.3s ease, color 0.3s ease;
 }
 
+.project-card.sub {
+  background: var(--header-bg);
+}
+
 h2 {
   border-bottom: 2px solid #eee;
   padding-bottom: 0.3rem;
