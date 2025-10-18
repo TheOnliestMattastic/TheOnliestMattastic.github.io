@@ -23,7 +23,7 @@
   <!-- Header-->
   <header>
     <!-- Theme Toggle Button & Logo -->
-    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <button id="theme-toggle" aria-label="Toggle theme">🌛</button>
     <pre class="ascii-logo"><code>
 ___________.__             ________         .__  .__                 __   
 \__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
@@ -66,7 +66,7 @@ ___________.__             ________         .__  .__                 __
   <main>
     <!-- Intro / Card 1 -->
     <div class="project-card">
-      <h2> 👋 Hello, Welcome to My Portfolio!</h2>
+      <h2> 🧑‍🚀 Hello, Welcome to My Portfolio!</h2>
       <p>
         I’m a <strong>CompTIA A+ certified</strong> IT and automation enthusiast, indie game developer, and lifelong storyteller. 
         My path blends <strong>technical mastery</strong> with <strong>clear documentation</strong> and <strong>creative problem-solving</strong>. 
@@ -76,11 +76,11 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Projects / Card 2 -->
     <div class="project-card">
-      <h2>🧩 Projects</h2>
+      <h2>🚀 Projects</h2>
 
       <!-- Project A / Card 2a -->
       <div class="project-card sub">
-        <h3>📊 Impact of Tobacco on BP & HR</h3>
+        <h3>🧬 Impact of Tobacco on BP & HR</h3>
         <p>
           Undergraduate research project using <strong>data visualization, statistical modeling, and reproducible reporting</strong>.
         </p>
@@ -100,7 +100,7 @@ ___________.__             ________         .__  .__                 __
 
       <!-- Project B / Card 2b-->
       <div class="project-card sub">
-        <h3>🧰 My Bash Automation Toolkit</h3>
+        <h3>🛰️ My Bash Automation Toolkit</h3>
         <p>
           A curated collection of custom Bash scripts designed to <strong>streamline everyday tasks</strong>—because life’s too short to babysit your filesystem. Each script is documented for <strong>portability, clarity, and reuse</strong>.
         </p>
@@ -131,7 +131,7 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Skills / Card 3-->
     <div class="project-card">
-      <h2>🛠️ Technical Skills</h2>
+      <h2>🔭 Technical Skills</h2>
       <ul>
         <li><strong>Scripting & Automation:</strong> Bash (proficient), Lua (familiar), PowerShell (learning)</li>
         <li><strong>Programming Languages:</strong> C++ (proficient), R (familiar), Python (learning)</li>
@@ -145,11 +145,11 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Education / Card 4 -->
     <div class="project-card">
-      <h2>🎓 Education</h2>
+      <h2>🔬 Education</h2>
 
       <!-- Degree A / Card 4a-->
       <div class="project-card sub">
-        <h3>🏫 Bachelor of Arts in Creative Writing & Psychology</h3>
+        <h3>🧪 Bachelor of Arts in Creative Writing & Psychology</h3>
         <p>City College of New York, Jan 2023</p>
         <ul>
           <li><i>Summa Cum Laude</i>, GPA 4.0</li>
@@ -161,7 +161,7 @@ ___________.__             ________         .__  .__                 __
       
       <!-- Degree B / Card 4b-->
       <div class="project-card sub">
-        <h3>🏫 Associate of Arts in Creative Writing</h3>
+        <h3>⚗️ Associate of Arts in Creative Writing</h3>
         <p>College of Southern Nevada, Dec 2017</p>
         <ul>
           <li><i>High Honors</i>, GPA 4.0</li>
@@ -175,7 +175,7 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Experience / Card 5 -->
     <div class="project-card">
-      <h2>🪛 Experience & Strengths</h2>
+      <h2>☄️ Experience & Strengths</h2>
       <ul>
         <li>Built, configured, and supported dozens of computers for friends, family, and myself.</li>
         <li>Diagnosed and fixed OS/network issues—documenting each solution for future reference.</li>
@@ -186,7 +186,7 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Achievements / Card 6 -->
     <div class="project-card">
-      <h2>🏆 Achievements</h2>
+      <h2>🌟 Achievements</h2>
       <ul>
         <li><strong>CompTIA A+ Certified</strong></li>
         <li>CS50 Intro to Computer Science Certificate</li>
@@ -198,7 +198,7 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Values / Card 7 -->
     <div class="project-card">
-      <h2>⚖️ Values</h2>
+      <h2>🌠 Values</h2>
       <p>
         I care about clear education, fair wages, and reducing barriers to entry in tech. 
         I bring those values into collaborative projects, documentation that teaches as much as it solves, 
@@ -208,7 +208,7 @@ ___________.__             ________         .__  .__                 __
 
     <!-- Contact (call to action) / Card 8-->
     <div class="project-card">
-      <h2>🤝 Let’s Connect!</h2>
+      <h2>👽 Contact</h2>
       <p>
         Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? 
         Shoot me an email or connect on GitHub—I reply quickly and love new challenges.
@@ -244,7 +244,7 @@ ___________.__             ________         .__  .__                 __
 
     if (currentTheme) {
       document.documentElement.setAttribute('data-theme', currentTheme);
-      toggleBtn.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+      toggleBtn.textContent = currentTheme === 'dark' ? '🌞' : '🌛';
     }
 
     toggleBtn.addEventListener('click', () => {
@@ -252,11 +252,11 @@ ___________.__             ________         .__  .__                 __
       if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
-        toggleBtn.textContent = '🌙';
+        toggleBtn.textContent = '🌛';
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        toggleBtn.textContent = '☀️';
+        toggleBtn.textContent = '🌞';
       }
     });
   </script>
