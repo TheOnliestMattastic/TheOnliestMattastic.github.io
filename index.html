@@ -23,7 +23,7 @@
   <!-- Header-->
   <header>
     <!-- Theme Toggle Button & Logo -->
-    <button id="theme-toggle" aria-label="Toggle theme">🌛</button>
+    <button id="theme-toggle" aria-label="Toggle theme">🌞</button>
     <pre class="ascii-logo"><code>
 ___________.__             ________         .__  .__                 __   
 \__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
@@ -244,7 +244,7 @@ ___________.__             ________         .__  .__                 __
 
     if (currentTheme) {
       document.documentElement.setAttribute('data-theme', currentTheme);
-      toggleBtn.textContent = currentTheme === 'dark' ? '🌞' : '🌛';
+      toggleBtn.textContent = currentTheme === 'dark' ? '🌛' : '🌞';
     }
 
     toggleBtn.addEventListener('click', () => {
@@ -252,11 +252,11 @@ ___________.__             ________         .__  .__                 __
       if (theme === 'dark') {
         document.documentElement.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
-        toggleBtn.textContent = '🌛';
+        toggleBtn.textContent = '🌞';
       } else {
         document.documentElement.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
-        toggleBtn.textContent = '🌞';
+        toggleBtn.textContent = '🌛';
       }
     });
   </script>
