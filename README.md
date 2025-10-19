@@ -39,7 +39,7 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 [![Live Report](https://img.shields.io/badge/Report-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR)
 
-### 🛰️ My Bash Toolkit  
+### 🧰 My Bash Toolkit  
 > A curated collection of custom Bash scripts designed to **streamline everyday system tasks**—because life’s too short to babysit your filesystem. Each script is documented for **portability, clarity, and reuse**.  
 **Tech:** Bash · rclone · cron  
 [![Live Site](https://img.shields.io/badge/Toolkit-Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/my-bash-toolkit/)
@@ -50,14 +50,14 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 **Tech:** Unreal Engine · C++ · Blender · Krita  
 *(Repo coming soon with roadmap, screenshots, and devlog notes.)*
 
-## ✨ Skills & Interests
+## 🛰️ Skills & Interests
 
-- **Scripting & Automation:** Bash (proficient), Lua(familiar), PowerShell (learning)
+- **Scripting & Automation:** Bash (proficient), Lua (familiar), PowerShell (learning)
 - **Programming Languages:** C++ (proficient), R (familiar), Python (learning)
 - **Web Technologies:** Markdown (proficient), HTML/CSS (proficient)
 - **Operating Systems:** Linux (Nobara/Fedora, Pop!_OS), Windows 10/11, macOS
 - **Game Dev:** Unreal Engine 5, LÖVE, Blender, Krita
-- **Version Control & Backup** Git, GitHub, Diversion, Rclone, Timeshift, Syncthing
+- **Version Control & Backup:** Git, GitHub, Diversion, Rclone, Timeshift, Syncthing
 - **Other interests:** Video & board games, longboarding/skateboarding, anime, satire (Trey Parker & Matt Stone, Matt Groening, John Oliver), human rights & economic justice  
 
 ## 🔬 Current Focus
