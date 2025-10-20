@@ -64,7 +64,7 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 - Polishing repo branding and READMEs to clearly show problem-solving and impact  
 - Expanding automation coverage for routine support tasks and deployment workflows  
 - Developing my open-world RPG in Unreal Engine (C++ gameplay systems, devlog roadmap)  
-- Keeping a cohesive visual identity across repos: ASCII headers, badges, and README cards  
+- Keeping a cohesive visual identity across repos: ASCII headers, badges, and README cards   
 
 ## 🌠 Values
 
