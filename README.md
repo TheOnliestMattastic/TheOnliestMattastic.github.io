@@ -35,7 +35,7 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 ### 📊 Impact of Tobacco on BP & HR
 
 > Undergraduate research project analyzing how smoking intensity influences blood pressure and heart rate, with emphasis on **data visualization, statistical modeling, and reproducible reporting**.  
-**Tech:** R · ggplot2 · R Markdown
+**Tech:** R · ggplot2 · R Markdown  
 [![Live Report](https://img.shields.io/badge/Report-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR)
 
