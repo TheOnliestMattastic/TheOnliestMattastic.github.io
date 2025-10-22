@@ -1,4 +1,6 @@
-```
+# 🧑‍🚀 Oh, Hello! — I'm Matthew | @TheOnliestMattastic
+
+```txt
 ___________.__             ________         .__  .__                 __   
 \__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
   |    |   |  |  \_/ __ \   /   |   \ /    \|  | |  |/ __ \ /  ___/\   __\
@@ -12,8 +14,6 @@ ___________.__             ________         .__  .__                 __
 \____|__  (____  /__|  |__| (____  /____  > |__| |__|\___  >              
         \/     \/                \/     \/               \/               
 ```
-
-# 🧑‍🚀 Oh, Hello! — I'm Matthew | @TheOnliestMattastic
 
 [![CompTIA A+](https://img.shields.io/badge/CompTIA-A%2B_Certified-bd93f9?style=for-the-badge&logo=comptia&logoColor=white&labelColor=6272a4)](https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url)
 [![Bash](https://img.shields.io/badge/Shell-Bash-bd93f9?style=for-the-badge&logo=gnubash&logoColor=white&labelColor=6272a4)](https://www.gnu.org/software/bash/)
@@ -32,19 +32,22 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 
 ## 🚀 Featured Projects
 
-### 📊 Impact of Tobacco on BP & HR  
+### 📊 Impact of Tobacco on BP & HR
+
 > Undergraduate research project analyzing how smoking intensity influences blood pressure and heart rate, with emphasis on **data visualization, statistical modeling, and reproducible reporting**.  
-**Tech:** R · ggplot2 · R Markdown   
+**Tech:** R · ggplot2 · R Markdown
 [![Live Report](https://img.shields.io/badge/Report-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR)
 
-### 🧰 My Bash Toolkit  
+### 🧰 My Bash Toolkit
+
 > A curated collection of custom Bash scripts designed to **streamline everyday system tasks**—because life’s too short to babysit your filesystem. Each script is documented for **portability, clarity, and reuse**.  
 **Tech:** Bash · rclone · cron  
 [![Live Site](https://img.shields.io/badge/Toolkit-Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/my-bash-toolkit/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/my-bash-toolkit)
 
-### 👾 Open-World RPG (Work in Progress)  
+### 👾 Open-World RPG (Work in Progress)
+
 > My passion project: a solo-developed RPG in Unreal Engine (C++). Currently building gameplay systems, experimenting with procedural encounters, and documenting the dev roadmap.  
 **Tech:** Unreal Engine · C++ · Blender · Krita  
 *(Repo coming soon with roadmap, screenshots, and devlog notes.)*
@@ -64,19 +67,18 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 - Polishing repo branding and READMEs to clearly show problem-solving and impact  
 - Expanding automation coverage for routine support tasks and deployment workflows  
 - Developing my open-world RPG in Unreal Engine (C++ gameplay systems, devlog roadmap)  
-- Keeping a cohesive visual identity across repos: ASCII headers, badges, and README cards   
+- Keeping a cohesive visual identity across repos: ASCII headers, badges, and README cards  
 
 ## 🌠 Values
 
 I care about clear education, fair wages, and the struggle against class and income inequality. I bring those values into collaborative projects, documentation that reduces barriers to entry, and code that’s meant to teach as much as it runs.  
 
-## 👽 Contact!
+## 👽 Contact
 
-Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles?
-Shoot me an email or connect on GitHub—I reply quickly and love new challenges.  
+Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? Shoot me an email or connect on GitHub—I reply quickly and love new challenges.  
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/)
 [![Resume](https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf)
 [![Email](https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4)](mailto:matthew.poole485@gmail.com)  
 
-> _“Sometimes the questions are complicated and the answers are simple.”_ — Dr. Seuss
+> *“Sometimes the questions are complicated and the answers are simple.”* — Dr. Seuss
