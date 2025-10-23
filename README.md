@@ -32,16 +32,24 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 
 ## 🚀 Featured Projects
 
+### 🐱 powerCat — A Single‑Shot Concatenator
+
+> A PowerShell module I authored and published to the [PowerShell Gallery](https://www.powershellgallery.com/packages/powerCat). It bundles source code and documentation files into one clean, shareable text file - perfect for recruiters, collaborators, or feeding into LLMs.  
+**Features:** recursion, Markdown code fencing, extension filters, sorting, and ergonomic aliases (`powerCat`, `pcat`, `concat`).  
+**Built with:** PowerShell, Pester (automated tests), GitHub Actions (CI/CD).  
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/powerCat?color=bd93f9&style=for-the-badge&labelColor=6272a4)](https://www.powershellgallery.com/packages/powerCat)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/TheOnliestMattastic/powerCat)
+
 ### 📊 Impact of Tobacco on BP & HR
 
-> Undergraduate research project analyzing how smoking intensity influences blood pressure and heart rate, with emphasis on **data visualization, statistical modeling, and reproducible reporting**.  
+> Undergraduate research project analyzing how smoking intensity influences blood pressure and heart rate, with emphasis on data visualization, statistical modeling, and reproducible reporting.  
 **Tech:** R · ggplot2 · R Markdown  
 [![Live Report](https://img.shields.io/badge/Report-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR)
 
 ### 🧰 My Bash Toolkit
 
-> A curated collection of custom Bash scripts designed to **streamline everyday system tasks**—because life’s too short to babysit your filesystem. Each script is documented for **portability, clarity, and reuse**.  
+> A curated collection of custom Bash scripts designed to streamline everyday system tasks—because life’s too short to babysit your filesystem. Each script is documented for portability, clarity, and reuse.  
 **Tech:** Bash · rclone · cron  
 [![Live Site](https://img.shields.io/badge/Toolkit-Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/my-bash-toolkit/)
 [![Source Code](https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](https://github.com/theonliestmattastic/my-bash-toolkit)
