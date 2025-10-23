@@ -60,7 +60,7 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 **Tech:** Unreal Engine · C++ · Blender · Krita  
 *(Repo coming soon with roadmap, screenshots, and devlog notes.)*
 
-## 🛰️ Skills & Interests
+## ✨ Skills & Interests
 
 - **Scripting & Automation:** Bash (proficient), Lua (familiar), PowerShell (learning)
 - **Programming Languages:** C++ (proficient), R (familiar), Python (learning)
@@ -70,14 +70,14 @@ I’m **CompTIA A+ certified**, a lifelong self-learner, and a tinkerer who love
 - **Version Control & Backup:** Git, GitHub, Diversion, Rclone, Timeshift, Syncthing
 - **Other interests:** Video & board games, longboarding/skateboarding, anime, satire (Trey Parker & Matt Stone, Matt Groening, John Oliver), human rights & economic justice  
 
-## 🔬 Current Focus
+## 🔭 Current Focus
 
 - Polishing repo branding and READMEs to clearly show problem-solving and impact  
 - Expanding automation coverage for routine support tasks and deployment workflows  
 - Developing my open-world RPG in Unreal Engine (C++ gameplay systems, devlog roadmap)  
 - Keeping a cohesive visual identity across repos: ASCII headers, badges, and README cards  
 
-## 🌠 Values
+## 🌌 Values
 
 I care about clear education, fair wages, and the struggle against class and income inequality. I bring those values into collaborative projects, documentation that reduces barriers to entry, and code that’s meant to teach as much as it runs.  
 
