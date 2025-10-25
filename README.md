@@ -17,7 +17,7 @@ Welcome! This is a simple, single-page portfolio template designed for absolute 
 
 Follow these steps to get your own free portfolio website up and running.
 
-### Step 1: Get the Code (Choose One Way)
+### 🌒 Step 1: Get the Code (Choose One Way)
 
 #### Option A: Fork the Repository (Recommended)
 
@@ -34,7 +34,7 @@ Use this option if you don't use Git or GitHub.
 2. Click **Download ZIP**.
 3. Unzip the file on your computer. You will need to create your own GitHub repository and upload these files to it.
 
-### Step 2: Rename Your Repository for GitHub Pages
+### 🌓 Step 2: Rename Your Repository for GitHub Pages
 
 This is the magic step that tells GitHub to turn your code into a live website.
 
@@ -42,9 +42,9 @@ This is the magic step that tells GitHub to turn your code into a live website.
 2. Under the "General" settings, find the "Repository name" field.
 3. Rename the repository to **`your-username.github.io`**, replacing `your-username` with your actual GitHub username.
 
-    > **IMPORTANT**: The name must be *exact*. If your username is `jane-doe`, the repository name must be `jane-doe.github.io`.
+    > ⚠️ **IMPORTANT**: The name must be *exact*. If your username is `jane-doe`, the repository name must be `jane-doe.github.io`.
 
-### Step 3: Customize Your Content
+### 🌕 Step 3: Customize Your Content
 
 Now it's time to make the portfolio your own!
 
@@ -66,7 +66,7 @@ Here is a checklist of things to personalize:
 * **[ ] Skills, Experience, Achievements**: Fill these sections with your own details.
 * **[ ] Contact**: Update the final call to action and contact badges.
 
-### Step 4: Your Site is Live
+### 🌘 Step 4: Your Site is Live
 
 That's it! Once you save your changes to `index.html`, GitHub will automatically publish your website.
 
