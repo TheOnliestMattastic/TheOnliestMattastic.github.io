@@ -1,6 +1,9 @@
 # 📔 The Onliest Folio: A Beginner-Friendly Portfolio Template
 
-![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/assets/imgs/screenshot.png)
+![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/assets/imgs/screenshot.png)  
+
+[![Portfolio](https://img.shields.io/badge/Check_Me_Out-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/)
+[![License](https://img.shields.io/badge/License-MIT-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4)](LICENSE)
 
 Welcome! This is a simple, single-page portfolio template designed for absolute beginners. If you want a clean, professional online portfolio without touching any complex code, you're in the right place. The entire site is managed from a single, heavily-commented HTML file.
 
