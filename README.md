@@ -1,24 +1,8 @@
 # 📔 The Onliest Folio: A Beginner-Friendly Portfolio Template
 
-```txt
-___________.__             ________         .__  .__                 __   
-\__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
-  |    |   |  |  \_/ __ \   /   |   \ /    \|  | |  |/ __ \ /  ___/\   __\
-  |    |   |   Y  \  ___/  /    |    \   |  \  |_|  \  ___/ \___ \  |  |  
-  |____|   |___|  /\___  > \_______  /___|  /____/__|\___  >____  > |__|  
-                \/     \/          \/     \/             \/     \/        
-   _____          __    __                   __  .__                      
-  /     \ _____ _/  |__/  |______    _______/  |_|__| ____                
- /  \ /  \\__  \\   __\   __\__  \  /  ___/\   __\  |/ ___\               
-/    Y    \/ __ \|  |  |  |  / __ \_\___ \  |  | |  \  \___               
-\____|__  (____  /__|  |__| (____  /____  > |__| |__|\___  >              
-        \/     \/                \/     \/               \/               
-```
-
-Welcome! This is a simple, single-page portfolio template designed for absolute beginners. If you want a clean, professional online portfolio without touching any complex code, you're in the right place. The entire site is managed from a single, heavily-commented HTML file.
-
 ![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/assets/imgs/screenshot.png)
 
+Welcome! This is a simple, single-page portfolio template designed for absolute beginners. If you want a clean, professional online portfolio without touching any complex code, you're in the right place. The entire site is managed from a single, heavily-commented HTML file.
 
 ## ✨ Features
 
