@@ -20,13 +20,14 @@ Welcome! This is a simple, single-page portfolio template designed for absolute 
 ![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/screenshot.png)
 
 
-## Features
+## ✨ Features
 
 * **Super Beginner-Friendly**: Every customizable section is marked with a 🔧 emoji and explained in plain English.
 * **Single-File Customization**: No need to hunt through folders. Everything you need to change is in `index.html`.
 * **Light & Dark Mode**: A simple, elegant theme switcher is included by default.
 * **No Build Step Required**: Just edit the HTML file and your site is live. No command line, no compilers.
 * **GitHub Pages Ready**: Follow the steps below to host this for free on GitHub.
+* **Stylish Dracula-Inspired Color Scheme:** Customized variant of the popular [Dracula Theme](https://draculatheme.com/).
 
 ## 🚀 Blasting Off: Your 5-Minute Portfolio
 
@@ -89,9 +90,7 @@ Your new portfolio will be live at **`https://your-username.github.io`**.
 
 > **Note**: It can sometimes take a few minutes for the website to appear or for changes to update. Be patient!
 
----
-
-## Advanced Customization (Optional)
+## 🧪 Advanced Customization (Optional)
 
 If you're feeling adventurous, you can customize even more:
 
@@ -100,8 +99,16 @@ If you're feeling adventurous, you can customize even more:
 * **Change the Favicons**: Follow the instructions in `index.html` to change the little icons that appear in the browser tab.
 * **Change the Theme Toggle Emojis**: The instructions in `index.html` explain how to change the 🌞 and 🌛 icons in both the HTML and the script at the bottom of the file.
 
----
-
-## License
+## 🛸 License
 
 This project is completely open-source under the [MIT License](LICENSE). Feel free to use it, change it, and share it however you like.
+
+## 👽 Contact  
+
+Curious about my projects? Want to collaborate or hire for entry-level IT/support/dev roles? Shoot me an email or connect on GitHub—I reply quickly and love new challenges.  
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4)](https://theonliestmattastic.github.io/)
+[![Resume](https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4)](https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf)
+[![Email](https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4)](mailto:matthew.poole485@gmail.com)  
+
+> *“Sometimes the questions are complicated and the answers are simple.”* — Dr. Seuss  
