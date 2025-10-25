@@ -7,14 +7,24 @@
     
     <!-- =====================================================================
       🔧 BEGINNER'S NOTE:
-            These <link> tags below control the icons and colors
-            that show up in browser tabs and on mobile devices. No need
-            to edit these if you want to keep the default icons, but feel
-            free to change them. 
+            These <link> tags below control the icons (often called "favicons")
+            that show up in browser tabs and on mobile devices. 
             
-            You can replace the image files in /assets/icons
-            with your own logo or you can generate your own icon
-            at the following website: https://realfavicongenerator.net/
+            Here’s how to change them:
+
+            OPTION 1: REPLACE THE FILES (Simple)
+            1. Create your own icon images (e.g., a PNG or SVG of your logo).
+            2. Name your files exactly like the ones in the `/assets/icons/` folder.
+            3. Replace the existing files with your new ones.
+
+            OPTION 2: USE A GENERATOR (Recommended)
+            1. Go to https://realfavicongenerator.net/
+            2. Upload a single square image.
+            3. The site will create all the necessary icon files and HTML code for you.
+            4. Download the generated package, unzip it, and place the contents
+               into your `/assets/icons/` folder (replacing the old ones).
+            5. Copy the HTML code it gives you and replace the <link> and <meta> 
+               tags below with the new code.
     ====================================================================== -->
 
     <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96" />
@@ -27,37 +37,47 @@
     <meta name="theme-color" content="#282a36">
     
     <!-- =================================================================
-      🔧 Change the text below to YOUR NAME | Portfolio
+      🔧 BROWSER TAB TITLE: Change the text below to YOUR NAME | Portfolio
     ================================================================== -->
 
     <title>Matthew Poole Chicano | Portfolio</title>
 
     <!-- =================================================================
-      🔧 Update the description below with your own summary
+      🔧 SEO DESCRIPTION: Update this summary for search engines.
+         This is the text that appears below your name in a Google search.
     ================================================================== -->
 
     <meta name="description" content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT." />
   </head>
   <body>
+    <!-- ===================================================================
+    🔰 The <header> contains the main introduction elements: the theme 
+        switcher, your logo, name, tagline, and introductory badges.
+    ==================================================================== -->
     <header>
 
       <!-- ===============================================================
-        🔧 This <button> below toggles light/dark mode.
-            No need to edit this if you want to keep this feature,
-            unless, of course, you want to swap the icons. 
-            Below are a few options for your convience 
-            (defaulted to light theme; must change the icons 
-            at the very bottom of this file as well):
-            ☀️ | 🌤️ | 🌈 | 🌙 | 🌑 | 🌚 | 🪐 | 💡 | 🕯️ | 🔦 | 🏮
+        🔧 THEME TOGGLE: This <button> switches between light and dark mode.
+            Here's how to customize the icons (emojis):
+
+            1. Pick two emojis: one for light mode (like 🌞) and one for dark mode (like 🌛).
+               For more options, check out this emoji cheat sheet: 
+               https://github.com/ikatyang/emoji-cheat-sheet
+
+            2. Change the default emoji in the <button> tag below to your chosen light mode emoji.
+            
+            3. IMPORTANT: You also need to update the emojis in the script. 
+               Scroll to the bottom of this file and look for the 
+               "THEME TOGGLE ICONS" comment block to find where to set them.
       ================================================================ -->
       
       <button id="theme-toggle" aria-label="Toggle theme">🌞</button>            
 
       <!-- ===============================================================
-        🔧 ASCII Logo: You can delete this <pre> block or
-            replace it with your own ASCII art or logo image. If you 
-            are interested in generating your own ASCII art, check out:
-            https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type+Something+&x=none&v=4&h=4&w=80&we=false
+        🔧 ASCII LOGO: You can delete this <pre> block or replace it
+            with your own ASCII art or a standard <img> logo. To generate 
+            your own ASCII art, check out:
+            https://patorjk.com/software/taag/
       ================================================================ -->
       
       <pre class="ascii-logo"><code>
@@ -75,38 +95,47 @@
          \/     \/                \/     \/               \/               </code></pre>
 
       <!-- ===============================================================
-        🔧 MAIN NAME + TAGLINE
+        🔧 YOUR NAME: Change this to your full name.
       ================================================================ -->
-
       <h1>Matthew Poole Chicano</h1>
 
       <!-- ===============================================================
-        🔧 Change to your own tagline or specialties
+        🔧 YOUR TAGLINE: A short, catchy phrase about what you do.
       ================================================================ -->
       <h2> Indie Game Dev · IT & Automation Enthusiast · Storyteller </h2>
 
       <!-- ===============================================================
-        🔧 BADGES: Each <a> is a button linking to something.
-            Replace the links and text with your own credentials, 
-            GitHub, resume, or email. 
+        🔧 BADGES: These are linkable badges for your credentials, 
+            GitHub, resume, email, etc. 
+
+            To generate your own, go to https://shields.io/ and follow the
+            instructions to create a Markdown snippet. You only need the
+            image URL from it. 
+            
+            <a href="YOUR_LINK_HERE">
+              <img alt="DESCRIPTION" src="GENERATED_IMAGE_URL_HERE">
+            </a>
       ================================================================ -->
       
       <div class="buttons">
-        <!-- EXAMPLE: Certificaiton -->
         <a href="https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url" target="_blank"><img alt="CompTIA A+ Certified" src="https://img.shields.io/badge/CompTIA-A%2B_Certified-bd93f9?style=for-the-badge&logo=comptia&logoColor=white&labelColor=6272a4"></a>
-        <!-- EXAMPLE: GitHub Profile -->
         <a href="https://github.com/theonliestmattastic" target="_blank"><img alt="GitHub Profile" src="https://img.shields.io/badge/GitHub-Profile-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
-        <!-- EXAMPLE: Resume Download Link -->
         <a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf" target="_blank"><img alt="Resume PDF" src="https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4"></a>
-        <!-- EXAMPLE: Email -->
         <a href="mailto:matthew.poole485@gmail.com" target="_blank"><img alt="Email Matthew Poole Chicano" src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"></a>
       </div>
 
     </header>
 
+    <!-- ===================================================================
+    🔰 The <main> section holds all the content cards for your portfolio, 
+        like projects, skills, and experience.
+    ==================================================================== -->
     <main>
 
-      <!----------------------------------------- Intro ------------------------------------------>
+      <!-- ===================================================================
+        🔧 "ABOUT ME" SECTION: Write a short, engaging introduction.
+           You can use <strong> to make text bold or <em> to make it italic.
+      ==================================================================== -->
       <div class="project-card">
         <h2>🧑‍🚀 Hello, Welcome to My Portfolio!</h2>
         <p>
@@ -255,11 +284,21 @@
     
     </main>
     
+    <!-- ===================================================================
+    🔰 The <footer> contains a closing quote or message.
+    ==================================================================== -->
     <footer>
+      <!-- 🔧 Change this to your favorite quote. -->
       <p><q><em>Sometimes the questions are complicated and the answers are simple.</em></q> — Dr. Seuss</p>
     </footer>
 
-    <!------------------------ Change light/dark theme & remember choice ------------------------->
+    <!-- ===================================================================
+    🔰 This JavaScript block handles the theme switching functionality.
+      It saves the user's choice in their browser's local storage.
+
+    🔧 THEME TOGGLE ICONS: This is where you set the emojis for the 
+        light and dark modes that you chose at the top of the file.
+    ==================================================================== -->
     <script>
       const toggleBtn = document.getElementById('theme-toggle');
       const currentTheme = localStorage.getItem('theme');
