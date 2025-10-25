@@ -17,7 +17,7 @@ ___________.__             ________         .__  .__                 __
 
 Welcome! This is a simple, single-page portfolio template designed for absolute beginners. If you want a clean, professional online portfolio without touching any complex code, you're in the right place. The entire site is managed from a single, heavily-commented HTML file.
 
-![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/screenshot.png)
+![A screenshot of the portfolio website, showing a header with an ASCII art logo, a name, a tagline, and several badges. Below that are cards for projects and skills.](https://raw.githubusercontent.com/TheOnliestMattastic/TheOnliestMattastic.github.io/main/assets/imgs/screenshot.png)
 
 
 ## ✨ Features
