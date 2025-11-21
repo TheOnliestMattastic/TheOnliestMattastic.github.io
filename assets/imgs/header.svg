@@ -1,0 +1,57 @@
+<svg fill="none" viewBox="0 0 980 400" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .ascii-container {
+          font-family: 'Courier New', Courier, monospace;
+          font-size: 12px;
+          line-height: 12px;
+          white-space: pre;
+          font-weight: bold;
+          background-color: transparent;
+        }
+
+        /* --- LIGHT MODE (Day) --- */
+        /* Text: Forest Green */
+        .text, .leaf, .stem { color: #026012; } 
+        /* Blade: Teal Accent (Wisdom/Magic) */
+        .blade { color: #316570; }
+        /* Hilt/Petal: Earth Brown (Contrast) */
+        .hilt, .petal { color: #432F0F; }
+
+        /* --- DARK MODE (Night) --- */
+        @media (prefers-color-scheme: dark) {
+          /* Text: Hyrule Green (Brighter) */
+          .text, .leaf, .stem { color: #2d7d2d; }
+          /* Blade: Sage Green (Glowing effect) */
+          .blade { color: #9fc184; }
+          /* Hilt/Petal: Triforce Gold (Shine) */
+          .hilt, .petal { color: #A5A202; }
+        }
+      </style>
+
+      <div class="ascii-container">
+<span class="blade">  ██╗         </span><span class="text">████████╗██╗  ██╗███████╗</span><span class="blade">                     </span><span class="hilt">███╗       ██╗██╗  </span>
+<span class="blade"> ██╔╝██╗██╗██╗</span><span class="text">╚══██╔══╝██║  ██║██╔════╝</span><span class="blade">██╗██╗██╗██╗██╗██╗██╗</span><span class="hilt">╚██║      ██╔╝╚██╗ </span>
+<span class="blade">██╔╝ ╚═╝╚═╝╚═╝</span><span class="text">   ██║   ███████║█████╗  </span><span class="blade">╚═╝╚═╝╚═╝╚═╝╚═╝╚═╝╚═╝</span><span class="hilt"> ██║█████╗██║  ██║ </span>
+<span class="blade">╚██╗ ██╗██╗██╗</span><span class="text">   ██║   ██╔══██║██╔══╝  </span><span class="blade">██╗██╗██╗██╗██╗██╗██╗</span><span class="hilt"> ██║╚════╝██║  ██║ </span>
+<span class="blade"> ╚██╗╚═╝╚═╝╚═╝</span><span class="text">   ██║   ██║  ██║███████╗</span><span class="blade">╚═╝╚═╝╚═╝╚═╝╚═╝╚═╝╚═╝</span><span class="hilt">███║      ╚██╗██╔╝ </span>
+<span class="blade">  ╚═╝         </span><span class="text">   ╚═╝   ╚═╝  ╚═╝╚══════╝</span><span class="blade">                     </span><span class="hilt">╚══╝       ╚═╝╚═╝  </span>
+<span class="petal">         </span><span class="leaf">    </span><span class="stem">       </span><span class="text">                                                           </span>
+<span class="petal"> ██████╗ </span><span class="leaf">██╗ </span><span class="stem">       </span><span class="text">    ██████╗ ███╗   ██╗██╗     ██╗███████╗███████╗████████╗ </span>
+<span class="petal">██╔═══██╗</span><span class="leaf">╚██╗</span><span class="stem">       </span><span class="text">   ██╔═══██╗████╗  ██║██║     ██║██╔════╝██╔════╝╚══██╔══╝ </span>
+<span class="petal">██║██╗██║</span><span class="leaf"> ██║</span><span class="stem">█████╗ </span><span class="text">   ██║   ██║██╔██╗ ██║██║     ██║█████╗  ███████╗   ██║    </span>
+<span class="petal">██║██║██║</span><span class="leaf"> ██║</span><span class="stem">╚════╝ </span><span class="text">   ██║   ██║██║╚██╗██║██║     ██║██╔══╝  ╚════██║   ██║    </span>
+<span class="petal">╚█║████╔╝</span><span class="leaf">██╔╝</span><span class="stem">       </span><span class="text">   ╚██████╔╝██║ ╚████║███████╗██║███████╗███████║   ██║    </span>
+<span class="petal"> ╚╝╚═══╝ </span><span class="leaf">╚═╝ </span><span class="stem">       </span><span class="text">    ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝╚══════╝╚══════╝   ╚═╝    </span>
+<span class="text">                                                                               </span>
+<span class="text">███╗   ███╗ █████╗ ████████╗████████╗ █████╗ ███████╗████████╗██╗ ██████╗      </span>
+<span class="text">████╗ ████║██╔══██╗╚══██╔══╝╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██║██╔════╝      </span>
+<span class="text">██╔████╔██║███████║   ██║      ██║   ███████║███████╗   ██║   ██║██║           </span>
+<span class="text">██║╚██╔╝██║██╔══██║   ██║      ██║   ██╔══██║╚════██║   ██║   ██║██║           </span>
+<span class="text">██║ ╚═╝ ██║██║  ██║   ██║      ██║   ██║  ██║███████║   ██║   ██║╚██████╗      </span>
+<span class="text">╚═╝     ╚═╝╚═╝  ╚═╝   ╚═╝      ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝ ╚═════╝      </span>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
