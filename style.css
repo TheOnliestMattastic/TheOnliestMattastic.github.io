@@ -1,133 +1,110 @@
-/* =======================================================================
-___________.__             ________         .__  .__                 __   
-\__    ___/|  |__   ____   \_____  \   ____ |  | |__| ____   _______/  |_ 
-  |    |   |  |  \_/ __ \   /   |   \ /    \|  | |  |/ __ \ /  ___/\   __\
-  |    |   |   Y  \  ___/  /    |    \   |  \  |_|  \  ___/ \___ \  |  |  
-  |____|   |___|  /\___  > \_______  /___|  /____/__|\___  >____  > |__|  
-                \/     \/          \/     \/             \/     \/        
-/\        _____          __    __                   __  .__             /\
-\ \      /     \ _____ _/  |__/  |______    _______/  |_|__| ____      / /
- \ \    /  \ /  \\__  \\   __\   __\__  \  /  ___/\   __\  |/ ___\    / / 
-  \ \  /    Y    \/ __ \|  |  |  |  / __ \_\___ \  |  | |  \  \___   / /  
-   \ \ \____|__  (____  /__|  |__| (____  /____  > |__| |__|\___  > / /   
-    \/         \/     \/                \/     \/               \/  \/    
-==========================================================================
-  👋 Welcome to the stylesheet! 
-  This file controls the look and feel of 
-  your portfolio, including colors, fonts, and layout.
-
-  🔧 LOOK HERE FIRST: The easiest way to change your site's colors is
-  by editing the "CSS Variables" in the :root section below.
-==========================================================================
-  🎨 LIGHT THEME CONTROL PANEL (CSS Variables)
-  These are the colors for the default light theme. Change these values
-  to whatever you like! You can get color codes from sites like
-  https://coolors.co/ or https://color.adobe.com/.
-======================================================================= */
-
+/* =============================================================================
+   KOKIRI COLORSCHEME THEME
+   -------------------------------------------------------------------------
+   WHAT: CSS custom properties for Kokiri brand colors across light/dark modes
+   WHY:  Centralized color management ensures consistency with HYPERfix.nvim
+   HOW:  CSS variables defined in :root and [data-theme="light"] selectors
+   ============================================================================= */
 :root {
-  /* --page-background: The main background color of the page. */
-  --bg-color: #edeef7;
-  /* --main-text-color: The color for most of the text on the page. */
-  --text-color: #1e1e1e;
-  /* --card-background: The background for the main content cards. */
-  --card-bg: #f7f7fb;
-  /* --header-background: The background for the top header section. */
-  --header-bg: #dcdff2;
-  /* --header-text-color: The text color specifically for the header. */
-  --header-text: #1e1e1e;
-  /* --accent-color: Used for interactive elements like the theme button. */
-  --accent: #6272a4;
-  /* --accent-hover-color: The color when you hover over an accent element. */
-  --accent-hover: #7082c4;
-  /* --badge-color: The main color for the skill/social badges. */
-  --secondary: #bd93f9;
-  /* --badge-hover-color: The color when you hover over a badge. */
-  --secondary-hover: #9a6df0;
-  /* --logo-color: The color for the ASCII art logo. */
-  --logo-color: #44475a;
-  /* --footer-background: The background for the bottom footer. */
-  --footer-bg: #dcdff2;
-  /* --footer-text-color: The text color for the footer. */
-  --footer-text: #1e1e1e;
+  /* Dark theme (Kokiri primary) */
+  --bg-color: #071524;
+  --text-color: #a2faa2;
+  --card-bg: #122030;
+  --header-bg: #2f3e4f;
+  --header-text: #a1ceff;
+  --accent: #a8c5ff;
+  --accent-hover: #93e5ff;
+  --secondary: #e8bfff;
+  --secondary-hover: #ffbca1;
+  --logo-color: #a8c5ff;
+  --footer-bg: #2f3e4f;
+  --footer-text: #a1ceff;
+  --comment-color: #5cb25e;
+  --constant-color: #e8bfff;
+  --string-color: #c5f19c;
+  --keyword-color: #a2faa2;
+  --special-color: #7ffbdd;
 }
 
-/* ====================================================================
-  🎨 DARK THEME CONTROL PANEL
-  These variables override the light theme when dark mode is active.
-  Customize these to create your perfect dark theme.
-==================================================================== */
-[data-theme="dark"] {
-  --bg-color: #1e1e1e; 
-  --text-color: #f8f8f2;
-  --card-bg: #282a36;
-  --header-bg: #44475a;
-  --header-text: #f8f8f2;
-  --accent: #bd93f9;
-  --accent-hover: #9a6df0;
-  --secondary: #6272a4;
-  --secondary-hover: #7082c4;
-  --logo-color: #bd93f9;
-  --footer-bg: #44475a;
-  --footer-text: #f8f8f2;
+/* Light theme (Kokiri inverted for readability) */
+[data-theme="light"] {
+  /* NOTE: Maintains Kokiri aesthetic while improving contrast for light mode */
+  --bg-color: #f0f1f5;
+  --text-color: #122030;
+  --card-bg: #f7f8fb;
+  --header-bg: #e8ecf5;
+  --header-text: #122030;
+  --accent: #5a7eb5;
+  --accent-hover: #4a6a9f;
+  --secondary: #9a6df0;
+  --secondary-hover: #ffbca1;
+  --logo-color: #5a7eb5;
+  --footer-bg: #e8ecf5;
+  --footer-text: #122030;
+  --comment-color: #5cb25e;
+  --constant-color: #9a6df0;
+  --string-color: #2d6938;
+  --keyword-color: #2d6938;
+  --special-color: #0f8ea0;
 }
 
-/* ====================================================================
-  GLOBAL STYLES: These rules apply to the entire page.
-==================================================================== */
+/* =============================================================================
+   GLOBAL STYLES
+   -------------------------------------------------------------------------
+   WHAT: Base typography, spacing, and transitions for document body
+   WHY:  Establish consistent baseline before component-specific styling
+   HOW:  Apply color/transition variables and reset default margins
+   ============================================================================= */
 body {
   background: var(--bg-color);
   color: var(--text-color);
-  font-family: Arial, sans-serif; /* Sets the font for the page. */
-  line-height: 1.6; /* Adjusts spacing between lines of text. */
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
   margin: 0;
   padding: 0;
-  transition: background 0.3s ease, color 0.3s ease; /* Smooth theme transition. */
+  transition: background 0.5s ease, color 0.5s ease;
 }
 
-/* ====================================================================
-  LAYOUT & CONTAINERS: Styles for the main sections of the page.
-==================================================================== */
 header {
   background: var(--header-bg);
   color: var(--header-text);
   padding: 1.5rem;
   text-align: center;
-  position: relative; /* Needed for positioning the theme toggle button. */
+  position: relative;
 }
 
-.project-card {
-  background: var(--card-bg);
-  color: var(--text-color);
-  border-radius: 10px; /* Rounded corners for the cards. */
-  padding: 1.5rem;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1); /* A subtle drop shadow. */
-  margin: 2rem auto; /* Centers the card on the page. */
-  max-width: 900px; /* Prevents the card from being too wide on large screens. */
-  transition: background 0.3s ease, color 0.3s ease;
-}
-
-/* This is for the smaller project cards inside the main "Projects" section. */
-.project-card.sub {
-  background: var(--header-bg);
-}
-
-/* ====================================================================
-  TYPOGRAPHY: Styles for text like headings and paragraphs.
-==================================================================== */
 h1, h2 {
   margin-top: 0;
   color: var(--text-color);
 }
 
+.project-card {
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  margin: 2rem auto;
+  max-width: 900px;
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.project-card.sub {
+  background: var(--header-bg);
+}
+
 h2 {
-  border-bottom: 2px solid #eee; /* A line under the section titles. */
+  border-bottom: 2px solid var(--accent);
   padding-bottom: 0.3rem;
 }
 
-/* ====================================================================
-  IMAGES & LOGO
-==================================================================== */
+/* =============================================================================
+   PREVIEW IMAGES
+   -------------------------------------------------------------------------
+   WHAT: Flex layout for centered image gallery with border styling
+   WHY:  Group related images with consistent spacing and visual separation
+   HOW:  Flex container with gap; borders use accent color variable
+   ============================================================================= */
 .preview {
   display: flex;
   gap: 1rem;
@@ -138,7 +115,7 @@ h2 {
 .preview img {
   max-width: 800px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 1px solid var(--accent);
   border-radius: 2px;
 }
 
@@ -151,68 +128,133 @@ img, .ascii-logo, .project-card img {
 .header { position: relative; }
 .header .ascii-logo { position: relative; top: 0; left: 0; }
 
-pre {
-  display: inline-block;
-  overflow-x: auto;
-}
-
-/* Styles for the ASCII art logo. */
-.ascii-logo {
-  font-family: "Courier New", monospace; /* A classic monospaced font. */
-  font-size: 12px; /* Change this to make the logo bigger or smaller. */
-  line-height: 1.1;
-  white-space: pre;
-  color: var(--logo-color);
-  text-align: left;
-  margin: 1rem 0;
-  display: inline-block;
-  overflow-x: auto;
-}
-
-/* ====================================================================
-  BUTTONS
-==================================================================== */
-
-/* Styles for the container holding the badges. */
+/* =============================================================================
+   BUTTONS
+   -------------------------------------------------------------------------
+   WHAT: Flex layout for horizontally-aligned button groups
+   WHY:  Reusable container for navigation and action buttons
+   HOW:  Flex with gap; .card variant left-aligns for card context
+   ============================================================================= */
 .buttons {
   margin-top: 1rem;
   display: flex;
-  gap: .25rem; /* Space between the buttons. */
+  gap: .25rem;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-/* Aligns buttons inside project cards to the left. */
 .buttons.card {
   justify-content: left;
 }
 
-/* Styles for the theme toggle button in the top-right corner. */
+pre {
+  display: inline-block;
+  overflow-x: auto;
+  background: var(--header-bg);
+  border-left: 3px solid var(--accent);
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+}
+
+code {
+  background: var(--header-bg);
+  color: var(--string-color);
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+}
+
+.banner {
+  display: block;
+  margin: 0 auto;
+  max-width: 1000px;
+  height: auto;
+}
+
+/* =============================================================================
+   ASCII ART LOGO
+   -------------------------------------------------------------------------
+   WHAT: Monospace typography for centered ASCII art rendering
+   WHY:  Preserve fixed-width formatting for ASCII art integrity
+   HOW:  Courier New monospace with white-space: pre; Kokiri accent color
+   ============================================================================= */
+.ascii-logo {
+  font-family: "Courier New", monospace;
+  font-size: 12px;
+  line-height: 1.1;
+  white-space: pre;
+  color: var(--logo-color);
+  text-align: center;
+  margin: 1rem 0;
+}
+
+/* =============================================================================
+   THEME TOGGLE BUTTON
+   -------------------------------------------------------------------------
+   WHAT: Fixed circular button for light/dark mode switching (top-right)
+   WHY:  Quick-access theme switcher without disrupting layout flow
+   HOW:  position: absolute; border matches accent; hover inverts colors
+   NOTE: Button styling mirrors Kokiri design language
+   ============================================================================= */
 #theme-toggle {
-  position: absolute; /* Positions it relative to the header. */
+  position: absolute;
   top: 1rem;
   right: 1rem;
   padding: 0.4rem 0.6rem;
-  border: none;
-  border-radius: 50%; /* Makes it a circle. */
+  border: 2px solid var(--accent);
+  border-radius: 50%;
   cursor: pointer;
   font-size: 1.2rem;
-  background: var(--accent);
-  color: #fff;
-  transition: background 0.2s ease, transform 0.2s ease;
+  background: var(--card-bg);
+  color: var(--accent);
+  transition: background 0.5s ease, transform 0.5s ease, color 0.5s ease;
 }
 
 #theme-toggle:hover {
-  background: var(--accent-hover);
-  transform: scale(1.1); /* Slightly enlarges the button on hover. */
+  background: var(--accent);
+  color: var(--bg-color);
+  transform: scale(1.1);
 }
 
-/* ====================================================================
+/* =============================================================================
    FOOTER
-==================================================================== */
+   -------------------------------------------------------------------------
+   WHAT: Bottom page section with background, padding, and metadata text
+   WHY:  Separate visual and semantic footer from main content
+   HOW:  Footer element uses header-bg colors; small centered text
+   ============================================================================= */
 footer {
+  background: var(--footer-bg);
+  color: var(--footer-text);
   text-align: center;
   padding: 1rem;
   font-size: 0.9rem;
   margin-top: 2rem;
+}
+
+/* =============================================================================
+   SEMANTIC COLOR CLASSES
+   -------------------------------------------------------------------------
+   WHAT: Utility classes for syntax-highlighting code and content semantics
+   WHY:  Reusable styling aligned with Kokiri code highlighting palette
+   HOW:  Apply color variables to .comment, .string, .keyword, etc.
+   ============================================================================= */
+.comment {
+  color: var(--comment-color);
+}
+
+.string {
+  color: var(--string-color);
+}
+
+.keyword {
+  color: var(--keyword-color);
+  font-weight: bold;
+}
+
+.constant {
+  color: var(--constant-color);
+}
+
+.special {
+  color: var(--special-color);
 }
