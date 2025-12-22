@@ -128,7 +128,7 @@
                        'src=' points.
       ================================================================ -->
 
-			<img class="banner" id="banner-img" alt="banner" src="./assets/imgs/banner.png">
+			<img class="banner" id="banner-img" alt="banner" src="./assets/media/banner.png">
 
 			<!-- ===============================================================
         🔧 YOUR NAME: Change this to your full name.
@@ -185,71 +185,159 @@
 			</section>
 
 			<!-- ===================================================================
-        🔧 FEATURED PROJECTS: This is where you showcase your work.
+        <!-- ===================================================================
+            🔧 SPOTLIGHT PROJECT: Featured single project that represents your best work
+           or most proud accomplishment. This gets prime visibility!
+      ==================================================================== -->
+			<div class="project-card spotlight">
+				<h2>☄️ Spotlight: What I'm Proud Of</h2>
+				<div class="project-card sub">
+					<!-- 🔧 SPOTLIGHT PROJECT TITLE: Change this to your standout project. -->
+					<h3>🐈‍⬛ powerCat — A Single‑Shot Concatenator</h3>
+					<!-- 🔧 WHY THIS PROJECT: Explain what makes this your standout work. -->
+					<p>
+						This is my flagship project: a published PowerShell module on the
+						<a href="https://www.powershellgallery.com/packages/powerCat">PowerShell Gallery</a>
+						with active users. It represents everything I value—<strong>clean code, real utility,
+							and thoughtful design</strong>.
+					</p>
+					<!-- 🔧 SPOTLIGHT DESCRIPTION: A deeper dive into the project's impact. -->
+					<p><b>What It Does:</b>
+					Bundles source code and documentation into one clean, shareable file—perfect for
+					recruiters, collaborators, or LLM ingestion. Solves a real problem I faced daily.</p>
+					<p><b>Why It Matters:</b>
+					Demonstrates the ability to <strong>ship working products</strong>, write
+					<strong>maintainable code</strong>, and support real users. Not a learning project—a
+					working tool.</p>
+					<!-- 🔧 KEY ACHIEVEMENTS: What are you most proud of? -->
+					<p><b>Key Achievements:</b>
+					Published to official gallery · Comprehensive Pester test suite · CI/CD pipeline with
+					GitHub Actions · Multiple ergonomic aliases · Documented for end users</p>
+					<!-- 🔧 TECH STACK: What tools/languages did you use? -->
+					<p><b>Built with:</b>
+					PowerShell · Pester (automated tests) · GitHub Actions (CI/CD) · GitHub Pages
+					(documentation)</p>
+					<!-- 🔧 MEDIA GALLERY: Images and video showcase -->
+					<div class="media-gallery">
+						<h4>Visual Showcase</h4>
+						<div class="gallery-grid">
+							<img alt="powerCat in action - bat theme" src="./assets/media/powerCat-bat.png" loading="lazy" decoding="async">
+							<img alt="powerCat demo - lolcat theme" src="./assets/media/powerCat-lolcat.png" loading="lazy" decoding="async">
+						</div>
+					</div>
+
+					<!-- 🔧 VIDEO PLACEHOLDER: Demo video will be embedded here -->
+					<div class="video-container">
+						<h4>Live Demo</h4>
+						<!-- Replace src with your hosted .mp4 file URL when ready -->
+						<video controls width="100%" style="border-radius: 8px; margin-top: 10px;">
+										<source src="./assets/media/powerCat-txt.mp4" type="video/mp4">
+																    <track kind="captions" src="./assets/media/powercat-demo.vtt" srclang="en" label="English" default>
+																    Your browser does not support the video tag. Check the GitHub repo for a demo video.
+						</video>
+					</div>
+
+					<!-- 🔧 PROJECT LINKS: Links to live project, code, demo, etc. -->
+					<nav class="buttons card">
+						<a href="https://www.powershellgallery.com/packages/powerCat"><img alt="PowerShell Gallery" src="https://img.shields.io/powershellgallery/v/powerCat?color=bd93f9&style=for-the-badge&labelColor=6272a4"></a>
+						<a href="https://github.com/TheOnliestMattastic/powerCat"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
+						<a href="https://github.com/TheOnliestMattastic/powerCat#readme"><img alt="Documentation" src="https://img.shields.io/badge/Docs-README-bd93f9?style=for-the-badge&labelColor=6272a4"></a>
+					</nav>
+				</div>
+			</div>
+
+			<!-- ===================================================================
+        🔧 CURRENTLY WORKING ON: Showcase a major project in active development.
+           This is great for showing growth, current interests, and work-in-progress.
+      ==================================================================== -->
+			<div class="project-card">
+				<h2>🔬 Currently Working On</h2>
+				<!-- 🔧 PROJECT NAME: What's the name of your current project? -->
+				<div class="project-card sub">
+					<h3>⚔️ Battle Tactics Arena: Refactored & Remastered</h3>
+					<!-- 🔧 PROJECT STATUS: What phase is it in? (Alpha, Beta, Major Refactor, etc.) -->
+					<p>
+						<strong>Status: Active Refactoring & Architecture Redesign</strong>
+					</p>
+					<!-- 🔧 PROJECT OVERVIEW: What is it and why are you building it? -->
+					<p>
+						A <strong>2D turn-based tactical RPG</strong>
+						transformed from a messy prototype into
+						<strong>production-quality code</strong>. Originally built as a class project in a
+						single monolithic file, now being rebuilt to showcase <strong>professional
+							architecture, clean code practices, and modular design patterns</strong>.
+					</p>
+					<!-- 🔧 GROWTH & LEARNING: What's the biggest learning or improvement? -->
+					<p><b>Architectural Evolution:</b>
+					Demonstrates transformation from legacy code (single file with globals) to a
+					maintainable, data-driven system with:
+					<ul style="margin-top: 0.5rem;">
+						<li>Encapsulated entities and game state</li>
+						<li>Registry and factory patterns</li>
+						<li>Clear separation of concerns</li>
+						<li>State machine for game flow</li>
+						<li>Data-driven design for extensibility</li>
+					</ul></p>
+					<!-- 🔧 DOCUMENTATION PRIDE: What documentation are you most proud of? -->
+					<p><b>Documentation Focus:</b>
+					This project is documented as a <strong>learning resource</strong>. Includes:</p>
+					<ul style="margin-top: 0.5rem;">
+						<li><code>AGENT.md</code>: Deep-dive architecture guide explaining every design decision</li>
+						<li><code>DEVLOG.md</code>: Detailed refactoring journey (what changed and why)</li>
+						<li>Inline comments explaining non-obvious code and patterns</li>
+						<li>Git history telling the story of the refactor</li>
+					</ul>
+					<p>Great for code review, portfolio evaluation, and teaching others.</p>
+					<!-- 🔧 CURRENT FOCUS: What's your immediate priority? -->
+					<p><b>Current Focus:</b>
+					Finalizing entity architecture, implementing advanced battle mechanics (AI,
+					pathfinding), and ensuring all systems are extensible for future features.</p>
+					<!-- 🔧 TECH STACK: What are you using? -->
+					<p><b>Built with:</b>
+					Lua · LÖVE2D · State machines · Data-driven design · Modular architecture · Git
+					(professional practices)</p>
+
+					<!-- 🔧 MEDIA GALLERY: Images showcasing project progress -->
+					<div class="media-gallery">
+						<h4>Project Showcase</h4>
+						<div class="gallery-grid">
+							<img alt="Battle Tactics Arena - File structure and architecture" src="./assets/media/BTA-fs.png">
+							<img alt="Battle Tactics Arena - Changelog and refactor progress" src="./assets/media/BTA-changelog.png">
+						</div>
+					</div>
+
+					<!-- 🔧 VIDEO PLACEHOLDER: Demo video will be embedded here -->
+					<div class="video-container">
+						<h4>Gameplay Demo</h4>
+						<!-- Replace src with your hosted .mp4 file URL when ready -->
+						<video controls width="100%" style="border-radius: 8px; margin-top: 10px;">
+							<source src="assets/media/BTA-buttons.mp4" type="video/mp4">
+							Your browser does not support the video tag. Check the GitHub repo for a demo video.
+						</video>
+					</div>
+
+					<!-- 🔧 PROJECT LINKS: Code repo, live demo, dev blog, etc. -->
+					<nav class="buttons card">
+						<a href="https://github.com/TheOnliestMattastic/BTAR-R"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
+						<a href="https://github.com/TheOnliestMattastic/BTAR-R/blob/main/AGENT.md"><img alt="Architecture Guide" src="https://img.shields.io/badge/Docs-AGENT.md-bd93f9?style=for-the-badge&labelColor=6272a4"></a>
+						<a href="https://github.com/TheOnliestMattastic/BTAR-R/blob/main/DEVLOG.md"><img alt="Refactoring Journey" src="https://img.shields.io/badge/Devlog-Refactor_Journey-bd93f9?style=for-the-badge&labelColor=6272a4"></a>
+					</nav>
+				</div>
+			</div>
+
+			<!-- ===================================================================
+        🔧 FEATURED PROJECTS: Your other notable work and achievements.
       ==================================================================== -->
 			<div class="project-card">
 				<h2>🚀 Featured Projects</h2>
 
 				<!-- ===================================================================
-          🔧 PROJECT 1: To add more projects, copy and paste this entire 
-             "project-card sub" <div> block and change the details.
-        ==================================================================== -->
-				<div class="project-card sub">
-					<!-- 🔧 Project Title -->
-					<h3>🐈‍⬛ powerCat — A Single‑Shot Concatenator</h3>
-					<!-- 🔧 Project Description: What is it and what problem does it solve? -->
-					<p>
-						Published to the <a href="https://www.powershellgallery.com/packages/powerCat">PowerShell Gallery</a>,
-						<strong>powerCat</strong>
-						bundles source code and documentation into one clean, shareable file—
-						perfect for recruiters, collaborators, or LLM ingestion.
-					</p>
-					<!-- 🔧 Impact Statement: What was the result or value of the project? -->
-					<p><b>Impact:</b>
-					Simplifies code sharing and review, reduces friction in collaboration.</p>
-					<!-- 🔧 Features or Key Info: What makes it stand out? -->
-					<p><b>Features:</b>
-					recursion, Markdown code fencing, extension filters, sorting, ergonomic aliases
-					(<code>powerCat</code>, <code>pcat</code>, <code>concat</code>).</p>
-					<!-- 🔧 Tech Stack: What tools and languages did you use? -->
-					<p><b>Built with:</b>
-					PowerShell · Pester (automated tests) · GitHub Actions (CI/CD)</p>
-					<!-- 🔧 Project Links: Add badges linking to the live project, code, etc. -->
-					<nav class="buttons card">
-						<a href="https://www.powershellgallery.com/packages/powerCat"><img alt="PowerShell Gallery" src="https://img.shields.io/powershellgallery/v/powerCat?color=bd93f9&style=for-the-badge&labelColor=6272a4"></a>
-						<a href="https://github.com/TheOnliestMattastic/powerCat"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
-					</nav>
-				</div>
-
-				<!-- ===================================================================
-           🔧 PROJECT 2: Battle Tactics Arena. Shows architectural growth
-              and portfolio-quality game development.
-        ==================================================================== -->
-				<div class="project-card sub">
-					<h3>⚔️ Battle Tactics Arena: Refactored & Remastered</h3>
-					<p>
-						A <strong>2D turn-based tactical RPG refactored from prototype to production quality</strong>.
-						Originally built as a class project in a single monolithic file, rebuilt to demonstrate
-						<strong>professional architecture, clean code practices, and modular design patterns</strong>.
-					</p>
-					<p><b>Architectural Growth:</b>
-					Showcases transformation from legacy code (single `inGame.lua` with globals) to a maintainable,
-					data-driven system with encapsulated entities, registries, and clear separation of concerns.</p>
-					<p><b>What's Documented:</b>
-					Comprehensive AGENT.md (architecture guide), DEVLOG.md (refactoring journey), and inline comments explain
-					design decisions—valuable for code review and learning.</p>
-					<p><b>Built with:</b>
-					Lua · LÖVE2D · State machines · Data-driven design · Modular architecture · Professional Git practices</p>
-					<nav class="buttons card">
-						<a href="https://github.com/TheOnliestMattastic/BTAR-R"><img alt="GitHub Repo" src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
-						<a href="https://github.com/TheOnliestMattastic/BTAR-R/blob/main/AGENT.md"><img alt="Architecture Guide" src="https://img.shields.io/badge/Docs-AGENT.md-bd93f9?style=for-the-badge&labelColor=6272a4"></a>
-					</nav>
-				</div>
-
-				<!-- ===================================================================
-           🔧 PROJECT 3: HyperFix.nvim. Shows ability to design for
-              accessibility and user experience—not just functionality.
-        ==================================================================== -->
+				🔧 PROJECT 1: HyperFix.nvim. Shows ability to design for
+				accessibility and user experience—not just functionality.
+				
+				💡 TIP: To add more projects, copy and paste an entire 
+				"project-card sub" <div> block and change the details.
+				==================================================================== -->
 				<div class="project-card sub">
 					<h3>🧚 HYPERfix.nvim — Neovim for Neurodivergent Developers</h3>
 					<p>
@@ -269,11 +357,11 @@
 				</div>
 
 				<!-- ===================================================================
-           🔧 PROJECT 4: BashParaphernalia. Shows comprehensive system 
-              administration and scripting knowledge.
-        ==================================================================== -->
+				🔧 PROJECT 2: BashParaphernalia. Shows comprehensive system 
+				administration and scripting knowledge.
+				==================================================================== -->
 				<div class="project-card sub">
-					<h3>🔮 BashParaphernalia — Linux System Administration Toolkit</h3>
+					<h3>💉 BashParaphernalia — Linux System Administration Toolkit</h3>
 					<p>
 						A professional collection of <strong>self-contained Bash scripts</strong>
 						for Linux system automation:
@@ -292,20 +380,23 @@
 				</div>
 
 				<!-- ===================================================================
-           🔧 PROJECT 5: Psychology Research. Shows data analysis, statistical
+           🔧 PROJECT 3: Psychology Research. Shows data analysis, statistical
               thinking, and reproducible research workflow in R.
          ==================================================================== -->
 				<div class="project-card sub">
-					<h3>📊 Impact of Tobacco on Blood Pressure & Heart Rate</h3>
+					<h3>❤️ Impact of Tobacco on Blood Pressure & Heart Rate</h3>
 					<p>
 						An undergraduate psychology research project demonstrating <strong>end-to-end data analysis in R</strong>.
 						Analyzes raw survey data, runs statistical tests (ANOVA + post-hoc), and publishes results in
-						<strong>reproducible R Markdown format</strong> with publication-quality visualizations.
+						<strong>reproducible R Markdown format</strong>
+						with publication-quality visualizations.
 					</p>
 					<p><b>Impact:</b>
-					Showcases ability to translate raw data into actionable insights with rigorous documentation for both technical and non-technical audiences.</p>
+					Showcases ability to translate raw data into actionable insights with rigorous documentation for both
+					technical and non-technical audiences.</p>
 					<p><b>Features:</b>
-					Data cleaning · ANOVA + post-hoc testing · Publication-quality visualizations · R Markdown reproducible workflow · Version control.</p>
+					Data cleaning · ANOVA + post-hoc testing · Publication-quality visualizations · R Markdown reproducible
+					workflow · Version control.</p>
 					<p><b>Built with:</b>
 					R · Tidyverse · ggplot2 · R Markdown · Statistical analysis</p>
 					<nav class="buttons card">
@@ -343,7 +434,7 @@
            Focus on accomplishments, not just duties.
       ==================================================================== -->
 			<div class="project-card">
-				<h2>🌠 Experience & Strengths</h2>
+				<h2>🌌 Experience & Strengths</h2>
 				<ul>
 					<li><strong>IT & Support:</strong>
 					Built and configured dozens of systems; diagnosed OS/network issues;
@@ -378,7 +469,7 @@
         🔧 VALUES SECTION: A short statement about your work philosophy.
       ==================================================================== -->
 			<div class="project-card">
-				<h2>🌌 Values</h2>
+				<h2>🌠 Values</h2>
 				<p>
 					I believe in <strong>clear education, fair wages, and reducing barriers to entry in tech</strong>.
 					My code is written to teach as much as it runs, and my documentation is designed to empower others.
