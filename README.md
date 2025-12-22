@@ -23,6 +23,16 @@ The entire site is managed from a **single, heavily-commented HTML file** with n
 - **GitHub Pages Ready**: Follow the steps below to host this for free on GitHub.
 - **Inline Documentation**: Code comments explain not just _what_ things do, but _why_ they're structured that way
 
+### Example: Inline Comments for Easy Customization
+
+Every customizable section is clearly marked with 🔧 (wrench) comments in plain English:
+
+![Code example showing wrench emoji comments for header customization](/assets/media/preview-code-head.png)
+
+![Code example showing wrench emoji comments for title and tagline customization](/assets/media/preview-code-title.png)
+
+No code experience needed—just follow the instructions and change the text!
+
 ## 🚀 Blasting Off: Your 5-Minute Portfolio
 
 Follow these steps to get your own free portfolio website up and running.
@@ -90,19 +100,29 @@ If you're feeling adventurous, you can customize even more:
 
 ### Change the Colors
 
-Open the `style.css` file to edit the color variables at the top:
+Open the `style.css` file to edit the color variables at the top. The Kokiri colorscheme is fully customizable:
 
 ```css
 :root {
-  --primary-color: #bd93f9; /* Main color (purple) */
-  --secondary-color: #6272a4; /* Accent color (blue) */
-  --bg-light: #f8f8f2; /* Light background */
-  --bg-dark: #282a36; /* Dark background */
+  /* Dark theme (Kokiri primary) */
+  --bg-color: #071524;        /* Background */
+  --text-color: #a2faa2;      /* Main text */
+  --card-bg: #122030;         /* Card backgrounds */
+  --accent: #a8c5ff;          /* Accent color (links, borders) */
+  --header-bg: #2f3e4f;       /* Header background */
+  /* ... and more */
+}
+
+[data-theme="light"] {
+  /* Light theme overrides */
+  --bg-color: #f0f1f5;        /* Light background */
+  --text-color: #122030;      /* Dark text for light mode */
+  --accent: #5a7eb5;          /* Light mode accent */
   /* ... and more */
 }
 ```
 
-Each variable is clearly labeled with a comment. Just change the hex color codes!
+Each variable is clearly labeled. Just change the hex color codes to customize the entire site!
 
 ### Update Your Resume
 
@@ -112,7 +132,7 @@ Each variable is clearly labeled with a comment. Just change the hex color codes
 
 ### Change the Favicons (Browser Tab Icon)
 
-Follow the detailed instructions in `index.html` in the favicon section (around line 19-39). TL;DR:
+Follow the detailed instructions in `index.html` in the favicon section (around line 26-46). TL;DR:
 
 1. Generate favicons at https://realfavicongenerator.net/
 2. Download the package and extract it into `/assets/icons/`
@@ -122,9 +142,9 @@ Follow the detailed instructions in `index.html` in the favicon section (around 
 
 The theme switch button uses emojis to represent light/dark mode:
 
-1. Find the `<button id="theme-toggle">` tag in index.html (around line 113)
+1. Find the `<button id="theme-toggle">` tag in index.html (around line 154)
 2. Change the emoji to your preference (e.g., 🌙 for dark, ☀️ for light)
-3. Scroll to the bottom of index.html and find the JavaScript section (around line 377)
+3. Scroll to the bottom of index.html and find the JavaScript section (around line 785-806)
 4. Update the emoji values in the theme toggle script to match
 
 ### Add More Sections

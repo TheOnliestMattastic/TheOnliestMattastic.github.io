@@ -1,0 +1,30 @@
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment Files
+.env
+.env.local
+.env.*.local
+
+# Project Notes (per AGENTS.md)
+.notes/
+
+# OS Files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Build Artifacts (for future use)
+dist/
+build/
+node_modules/
+*.log
+
+# Editor Backups
+*.bak
+*.backup
