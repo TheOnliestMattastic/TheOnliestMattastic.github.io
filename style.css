@@ -49,12 +49,16 @@
 }
 
 /* =============================================================================
-   GLOBAL STYLES
-   -------------------------------------------------------------------------
-   WHAT: Base typography, spacing, and transitions for document body
-   WHY:  Establish consistent baseline before component-specific styling
-   HOW:  Apply color/transition variables and reset default margins
-   ============================================================================= */
+    GLOBAL STYLES
+    -------------------------------------------------------------------------
+    WHAT: Base typography, spacing, and transitions for document body
+    WHY:  Establish consistent baseline before component-specific styling
+    HOW:  Apply color/transition variables and reset default margins
+    ============================================================================= */
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: var(--bg-color);
   color: var(--text-color);
@@ -113,24 +117,27 @@ h2 {
 }
 
 .preview img {
-  max-width: 800px;
+  width: 100%;
+  max-width: 100%;
   height: auto;
   border: 1px solid var(--accent);
   border-radius: 2px;
 }
 
-img, .ascii-logo, .project-card img {
+.ascii-logo {
+  display: block;
+}
+
+/* Responsive images in project cards (not within grid) */
+.project-card > img {
   width: 100%;
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-.header { position: relative; }
-.header .ascii-logo { position: relative; top: 0; left: 0; }
-
 /* =============================================================================
-   BUTTONS
+    BUTTONS
    -------------------------------------------------------------------------
    WHAT: Flex layout for horizontally-aligned button groups
    WHY:  Reusable container for navigation and action buttons
