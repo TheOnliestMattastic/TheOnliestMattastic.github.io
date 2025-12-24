@@ -25,11 +25,17 @@ The entire site is managed from a **single, heavily-commented HTML file** with n
 
 ### Example: Inline Comments for Easy Customization
 
-Every customizable section is clearly marked with 🔧 (wrench) comments in plain English:
+Every customizable section is clearly marked with 🔧 (wrench) comments in plain English with step-by-step instructions:
 
-![Code example showing wrench emoji comments for header customization](/assets/media/preview-code-head.png)
+![Code example showing wrench emoji comments for header customization](/assets/media/preview-code-welcome.png)
 
-![Code example showing wrench emoji comments for title and tagline customization](/assets/media/preview-code-title.png)
+![Code example showing wrench emoji comments for title and tagline customization](/assets/media/preview-code-project.png)
+
+Over 50 detailed customization comments throughout the file guide you through:
+- Changing your name, tagline, and introduction
+- Adding/editing projects
+- Creating custom badges
+- Setting up favicons and theme toggles
 
 No code experience needed—just follow the instructions and change the text!
 
@@ -132,7 +138,7 @@ Each variable is clearly labeled. Just change the hex color codes to customize t
 
 ### Change the Favicons (Browser Tab Icon)
 
-Follow the detailed instructions in `index.html` in the favicon section (around line 26-46). TL;DR:
+Follow the detailed instructions in `index.html` in the favicon section (around line 32-54). TL;DR:
 
 1. Generate favicons at https://realfavicongenerator.net/
 2. Download the package and extract it into `/assets/icons/`
@@ -142,9 +148,9 @@ Follow the detailed instructions in `index.html` in the favicon section (around 
 
 The theme switch button uses emojis to represent light/dark mode:
 
-1. Find the `<button id="theme-toggle">` tag in index.html (around line 154)
+1. Find the `<button id="theme-toggle">` tag in index.html (around line 214)
 2. Change the emoji to your preference (e.g., 🌙 for dark, ☀️ for light)
-3. Scroll to the bottom of index.html and find the JavaScript section (around line 785-806)
+3. Scroll to the "THEME TOGGLE ICONS" comment in the JavaScript section (around line 1039)
 4. Update the emoji values in the theme toggle script to match
 
 ### Add More Sections
