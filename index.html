@@ -1081,8 +1081,9 @@
 				img.addEventListener("click", (e) => {
 					modal.classList.add("active");
 					modalImage.src = img.src;
-					modalImage.alt = img.alt;
-				});
+			    modalImage.alt = img.alt;
+			    closeBtn.focus();
+			  });
 			});
 			
 			
