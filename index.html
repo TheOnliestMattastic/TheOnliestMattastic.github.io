@@ -1044,7 +1044,10 @@
 			
 			if (currentTheme) {
 				document.documentElement.setAttribute("data-theme", currentTheme);
-				toggleBtn.textContent = currentTheme === "dark" ? "🌛" : "🌞";
+			  toggleBtn.textContent = currentTheme === "dark" ? "🌛" : "🌞";
+			} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+			  document.documentElement.setAttribute("data-theme", "dark");
+			  toggleBtn.textContent = "🌛";
 			}
 			
 			toggleBtn.addEventListener("click", () => {
