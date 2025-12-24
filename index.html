@@ -1042,12 +1042,15 @@
 			const toggleBtn = document.getElementById("theme-toggle");
 			const currentTheme = localStorage.getItem("theme");
 			
-			if (currentTheme) {
-				document.documentElement.setAttribute("data-theme", currentTheme);
+			if (currentTheme === "dark" || currentTheme === "light") {
+			  document.documentElement.setAttribute("data-theme", currentTheme);
 			  toggleBtn.textContent = currentTheme === "dark" ? "🌛" : "🌞";
 			} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
 			  document.documentElement.setAttribute("data-theme", "dark");
 			  toggleBtn.textContent = "🌛";
+			} else {
+			  document.documentElement.setAttribute("data-theme", "light");
+			  toggleBtn.textContent = "🌞";
 			}
 			
 			toggleBtn.addEventListener("click", () => {
