@@ -1,48 +1,45 @@
 <!-- =====================================================================
      👋 WELCOME TO THE PORTFOLIO TEMPLATE!
-     
+
      This file serves two purposes:
      1. My professional portfolio (the actual content)
      2. A customizable template for YOUR portfolio (fork and modify!)
-     
+
      QUICK START GUIDE:
      - 🔧 Wrench emoji = EDIT HERE (beginner-friendly customization)
      - 🔰 Badge emoji = Structure/layout (don't edit unless you know HTML)
-     
+
      NO CODING EXPERIENCE? No problem!
      The sections marked with 🔧 use simple find-and-replace:
      • Change names, URLs, and descriptions—just text editing!
      • See README.md for the complete beginner's guide
-     
+
      For developers: This HTML is semantically structured and accessible.
 ====================================================================== -->
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport"
-		      content="width=device-width, initial-scale=1"
-		>
-		<link rel="stylesheet"
-		      href="style.css"
-		>
 
-		<!-- =====================================================================
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- =====================================================================
 		     🔧 BEGINNER'S NOTE: CHANGING YOUR FAVICON (Browser Tab Icon)
-		     
+
 		     These <link> tags control the small icon that appears in:
 		     • Browser tabs
 		     • Mobile home screens
 		     • Bookmarks
-		     
+
 		     HOW TO CHANGE IT:
-		     
+
 		     OPTION 1: Simple (if comfortable with files)
 		     1. Find or create a square image of your logo (PNG or SVG)
 		     2. Go to `/assets/icons/` folder in your project
 		     3. Replace the existing files with your new image
 		        (keep the filenames: favicon.ico, favicon.svg, etc.)
-		     
+
 		     OPTION 2: Automatic (recommended for beginners)
 		     1. Visit: https://realfavicongenerator.net/
 		     2. Upload your logo image
@@ -50,76 +47,51 @@
 		     4. Unzip it and copy all files into `/assets/icons/`
 		     5. Copy the HTML code they provide and paste it below
 		        (replacing all these <link> and <meta> tags)
-		     
+
 		     Your favicon will update across all browsers!
 		     ====================================================================== -->
-		<link rel="icon"
-		      type="image/png"
-		      href="/assets/icons/favicon-96x96.png"
-		      sizes="96x96"
-		>
-		<link rel="icon"
-		      type="image/svg+xml"
-		      href="/assets/icons/favicon.svg"
-		>
-		<link rel="shortcut icon"
-		      href="/assets/icons/favicon.ico"
-		>
-		<link rel="apple-touch-icon"
-		      sizes="180x180"
-		      href="/assets/icons/apple-touch-icon.png"
-		>
-		<meta name="apple-mobile-web-app-title"
-		      content="Mattastic"
-		>
-		<link rel="manifest"
-		      href="/assets/icons/site.webmanifest"
-		>
-		<meta name="msapplication-TileColor"
-		      content="#2b5797"
-		>
-		<meta name="theme-color"
-		      content="#282a36"
-		      media="(prefers-color-scheme: light)"
-		>
+  <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
+  <link rel="shortcut icon" href="/assets/icons/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-title" content="Mattastic">
+  <link rel="manifest" href="/assets/icons/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#282a36" media="(prefers-color-scheme: light)">
 
-		<!-- =================================================================
+  <!-- =================================================================
 		     🔧 BROWSER TAB TITLE
-		     
+
 		     This text appears in the browser tab at the top.
 		     Format: "Your Name | Portfolio"
 		     ================================================================== -->
-		<title>Matthew Chicano | Portfolio</title>
+  <title>The Onliest Mattastic | Portfolio</title>
 
-		<!-- =================================================================
+  <!-- =================================================================
 		     🔧 SEO DESCRIPTION
 		     
 		     This summary appears below your name in Google search results.
 		     Keep it concise (150-160 characters) and descriptive.
 		     ================================================================== -->
-		<meta name="description"
-		      content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT."
-		>
+  <meta name="description"
+    content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT.">
 
-		<!-- =================================================================
+  <!-- =================================================================
 		     🔧 AUTHOR
 		     Change this to your name.
 		     ================================================================== -->
-		<meta name="author"
-		      content="Matthew Poole Chicano"
-		>
+  <meta name="author" content="Matthew Poole Chicano">
 
-		<!-- =================================================================
+  <!-- =================================================================
 		     🔧 KEYWORDS
 		     
 		     Add keywords that describe you and your skills.
 		     These help search engines understand what your portfolio is about.
 		     ================================================================== -->
-		<meta name="keywords"
-		      content="Matthew Poole Chicano, Indie Game Dev, IT, Automation, Storyteller, Portfolio, Game Development, PowerShell, CI/CD"
-		>
+  <meta name="keywords"
+    content="Matthew Poole Chicano, Indie Game Dev, IT, Automation, Storyteller, Portfolio, Game Development, PowerShell, CI/CD">
 
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 OPEN GRAPH & TWITTER TAGS
 		     
 		     These tags control how your site appears when shared on social media:
@@ -128,54 +100,38 @@
 		     Most are customized below. Uncomment or update as needed.
 		     ==================================================================== -->
 
-		<!-- 🔧 Open Graph Title: How your portfolio appears on social media -->
-		<meta property="og:title"
-		      content="Matthew Poole Chicano | Portfolio"
-		>
+  <!-- 🔧 Open Graph Title: How your portfolio appears on social media -->
+  <meta property="og:title" content="Matthew Poole Chicano | Portfolio">
 
-		<!-- 🔧 Open Graph Description: Preview text on social media -->
-		<meta property="og:description"
-		      content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT."
-		>
+  <!-- 🔧 Open Graph Description: Preview text on social media -->
+  <meta property="og:description"
+    content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT.">
 
-		<!-- 🔧 Open Graph Image: Screenshot of your site (appears as preview image) -->
-		<meta property="og:image"
-		      content="https://theonliestmattastic.github.io/assets/imgs/screenshot.png"
-		>
+  <!-- 🔧 Open Graph Image: Screenshot of your site (appears as preview image) -->
+  <meta property="og:image" content="https://theonliestmattastic.github.io/assets/imgs/screenshot.png">
 
-		<!-- 🔧 Open Graph URL: Your live site's address -->
-		<meta property="og:url"
-		      content="https://theonliestmattastic.github.io/"
-		>
+  <!-- 🔧 Open Graph URL: Your live site's address -->
+  <meta property="og:url" content="https://theonliestmattastic.github.io/">
 
-		<meta property="og:type"
-		      content="website"
-		>
+  <meta property="og:type" content="website">
 
-		<!-- 🔧 Twitter Card Type: How your site appears on Twitter/X -->
-		<meta name="twitter:card"
-		      content="summary_large_image"
-		>
+  <!-- 🔧 Twitter Card Type: How your site appears on Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image">
 
-		<!-- 🔧 Twitter Title -->
-		<meta name="twitter:title"
-		      content="Matthew Poole Chicano | Portfolio"
-		>
+  <!-- 🔧 Twitter Title -->
+  <meta name="twitter:title" content="Matthew Poole Chicano | Portfolio">
 
-		<!-- 🔧 Twitter Description -->
-		<meta name="twitter:description"
-		      content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT."
-		>
+  <!-- 🔧 Twitter Description -->
+  <meta name="twitter:description"
+    content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT.">
 
-		<!-- 🔧 Twitter Image: Screenshot for Twitter/X preview -->
-		<meta name="twitter:image"
-		      content="https://theonliestmattastic.github.io/assets/imgs/screenshot.png"
-		>
-	</head>
+  <!-- 🔧 Twitter Image: Screenshot for Twitter/X preview -->
+  <meta name="twitter:image" content="https://theonliestmattastic.github.io/assets/imgs/screenshot.png">
+</head>
 
-	<body>
+<body>
 
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 HEADER SECTION: Introduction & Navigation
 		     
 		     Contains:
@@ -184,9 +140,9 @@
 		     • Your name and tagline
 		     • Navigation badges (GitHub, Resume, Email, etc.)
 		     ==================================================================== -->
-		<header>
+  <header>
 
-			<!-- ===============================================================
+    <!-- ===============================================================
 			     🔧 THEME TOGGLE: Light/Dark Mode Button
 			     
 			     This button switches between light and dark mode.
@@ -204,9 +160,9 @@
 			        comment "THEME TOGGLE ICONS" in the <script> section.
 			        Update the emojis there too.
 			     ================================================================ -->
-			<button id="theme-toggle" aria-label="Toggle theme">🌞</button>
+    <button id="theme-toggle" aria-label="Toggle theme">🌞</button>
 
-			<!-- ===============================================================
+    <!-- ===============================================================
 			     🔧 BANNER IMAGE: Your Logo or ASCII Art
 			     
 			     HOW TO CUSTOMIZE:
@@ -223,21 +179,17 @@
 			     • Canva, Figma, or Photoshop work great
 			     • Export as PNG, save to `./assets/media/banner.png`
 			     ================================================================ -->
-			<img class="banner"
-			     id="banner-img"
-			     alt="banner"
-			     src="./assets/media/banner.png"
-			>
+    <img class="banner" id="banner-img" alt="banner" src="./assets/media/banner.png">
 
-			<!-- ===============================================================
+    <!-- ===============================================================
 			     🔧 YOUR NAME
 			     
 			     This is the main headline of your portfolio.
 			     Change the text between <h1> and </h1> tags.
 			     ================================================================ -->
-			<h1>Matthew Poole Chicano</h1>
+    <h1>Matthew Poole Chicano</h1>
 
-			<!-- ===============================================================
+    <!-- ===============================================================
 			     🔧 YOUR TAGLINE
 			     
 			     A short, catchy phrase that describes what you do.
@@ -248,11 +200,11 @@
 			     • "Storyteller, Musician, Creative Technologist"
 			     • "Data Scientist & Open-Source Advocate"
 			     ================================================================ -->
-			<h2>
-				Systems Architect · Lua & ECS Specialist · AI-Native Engineer
-			</h2>
+    <h2>
+      Video Game Developer · Systems Architect · Technical Generalist
+    </h2>
 
-			<!-- ===============================================================
+    <!-- ===============================================================
 			     🔧 BADGE NAVIGATION: Links to Your Credentials & Profiles
 			     
 			     These are clickable badges for:
@@ -276,38 +228,24 @@
 			     TO REMOVE A BADGE:
 			     Delete the entire <a> ... </a> block
 			     ================================================================ -->
-			<nav class="buttons">
-				<a href="https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url"
-				   target="_blank"
-				   rel="noopener"
-				><img alt="CompTIA A+ Certified"
-				     src="https://img.shields.io/badge/CompTIA-A%2B_Certified-bd93f9?style=for-the-badge&logo=comptia&logoColor=white&labelColor=6272a4"
-				></a>
+    <nav class="buttons">
+      <a href="https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url" target="_blank"
+        rel="noopener"><img alt="CompTIA A+ Certified"
+          src="https://img.shields.io/badge/CompTIA-A%2B_Certified-bd93f9?style=for-the-badge&logo=comptia&logoColor=white&labelColor=6272a4"></a>
 
-				<a href="https://github.com/theonliestmattastic"
-				   target="_blank"
-				   rel="noopener"
-				><img alt="GitHub Profile"
-				     src="https://img.shields.io/badge/GitHub-Profile-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-				></a>
+      <a href="https://github.com/theonliestmattastic" target="_blank" rel="noopener"><img alt="GitHub Profile"
+          src="https://img.shields.io/badge/GitHub-Profile-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
 
-				<a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf"
-				   target="_blank"
-				   rel="noopener"
-				><img alt="Resume PDF"
-				     src="https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4"
-				></a>
+      <a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf"
+        target="_blank" rel="noopener"><img alt="Resume PDF"
+          src="https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4"></a>
 
-				<a href="mailto:matthew.poole485@gmail.com"
-				   target="_blank"
-				   rel="noopener"
-				><img alt="Email Matthew Poole Chicano"
-				     src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"
-				></a>
-			</nav>
-		</header>
+      <a href="mailto:matthew.poole485@gmail.com" target="_blank" rel="noopener"><img alt="Email Matthew Poole Chicano"
+          src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"></a>
+    </nav>
+  </header>
 
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 MAIN CONTENT SECTION
 		     
 		     This contains all your portfolio cards:
@@ -318,9 +256,9 @@
 		     • Values and what you offer
 		     • Contact information
 		     ==================================================================== -->
-		<main>
+  <main>
 
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 "ABOUT ME" SECTION: Your Introduction
 			     
 			     Write a short, engaging introduction (2-3 sentences).
@@ -331,19 +269,16 @@
 			     • Line breaks in the HTML don't affect the display
 			     • Keep paragraphs short for readability
 			     ==================================================================== -->
-			<section class="project-card">
-				<h2>🧑‍🚀 The Intentional Builder</h2>
-				<p>
-					I am a <strong>Brooklyn-based technologist</strong>
-					specializing in the "pipes" of a system—the underlying architecture,
-					automation, and data integrity that make software stable. My background in the humanities drives my focus on
-					<strong>clear education and architectural restraint</strong>. Whether building
-					<strong>ECS-based game engines</strong>
-					or engineering <strong>AI auardrails</strong>, I prioritize clarity and accessibility above all else.
-				</p>
-			</section>
+    <section class="project-card">
+      <h2>The Onliest Mattastic</h2>
+      <p>
+        Systems-focused software developer building game architecture, developer tooling, and automation software.
+        Passionate about open-source software, resilient systems, and reducing developer friction through thoughtful
+        engineering.
+      </p>
+    </section>
 
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 SPOTLIGHT PROJECT: Your Best Work
 			     
 			     This section showcases ONE flagship project that represents
@@ -360,90 +295,64 @@
 			     • Screenshots/images (optional)
 			     • Links to live version, code, docs
 			     ==================================================================== -->
-			<div class="project-card spotlight">
-				<h2>☄️ Spotlight: Systems Architecture</h2>
+    <div class="project-card spotlight">
+      <h2>Spotlight</h2>
 
-				<div class="project-card sub">
+      <div class="project-card sub">
 
-					<!-- 🔧 PROJECT NAME -->
-					<h3>🐈‍⬛ POWERcat — A Single‑Shot Concatenator</h3>
+        <!-- 🔧 PROJECT NAME -->
+        <h3>PowerCat — Precise PowerShell Utility</h3>
 
-					<!-- 🔧 WHY THIS PROJECT: Explain what makes this your standout work -->
-					<p>
-						This is my flagship project: a published PowerShell module on the
-						<a href="https://www.powershellgallery.com/packages/powerCat">PowerShell Gallery</a>
-						with active users. It represents everything I value—<strong>clean code, real utility, and thoughtful design</strong>.
-					</p>
+        <!-- 🔧 WHY THIS PROJECT: Explain what makes this your standout work -->
+        <p>
+          Developed an open-source PowerShell module published in the PowerShell Gallery that consolidates project
+          source into AI-ready context with token estimation, customizable filtering, and Markdown-aware formatting.
+        </p>
 
-					<!-- 🔧 WHAT IT DOES: Deeper dive into the project's impact -->
-					<p>
-						<b>What It Does:</b>
-						Bundles source code and documentation into one
-						clean, shareable file—perfect for recruiters, collaborators, or LLM
-						ingestion. Solves a real problem I faced daily.
-					</p>
+        <p>
+          Designed a Unix-inspired command-line interface emphasizing composability, deterministic output, and
+          automation workflows.
+        </p>
 
-					<p>
-						<b>Why It Matters:</b>
-						Demonstrates the ability to
-						<strong>ship working products</strong>, write
-						<strong>maintainable code</strong>, and support real users.
-					</p>
+        <!-- 🔧 KEY ACHIEVEMENTS: What are you most proud of? -->
+        <p>
+          <b>Key Achievements:</b>
+          Published to official gallery · Comprehensive Pester test suite · CI/CD pipeline with GitHub Actions ·
+          Multiple ergonomic aliases
+        </p>
 
-					<!-- 🔧 KEY ACHIEVEMENTS: What are you most proud of? -->
-					<p>
-						<b>Key Achievements:</b>
-						Published to official gallery ·
-						Comprehensive Pester test suite · CI/CD pipeline with GitHub Actions
-						· Multiple ergonomic aliases · Documented for end users
-					</p>
+        <!-- 🔧 TECH STACK: What tools/languages did you use? -->
+        <p>
+          <b>Built with:</b>
+          PowerShell · Pester (automated tests) · GitHub Actions (CI/CD)
+        </p>
 
-					<!-- 🔧 TECH STACK: What tools/languages did you use? -->
-					<p>
-						<b>Built with:</b>
-						PowerShell · Pester (automated tests) · GitHub
-						Actions (CI/CD) · GitHub Pages (documentation)
-					</p>
+        <!-- 🔧 MEDIA GALLERY: Images showcase (optional) -->
+        <div class="media-gallery">
+          <h4>Visual Showcase</h4>
+          <div class="gallery-grid">
+            <img alt="POWERcat in action - bat theme" src="./assets/media/powerCat-bat.png" loading="lazy"
+              decoding="async">
+            <img alt="POWERcat demo - lolcat theme" src="./assets/media/powerCat-lolcat.png" loading="lazy"
+              decoding="async">
+          </div>
+        </div>
 
-					<!-- 🔧 MEDIA GALLERY: Images showcase (optional) -->
-					<div class="media-gallery">
-						<h4>Visual Showcase</h4>
-						<div class="gallery-grid">
-							<img alt="POWERcat in action - bat theme"
-							     src="./assets/media/powerCat-bat.png"
-							     loading="lazy"
-							     decoding="async"
-							>
-							<img alt="POWERcat demo - lolcat theme"
-							     src="./assets/media/powerCat-lolcat.png"
-							     loading="lazy"
-							     decoding="async"
-							>
-						</div>
-					</div>
+        <!-- 🔧 PROJECT LINKS: Links to live project, code, demo, etc. -->
+        <nav class="buttons card">
+          <a href="https://www.powershellgallery.com/packages/powerCat">
+            <img alt="PowerShell Gallery"
+              src="https://img.shields.io/powershellgallery/v/powerCat?color=bd93f9&style=for-the-badge&labelColor=6272a4">
+          </a>
+          <a href="https://github.com/TheOnliestMattastic/powerCat">
+            <img alt="GitHub Repo"
+              src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
+          </a>
+        </nav>
+      </div>
+    </div>
 
-					<!-- 🔧 PROJECT LINKS: Links to live project, code, demo, etc. -->
-					<nav class="buttons card">
-						<a href="https://www.powershellgallery.com/packages/powerCat">
-							<img alt="PowerShell Gallery"
-							     src="https://img.shields.io/powershellgallery/v/powerCat?color=bd93f9&style=for-the-badge&labelColor=6272a4"
-							>
-						</a>
-						<a href="https://github.com/TheOnliestMattastic/powerCat">
-							<img alt="GitHub Repo"
-							     src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-						<a href="https://github.com/TheOnliestMattastic/powerCat#readme">
-							<img alt="Documentation"
-							     src="https://img.shields.io/badge/Docs-README-bd93f9?style=for-the-badge&labelColor=6272a4"
-							>
-						</a>
-					</nav>
-				</div>
-			</div>
-
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 CURRENTLY WORKING ON: Active Project
 			     
 			     This section showcases a major project you're actively developing.
@@ -460,79 +369,55 @@
 			     • Screenshots of progress
 			     • Links to code and documentation
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🔬 Currently Working On</h2>
+    <div class="project-card">
+      <h2>Currently Working On</h2>
 
-				<div class="project-card sub">
+      <div class="project-card sub">
 
-					<!-- 🔧 PROJECT NAME -->
-					<h3>⚔️ Battle Tactics Arena</h3>
+        <!-- 🔧 PROJECT NAME -->
+        <h3>Vanguard & Flank</h3>
 
-					<!-- 🔧 PROJECT STATUS: What phase is it in? -->
-					<p>
-						<strong>Status: Active Refactoring & Architecture Redesign</strong>
-					</p>
+        <!-- 🔧 PROJECT OVERVIEW: What is and why are you building it? -->
+        <p>
+          A 2D turn-based tactical RPG utilizing a <strong>custom-built ECS framework</strong> within Godot. Originally
+          built as a class project in a single monolithic file, now being refactored into production-quality code.
+        </p>
 
-					<!-- 🔧 PROJECT OVERVIEW: What is it and why are you building it? -->
-					<p>
-						A 2D turn-based tactical RPG utilizing a
-						<strong>custom-built ECS game engine framework</strong>. Originally
-						built as a class project in a single monolithic file, now being
-						refactored into <strong>production-quality code</strong>.
-					</p>
+        <!-- 🔧 GROWTH & LEARNING: What's the biggest improvement? -->
+        <p>
+          <b>Architectural Evolution:</b>
+          Demonstrates transformation from legacy code (single file utilizing Lua and the Love2D framework) to a
+          maintainable ECS pattern to decouple game state from logic, ensuring high-performance data processing and
+          modular system design.
+        </p>
 
-					<!-- 🔧 GROWTH & LEARNING: What's the biggest improvement? -->
-					<p>
-						<b>Architectural Evolution:</b>
-						Demonstrates transformation from legacy code (single file with
-						globals) to a maintainable ECS pattern to decouple game state from
-						logic, ensuring high-performance data processing and modular system design.
-					</p>
+        <!-- 🔧 TECH STACK: What are you using? -->
+        <p>
+          <b>Built with:</b> Godot · GDScript · Inkscape
+        </p>
 
-					<!-- 🔧 CURRENT FOCUS: What's your immediate priority? -->
-					<p>
-						<b>Current Focus:</b>
-						Finalizing entity architecture, implementing
-						advanced battle mechanics (AI, pathfinding), and ensuring all
-						systems are extensible for future features.
-					</p>
+        <!-- 🔧 MEDIA GALLERY: Images showcasing project progress -->
+        <div class="media-gallery">
+          <h4>Project Showcase</h4>
+          <div class="gallery-grid">
+            <img alt="Battle Tactics Arena - File structure and architecture" src="./assets/media/BTA-fs.png"
+              loading="lazy" decoding="async">
+            <img alt="Battle Tactics Arena - Changelog and refactor progress" src="./assets/media/BTA-changelog.png"
+              loading="lazy" decoding="async">
+          </div>
+        </div>
 
-					<!-- 🔧 TECH STACK: What are you using? -->
-					<p>
-						<b>Built with:</b>
-						Lua · LÖVE2D · State machines · Data-driven
-						design · Modular architecture · Git (professional practices)
-					</p>
+        <!-- 🔧 PROJECT LINKS: Code repo, live demo, dev blog, etc. -->
+        <nav class="buttons card">
+          <a href="https://github.com/TheOnliestMattastic/Vanguard-and-Flank">
+            <img alt="GitHub Repo"
+              src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
+          </a>
+        </nav>
+      </div>
+    </div>
 
-					<!-- 🔧 MEDIA GALLERY: Images showcasing project progress -->
-					<div class="media-gallery">
-						<h4>Project Showcase</h4>
-						<div class="gallery-grid">
-							<img alt="Battle Tactics Arena - File structure and architecture"
-							     src="./assets/media/BTA-fs.png"
-							     loading="lazy"
-							     decoding="async"
-							>
-							<img alt="Battle Tactics Arena - Changelog and refactor progress"
-							     src="./assets/media/BTA-changelog.png"
-							     loading="lazy"
-							     decoding="async"
-							>
-						</div>
-					</div>
-
-					<!-- 🔧 PROJECT LINKS: Code repo, live demo, dev blog, etc. -->
-					<nav class="buttons card">
-						<a href="https://github.com/TheOnliestMattastic/BTA">
-							<img alt="GitHub Repo"
-							     src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-					</nav>
-				</div>
-			</div>
-
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 FEATURED PROJECTS: Your Other Notable Work
 			     
 			     Showcase multiple completed projects that demonstrate
@@ -548,144 +433,89 @@
 			     TO ADD MORE PROJECTS:
 			     Copy one entire "project-card sub" <div> block and modify it.
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🚀 AI & Workflow Engineering</h2>
+    <div class="project-card">
+      <h2>Projects</h2>
 
-				<!-- ===================================================================
+      <!-- ===================================================================
 				     🔧 PROJECT 1
 				     ==================================================================== -->
-				<div class="project-card sub">
+      <div class="project-card sub">
 
-					<h3>🧚 HYPERfix.nvim — Guardrail-Driven Development</h3>
+        <h3>HyperFix.nvim — Curated Neovim Distribution</h3>
 
-					<p>
-						A modular Neovim configuration built using a
-						<strong>documentation-driven AI workflow</strong>.
-					</p>
+        <p>
+          Developed and maintained Neovim distribution emphasizing discoverability, low-friction workflows, and mnemonic
+          keybinding design.
+        </p>
 
-					<p>
-						<b>The Innovation:</b>
-						Integrated an <code>AGENTS.md</code>
-						framework that provides LLMs with strict
-						architectural context, reducing hallucinations and maintaining human ownership of the codebase.
-					</p>
+        <p>
+          Unified editor, terminal, AI tooling, and development workflows into a cohesive Linux-first environment using
+          Lua and modern Neovim plugins.
+        </p>
 
-					<p>
-						<b>Accessibility:</b>
-						Built with WCAG AAA compliance and designed specifically to reduce <strong>cognitive load
-							for neurodivergent developers</strong>.
-					</p>
+        <p>
+          Built with WCAG AAA compliance and designed specifically to reduce cognitive load for neurodivergent
+          developers.
+        </p>
 
-					<nav class="buttons card">
-						<a href="https://github.com/TheOnliestMattastic/HyperFix.nvim">
-							<img alt="GitHub Repo"
-							     src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-						<a href="https://github.com/TheOnliestMattastic/HyperFix.nvim/blob/master/AGENTS.md">
-							<img alt="Design Philosophy"
-							     src="https://img.shields.io/badge/Docs-AGENTS.md-bd93f9?style=for-the-badge&labelColor=6272a4"
-							>
-						</a>
-					</nav>
-				</div>
+        <nav class="buttons card">
+          <a href="https://github.com/TheOnliestMattastic/HyperFix.nvim">
+            <img alt="GitHub Repo"
+              src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
+          </a>
+        </nav>
+      </div>
 
-				<!-- ===================================================================
+      <!-- ===================================================================
 				     🔧 PROJECT 2
 				     ==================================================================== -->
-				<div class="project-card sub">
 
-					<h3>💉 BashParaphernalia — Linux System Administration Toolkit</h3>
+      <div class="project-card sub">
 
-					<p>
-						A professional collection of
-						<strong>self-contained Bash scripts</strong>
-						for Linux system automation: DNF/Flatpak package management, cloud
-						drive mounting, RGB setup, in-game automation, and batch file
-						operations.
-					</p>
+        <h3>BacMac6T</h3>
 
-					<p>
-						<b>Real-World Skills:</b>
-						Shows ability to solve actual
-						problems—package management, cloud integration, automation
-						workflows.
-					</p>
+        <p>
+          Built a high-density, automated backup appliance by integrating a 4TB HDD, two 1TB SSDs, and an industrial USB
+          3.0 hub into a space-constrained vintage Mac Mini chassis.
+        </p>
 
-					<p>
-						<b>Tech:</b>
-						Bash · Linux · rclone · OpenRGB · systemd · error
-						handling · logging
-					</p>
+        <p>
+          Designed a headless Debian environment utilizing Btrfs immutable snapshots and BorgBackup deduplication over
+          an encrypted zero-trust mesh network powered by Tailscale.
+        </p>
 
-					<nav class="buttons card">
-						<a href="https://github.com/TheOnliestMattastic/BASHparaphernalia">
-							<img alt="GitHub Repo"
-							     src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-						<a href="https://theonliestmattastic.github.io/BASHparaphernalia/">
-							<img alt="Documentation"
-							     src="https://img.shields.io/badge/Docs-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-					</nav>
-				</div>
-
-				<!-- ===================================================================
-				     🔧 PROJECT 3: Psychology Research
-				     Shows data analysis, statistical thinking, 
-				     and reproducible research workflow
+        <p>
+          Installed a custom active cooling system to maintain safe operating temperatures in a densely packed
+          multi-drive enclosure.
+        </p>
+      </div>
+      <!-- ===================================================================
+				     🔧 PROJECT 3:
 				     ==================================================================== -->
-				<div class="project-card sub">
+      <div class="project-card sub">
 
-					<h3>❤️ Impact of Tobacco on Blood Pressure & Heart Rate</h3>
+        <h3>StatelessIO</h3>
 
-					<p>
-						An undergraduate psychology research project demonstrating
-						<strong>end-to-end data analysis in R</strong>. Analyzes raw survey
-						data, runs statistical tests (ANOVA + post-hoc), and publishes
-						results in
-						<strong>reproducible R Markdown format</strong>
-						with publication-quality visualizations.
-					</p>
+        <p>
+        </p>
 
-					<p>
-						<b>Impact:</b>
-						Showcases ability to translate raw data into
-						actionable insights with rigorous documentation for both technical
-						and non-technical audiences.
-					</p>
+        <p>
+        </p>
 
-					<p>
-						<b>Features:</b>
-						Data cleaning · ANOVA + post-hoc testing ·
-						Publication-quality visualizations · R Markdown reproducible
-						workflow · Version control.
-					</p>
+        <p>
+        </p>
 
-					<p>
-						<b>Built with:</b>
-						R · Tidyverse · ggplot2 · R Markdown ·
-						Statistical analysis
-					</p>
+        <nav class="buttons card">
+          <a href="https://github.com/TheOnliestMattastic/StatelessIO">
+            <img alt="GitHub Repo"
+              src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
+          </a>
+        </nav>
+      </div>
 
-					<nav class="buttons card">
-						<a href="https://github.com/TheOnliestMattastic/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR">
-							<img alt="GitHub Repo"
-							     src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-						<a href="https://theonliestmattastic.github.io/Psychology-Research-Impact-of-Tobacco-on-BP-and-HR/">
-							<img alt="Full Report"
-							     src="https://img.shields.io/badge/Report-Live_Site-bd93f9?style=for-the-badge&logo=githubpages&logoColor=white&labelColor=6272a4"
-							>
-						</a>
-					</nav>
-				</div>
-			</div>
+    </div>
 
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 SKILLS SECTION: Your Technical Skills
 			     
 			     List your technical skills organized by:
@@ -695,209 +525,124 @@
 			     • Creative/game dev tools
 			     • IT and systems knowledge
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🛰️ Technical Spikes</h2>
 
-				<ul>
-					<li><strong>Systems Architecture:</strong>
-					Advanced Lua, ECS patterns, State Machines, Data-Oriented Design</li>
-					<li><strong>Automation & DevOps:</strong>
-					Bash/PowerShell CLI tooling, GitHub Actions, Pester testing</li>
-					<li><strong>Data & Audit:</strong>
-					R (Tidyverse), Statistical reasoning, AI reasoning evaluation</li>
-					<li><strong>FOSS Philosophy:</strong>
-					Linux (Nobara/Fedora), Neovim, Open-source contribution</li>
-				</ul>
-			</div>
+    <div class="project-card">
+      <h2>Technical Spikes</h2>
 
-			<!-- ===================================================================
+      <ul>
+        <li><strong>Languages & Frameworks:</strong> C++, GDScript, JavaScript, Node.js, Lua, Bash, PowerShell</li>
+        <li><strong>Game Development:</strong> Godot 4, Unreal Engine 4, Love2D, Blender, Material Maker, Inkscape</li>
+        <li><strong>Infrastructure:</strong> Linux, Windows, Docker, GitHub Actions, Podman, BorgBackup, Tailscale</li>
+        <li><strong>Tools:</strong> Git, Neovim, WezTerm, Obsidian</li>
+      </ul>
+    </div>
+
+    <!-- ===================================================================
 			     🔧 EXPERIENCE SECTION: Work History & Key Strengths
 			     
 			     Detail your work experience, accomplishments, and strengths.
 			     Focus on what you ACHIEVED, not just what you DID.
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🌌 Experience & Strengths</h2>
+    <div class="project-card">
+      <h2>Experience & Strengths</h2>
 
-				<ul>
-					<li>
-						<strong>IT & Support:</strong>
-						Built and configured dozens of
-						systems; diagnosed OS/network issues; documented solutions for
-						knowledge reuse.
-					</li>
+      <ul>
+        <li>
+          <strong>IT & Support:</strong>
+          Built and configured dozens of
+          systems; diagnosed OS/network issues; documented solutions for
+          knowledge reuse.
+        </li>
 
-					<li>
-						<strong>HR & Data Coordination:</strong>
-						Managed sensitive records,
-						optimized processes, ensured compliance (Army National Guard, The
-						Animal Foundation).
-					</li>
+        <li>
+          <strong>HR & Data Coordination:</strong>
+          Managed sensitive records,
+          optimized processes, ensured compliance (Army National Guard, The
+          Animal Foundation).
+        </li>
 
-					<li>
-						<strong>Retail & Technical Support:</strong>
-						POS troubleshooting,
-						device/network setup, inventory management, end‑user training
-						(AllSaints, Coffee Shop Keyholder).
-					</li>
+        <li>
+          <strong>Retail & Technical Support:</strong>
+          POS troubleshooting,
+          device/network setup, inventory management, end‑user training
+          (AllSaints, Coffee Shop Keyholder).
+        </li>
 
-					<li>
-						<strong>Core Strengths:</strong>
-						Self‑motivated learner · Problem
-						solver · Detail‑oriented · Creative thinker · Effective communicator
-					</li>
-				</ul>
-			</div>
+        <li>
+          <strong>Core Strengths:</strong>
+          Self‑motivated learner · Problem
+          solver · Detail‑oriented · Creative thinker · Effective communicator
+        </li>
+      </ul>
+    </div>
 
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 ACHIEVEMENTS SECTION: Certifications, Awards, Credentials
 			     
 			     List your professional credentials in order of relevance.
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🌟 Achievements</h2>
+    <div class="project-card">
+      <h2>Achievements</h2>
 
-				<ul>
-					<li><strong>CompTIA A+ Certified</strong></li>
-					<li>CS50 Intro to Computer Science Certificate</li>
-					<li>Unreal Engine 5 C++ Game Developer Certificate</li>
-					<li>Summa Cum Laude Graduate (CCNY, 4.0 GPA)</li>
-					<li>Multiple creative writing awards and scholarships</li>
-				</ul>
-			</div>
+      <ul>
+        <li><strong>CompTIA A+ Certified</strong></li>
+        <li>CS50 Intro to Computer Science Certificate</li>
+        <li>Unreal Engine 5 C++ Game Developer Certificate</li>
+        <li>Summa Cum Laude Graduate (CCNY, 4.0 GPA)</li>
+        <li>Multiple creative writing awards and scholarships</li>
+      </ul>
+    </div>
 
-			<!-- ===================================================================
-			     🔧 VALUES SECTION: Your Work Philosophy
-			     
-			     A brief statement about what you believe in and care about.
-			     Helps employers understand your values and approach.
-			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🌠 Values</h2>
-
-				<p>
-					I believe in
-					<strong>clear education, fair wages, and reducing barriers to entry in
-						tech</strong>. My code is written to teach as much as it runs, and my
-					documentation is designed to empower others. Collaboration, empathy,
-					and accessibility are at the heart of my work.
-				</p>
-			</div>
-
-			<!-- ===================================================================
-			     🔧 "WHAT I OFFER" SECTION: Your Value Proposition
-			     
-			     A pitch to potential employers/collaborators.
-			     What unique things do you bring to a team?
-			     ==================================================================== -->
-			<div class="project-card">
-				<h2>🪐 What I Offer Employers</h2>
-
-				<ul>
-					<li>
-						<strong>Shipped Products:</strong>
-						Real modules in real repositories
-						(PowerCat on PowerShell Gallery with active users)
-					</li>
-
-					<li>
-						<strong>Automation & Scripting:</strong>
-						PowerShell, Bash to reduce
-						manual work, improve reliability, and streamline workflows
-					</li>
-
-					<li>
-						<strong>Clean, Maintainable Code:</strong>
-						Modular architecture,
-						comprehensive documentation, and accessibility-first design
-					</li>
-
-					<li>
-						<strong>Self-Directed Learning:</strong>
-						No formal CS degree—but
-						proven ability to learn, ship, and iterate based on real-world
-						feedback
-					</li>
-
-					<li>
-						<strong>IT Systems Knowledge:</strong>
-						Linux administration, package
-						management, CI/CD pipelines, and problem-solving under pressure
-					</li>
-				</ul>
-			</div>
-
-			<!-- ===================================================================
+    <!-- ===================================================================
 			     🔧 CONTACT SECTION: Call to Action
 			     
 			     Invite visitors to reach out and connect.
 			     Include your contact badges/links here.
 			     ==================================================================== -->
-			<div class="project-card">
-				<h2>👽 Contact</h2>
+    <div class="project-card">
+      <h2>Contact</h2>
 
-				<p>
-					Curious about my projects? Want to collaborate or hire for entry‑level
-					IT/support/dev roles? Shoot me an email or connect on GitHub — I reply
-					quickly and love new challenges.
-				</p>
+      <!-- 🔧 Add your contact/social media badges here. -->
+      <div class="buttons card">
+        <a href="https://github.com/theonliestmattastic" target="_blank" rel="noopener"><img alt="GitHub Profile"
+            src="https://img.shields.io/badge/GitHub-Profile-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"></a>
 
-				<!-- 🔧 Add your contact/social media badges here. -->
-				<div class="buttons card">
-					<a href="https://github.com/theonliestmattastic"
-					   target="_blank"
-					   rel="noopener"
-					><img alt="GitHub Profile"
-					     src="https://img.shields.io/badge/GitHub-Profile-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4"
-					></a>
+        <a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf"
+          target="_blank" rel="noopener"><img alt="Resume PDF"
+            src="https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4"></a>
 
-					<a href="https://raw.githubusercontent.com/theonliestmattastic/theonliestmattastic.github.io/main/assets/docs/resume.pdf"
-					   target="_blank"
-					   rel="noopener"
-					><img alt="Resume PDF"
-					     src="https://img.shields.io/badge/Resume-PDF-bd93f9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white&labelColor=6272a4"
-					></a>
+        <a href="mailto:matthew.poole485@gmail.com" target="_blank" rel="noopener"><img alt="Email"
+            src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"></a>
+      </div>
+    </div>
+  </main>
 
-					<a href="mailto:matthew.poole485@gmail.com"
-					   target="_blank"
-					   rel="noopener"
-					><img alt="Email"
-					     src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"
-					></a>
-				</div>
-			</div>
-		</main>
-
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 IMAGE FULLSCREEN MODAL
 		     
 		     Hidden by default. Activated when you click an image.
 		     Allows viewing images in fullscreen.
 		     ==================================================================== -->
-		<div id="image-modal" class="image-modal" role="dialog" aria-modal="true">
-			<div class="image-modal-content">
-				<button class="image-modal-close" aria-label="Close fullscreen image">
-					✕
-				</button>
-				<img id="modal-image"
-				     alt="Fullscreen image"
-				>
-			</div>
-		</div>
+  <div id="image-modal" class="image-modal" role="dialog" aria-modal="true">
+    <div class="image-modal-content">
+      <button class="image-modal-close" aria-label="Close fullscreen image">
+        ✕
+      </button>
+      <img id="modal-image" alt="Fullscreen image">
+    </div>
+  </div>
 
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 FOOTER: A Closing Quote or Message
 		     ==================================================================== -->
-		<footer>
-			<!-- 🔧 Change this to your favorite quote. -->
-			<p>
-				<q><em>Sometimes the questions are complicated and the answers are
-					simple.</em></q>
-				— Dr. Seuss
-			</p>
-		</footer>
+  <footer>
+    <!-- 🔧 Change this to your favorite quote. -->
+    <p>
+      <q><em>Sometimes the questions are complicated and the answers are simple.</em></q> — Dr. Seuss
+    </p>
+  </footer>
 
-		<!-- ===================================================================
+  <!-- ===================================================================
 		     🔰 JAVASCRIPT: Theme Switching & Image Modal
 		     
 		     These scripts handle:
@@ -906,86 +651,87 @@
 		     
 		     No changes needed unless you want to customize behavior.
 		     ==================================================================== -->
-		<script>
+  <script>
 
-			/* ===================================================================
-			THEME TOGGLE: Dark/Light Mode Switcher
-			
-			Functionality:
-			• Checks localStorage for saved theme preference
-			• Applies theme on page load
-			• Toggles between light/dark on button click
-			• Saves preference so it persists across page visits
-			
-			🔧 THEME TOGGLE ICONS: Update these to match your button above
-			Change the emojis below to match what you chose earlier.
-			=================================================================== */
-			const toggleBtn = document.getElementById("theme-toggle");
-			const currentTheme = localStorage.getItem("theme");
-			
-			if (currentTheme === "dark" || currentTheme === "light") {
-				document.documentElement.setAttribute("data-theme", currentTheme);
-				toggleBtn.textContent = currentTheme === "dark" ? "🌛" : "🌞";
-				} else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-					document.documentElement.setAttribute("data-theme", "dark");
-					toggleBtn.textContent = "🌛";
-					} else {
-						document.documentElement.setAttribute("data-theme", "light");
-						toggleBtn.textContent = "🌞";
-					}
-					
-					toggleBtn.addEventListener("click", () => {
-						let theme = document.documentElement.getAttribute("data-theme");
-						if (theme === "dark") {
-							document.documentElement.setAttribute("data-theme", "light");
-							localStorage.setItem("theme", "light");
-							toggleBtn.textContent = "🌞";  // Light mode emoji
-							} else {
-								document.documentElement.setAttribute("data-theme", "dark");
-								localStorage.setItem("theme", "dark");
-								toggleBtn.textContent = "🌛";  // Dark mode emoji
-							}
-							});
-							
-							/* ===================================================================
-							IMAGE FULLSCREEN MODAL
-							
-							Functionality:
-							• Click any image in .gallery-grid to view fullscreen
-							• Close by clicking X button, overlay, or pressing ESC
-							• Modal is hidden by default (CSS: display: none)
-							• Added "active" class to show modal
-							=================================================================== */
-							const modal = document.getElementById("image-modal");
-							const modalImage = document.getElementById("modal-image");
-							const closeBtn = document.querySelector(".image-modal-close");
-							const galleryImages = document.querySelectorAll(".gallery-grid img");
-							
-							// Open modal when gallery image is clicked
-							galleryImages.forEach((img) => {
-								img.addEventListener("click", (e) => {
-									modal.classList.add("active");
-									document.body.style.overflow = "hidden";
-									modalImage.src = img.src;
-									modalImage.alt = img.alt;
-									});
-									});
-									closeBtn.addEventListener("click", () => {
-										modal.classList.remove("active");
-										document.body.style.overflow = "";
-										});
-										modal.addEventListener("click", (e) => {
-											if (e.target === modal) {
-												modal.classList.remove("active");
-												document.body.style.overflow = "";
-											}
-											});
-											document.addEventListener("keydown", (e) => {
-												if (e.key === "Escape" && modal.classList.contains("active")) {
-													modal.classList.remove("active");
-													document.body.style.overflow = "";
-												}
-												});
-		</script>
-	</body>
+    /* ===================================================================
+    THEME TOGGLE: Dark/Light Mode Switcher
+  	
+    Functionality:
+    • Checks localStorage for saved theme preference
+    • Applies theme on page load
+    • Toggles between light/dark on button click
+    • Saves preference so it persists across page visits
+  	
+    🔧 THEME TOGGLE ICONS: Update these to match your button above
+    Change the emojis below to match what you chose earlier.
+    =================================================================== */
+    const toggleBtn = document.getElementById("theme-toggle");
+    const currentTheme = localStorage.getItem("theme");
+
+    if (currentTheme === "dark" || currentTheme === "light") {
+      document.documentElement.setAttribute("data-theme", currentTheme);
+      toggleBtn.textContent = currentTheme === "dark" ? "🌛" : "🌞";
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.setAttribute("data-theme", "dark");
+      toggleBtn.textContent = "🌛";
+    } else {
+      document.documentElement.setAttribute("data-theme", "light");
+      toggleBtn.textContent = "🌞";
+    }
+
+    toggleBtn.addEventListener("click", () => {
+      let theme = document.documentElement.getAttribute("data-theme");
+      if (theme === "dark") {
+        document.documentElement.setAttribute("data-theme", "light");
+        localStorage.setItem("theme", "light");
+        toggleBtn.textContent = "🌞";  // Light mode emoji
+      } else {
+        document.documentElement.setAttribute("data-theme", "dark");
+        localStorage.setItem("theme", "dark");
+        toggleBtn.textContent = "🌛";  // Dark mode emoji
+      }
+    });
+
+    /* ===================================================================
+    IMAGE FULLSCREEN MODAL
+  	
+    Functionality:
+    • Click any image in .gallery-grid to view fullscreen
+    • Close by clicking X button, overlay, or pressing ESC
+    • Modal is hidden by default (CSS: display: none)
+    • Added "active" class to show modal
+    =================================================================== */
+    const modal = document.getElementById("image-modal");
+    const modalImage = document.getElementById("modal-image");
+    const closeBtn = document.querySelector(".image-modal-close");
+    const galleryImages = document.querySelectorAll(".gallery-grid img");
+
+    // Open modal when gallery image is clicked
+    galleryImages.forEach((img) => {
+      img.addEventListener("click", (e) => {
+        modal.classList.add("active");
+        document.body.style.overflow = "hidden";
+        modalImage.src = img.src;
+        modalImage.alt = img.alt;
+      });
+    });
+    closeBtn.addEventListener("click", () => {
+      modal.classList.remove("active");
+      document.body.style.overflow = "";
+    });
+    modal.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+    });
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && modal.classList.contains("active")) {
+        modal.classList.remove("active");
+        document.body.style.overflow = "";
+      }
+    });
+  </script>
+</body>
+
 </html>
