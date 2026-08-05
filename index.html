@@ -1,21 +1,21 @@
-<!-- =====================================================================
-     👋 WELCOME TO THE PORTFOLIO TEMPLATE!
+<!-- ===========================================================================
+  👋 WELCOME TO THE PORTFOLIO TEMPLATE!
 
-     This file serves two purposes:
-     1. My professional portfolio (the actual content)
-     2. A customizable template for YOUR portfolio (fork and modify!)
+  This file serves two purposes:
+  1. My professional portfolio (the actual content)
+  2. A customizable template for YOUR portfolio (fork and modify!)
 
-     QUICK START GUIDE:
-     - 🔧 Wrench emoji = EDIT HERE (beginner-friendly customization)
-     - 🔰 Badge emoji = Structure/layout (don't edit unless you know HTML)
+  QUICK START GUIDE:
+  - 🔧 Wrench emoji = EDIT HERE (beginner-friendly customization)
+  - 🔰 Badge emoji = Structure/layout (don't edit unless you know HTML)
 
-     NO CODING EXPERIENCE? No problem!
-     The sections marked with 🔧 use simple find-and-replace:
-     • Change names, URLs, and descriptions—just text editing!
-     • See README.md for the complete beginner's guide
+  NO CODING EXPERIENCE? No problem!
+  The sections marked with 🔧 use simple find-and-replace:
+  • Change names, URLs, and descriptions—just text editing!
+  • See README.md for the complete beginner's guide
 
-     For developers: This HTML is semantically structured and accessible.
-====================================================================== -->
+  For developers: This HTML is semantically structured and accessible.
+============================================================================ -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -23,71 +23,63 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="theme-color" content="#282a36" media="(prefers-color-scheme: light)">
 
   <!-- =====================================================================
-		     🔧 BEGINNER'S NOTE: CHANGING YOUR FAVICON (Browser Tab Icon)
+    🔧 CHANGING YOUR FAVICON (Browser Tab Icon)
 
-		     These <link> tags control the small icon that appears in:
-		     • Browser tabs
-		     • Mobile home screens
-		     • Bookmarks
+    These <link> tags control the small icon that appears in:
+    • Browser tabs
+    • Mobile home screens
+    • Bookmarks
 
-		     HOW TO CHANGE IT:
+    HOW TO CHANGE IT:
 
-		     OPTION 1: Simple (if comfortable with files)
-		     1. Find or create a square image of your logo (PNG or SVG)
-		     2. Go to `/assets/icons/` folder in your project
-		     3. Replace the existing files with your new image
-		        (keep the filenames: favicon.ico, favicon.svg, etc.)
+    OPTION 1: Simple (if comfortable with files)
+    1. Find or create a square image of your logo (PNG or SVG)
+    2. Go to `/assets/icons/` folder in your project
+    3. Replace the existing files with your new image
+      (keep the filenames: favicon.ico, favicon.svg, etc.)
 
-		     OPTION 2: Automatic (recommended for beginners)
-		     1. Visit: https://realfavicongenerator.net/
-		     2. Upload your logo image
-		     3. Download the generated package
-		     4. Unzip it and copy all files into `/assets/icons/`
-		     5. Copy the HTML code they provide and paste it below
-		        (replacing all these <link> and <meta> tags)
+    OPTION 2: Automatic (recommended for beginners)
+    1. Visit: https://realfavicongenerator.net/
+    2. Upload your logo image
+    3. Download the generated package
+    4. Unzip it and copy all files into `/assets/icons/`
+    5. Copy the HTML code they provide and paste it below
+      (replacing all these <link> and <meta> tags)
 
-		     Your favicon will update across all browsers!
-		     ====================================================================== -->
+    Your favicon will update across all browsers!
+	========================================================================== -->
   <link rel="icon" type="image/png" href="/assets/icons/favicon-96x96.png" sizes="96x96">
   <link rel="icon" type="image/svg+xml" href="/assets/icons/favicon.svg">
   <link rel="shortcut icon" href="/assets/icons/favicon.ico">
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
   <meta name="apple-mobile-web-app-title" content="Mattastic">
   <link rel="manifest" href="/assets/icons/site.webmanifest">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="theme-color" content="#282a36" media="(prefers-color-scheme: light)">
 
-  <!-- =================================================================
-		     🔧 BROWSER TAB TITLE
-
-		     This text appears in the browser tab at the top.
-		     Format: "Your Name | Portfolio"
-		     ================================================================== -->
+  <!-- =========================================================================
+    🔧 BROWSER TAB TITLE
+    This text appears in the browser tab at the top.
+    Format: "Your Name | Portfolio"
+	========================================================================== -->
   <title>The Onliest Mattastic | Portfolio</title>
 
-  <!-- =================================================================
-		     🔧 SEO DESCRIPTION
-		     
-		     This summary appears below your name in Google search results.
-		     Keep it concise (150-160 characters) and descriptive.
-		     ================================================================== -->
+  <!-- =========================================================================
+	  🔧 SEO DESCRIPTION
+	========================================================================== -->
   <meta name="description"
     content="Matthew Poole Chicano's personal portfolio showcasing skills, projects, and achievements in game development and IT.">
 
-  <!-- =================================================================
-		     🔧 AUTHOR
-		     Change this to your name.
-		     ================================================================== -->
+  <!-- =========================================================================
+	  🔧 AUTHOR
+	========================================================================== -->
   <meta name="author" content="Matthew Poole Chicano">
 
-  <!-- =================================================================
-		     🔧 KEYWORDS
-		     
-		     Add keywords that describe you and your skills.
-		     These help search engines understand what your portfolio is about.
-		     ================================================================== -->
+  <!-- =========================================================================
+	  🔧 KEYWORDS
+	========================================================================== -->
   <meta name="keywords"
     content="Matthew Poole Chicano, Indie Game Dev, IT, Automation, Storyteller, Portfolio, Game Development, PowerShell, CI/CD">
 
@@ -112,7 +104,6 @@
 
   <!-- 🔧 Open Graph URL: Your live site's address -->
   <meta property="og:url" content="https://theonliestmattastic.github.io/">
-
   <meta property="og:type" content="website">
 
   <!-- 🔧 Twitter Card Type: How your site appears on Twitter/X -->
@@ -131,103 +122,92 @@
 
 <body>
 
-  <!-- ===================================================================
-		     🔰 HEADER SECTION: Introduction & Navigation
-		     
-		     Contains:
-		     • Theme toggle button (light/dark mode)
-		     • Your logo/banner image
-		     • Your name and tagline
-		     • Navigation badges (GitHub, Resume, Email, etc.)
-		     ==================================================================== -->
+  <!-- =========================================================================
+    🔰 HEADER SECTION: Introduction & Navigation
+
+    Contains:
+    • Theme toggle button (light/dark mode)
+    • Your logo/banner image
+    • Your name and tagline
+    • Navigation badges (GitHub, Resume, Email, etc.)
+	========================================================================== -->
   <header>
 
     <!-- ===============================================================
-			     🔧 THEME TOGGLE: Light/Dark Mode Button
-			     
-			     This button switches between light and dark mode.
-			     
-			     HOW TO CUSTOMIZE:
-			     
-			     1. Choose your emojis:
-			        Light mode emoji (like 🌞 sun, 🔆 bright sun, 💡 lightbulb)
-			        Dark mode emoji (like 🌛 moon, 🌜 crescent, 🌑 dark moon)
-			        Find more at: https://github.com/ikatyang/emoji-cheat-sheet
-			     
-			     2. Change the emoji in the <button> tag below
-			     
-			     3. IMPORTANT: Scroll to the bottom of this file and find the
-			        comment "THEME TOGGLE ICONS" in the <script> section.
-			        Update the emojis there too.
-			     ================================================================ -->
+      🔧 THEME TOGGLE: Light/Dark Mode Button
+
+      This button switches between light and dark mode.
+
+      HOW TO CUSTOMIZE:
+
+      1. Choose your emojis:
+        Light mode emoji (like 🌞 sun, 🔆 bright sun, 💡 lightbulb)
+        Dark mode emoji (like 🌛 moon, 🌜 crescent, 🌑 dark moon)
+        Find more at: https://github.com/ikatyang/emoji-cheat-sheet
+
+      2. Change the emoji in the <button> tag below
+
+      3. IMPORTANT: Scroll to the bottom of this file and find the
+        comment "THEME TOGGLE ICONS" in the <script> section.
+        Update the emojis there too.
+		======================================================================== -->
     <button id="theme-toggle" aria-label="Toggle theme">🌞</button>
 
-    <!-- ===============================================================
-			     🔧 BANNER IMAGE: Your Logo or ASCII Art
-			     
-			     HOW TO CUSTOMIZE:
-			     
-			     OPTION 1: Replace with your own image
-			     • Save your image to: `./assets/media/banner.png`
-			     • The src attribute below points to this file
-			     
-			     OPTION 2: Create ASCII art (advanced)
-			     • Visit: https://patorjk.com/software/taag/
-			     • Generate ASCII art, convert to image, save as PNG
-			     
-			     OPTION 3: Use a graphic design tool
-			     • Canva, Figma, or Photoshop work great
-			     • Export as PNG, save to `./assets/media/banner.png`
-			     ================================================================ -->
+    <!-- =======================================================================
+      🔧 BANNER IMAGE: Your Logo or ASCII Art
+
+      HOW TO CUSTOMIZE:
+
+      OPTION 1: Replace with your own image
+      • Save your image to: `./assets/media/banner.png`
+      • The src attribute below points to this file
+
+      OPTION 2: Create ASCII art (advanced)
+      • Visit: https://patorjk.com/software/taag/
+      • Generate ASCII art, convert to image, save as PNG
+
+      OPTION 3: Use a graphic design tool
+      • Canva, Figma, or Photoshop work great
+      • Export as PNG, save to `./assets/media/banner.png`
+		======================================================================== -->
     <img class="banner" id="banner-img" alt="banner" src="./assets/media/banner.png">
 
-    <!-- ===============================================================
-			     🔧 YOUR NAME
-			     
-			     This is the main headline of your portfolio.
-			     Change the text between <h1> and </h1> tags.
-			     ================================================================ -->
+    <!-- =======================================================================
+		  🔧 YOUR NAME
+		======================================================================== -->
     <h1>Matthew Poole Chicano</h1>
 
-    <!-- ===============================================================
-			     🔧 YOUR TAGLINE
-			     
-			     A short, catchy phrase that describes what you do.
-			     Keep it 5-10 words for best impact.
-			     
-			     Examples:
-			     • "Full-Stack Developer & Digital Designer"
-			     • "Storyteller, Musician, Creative Technologist"
-			     • "Data Scientist & Open-Source Advocate"
-			     ================================================================ -->
+    <!-- =======================================================================
+		  🔧 YOUR TAGLINE
+		======================================================================== -->
     <h2>
       Video Game Developer · Systems Architect · Technical Generalist
     </h2>
 
-    <!-- ===============================================================
-			     🔧 BADGE NAVIGATION: Links to Your Credentials & Profiles
-			     
-			     These are clickable badges for:
-			     • Your certifications
-			     • GitHub profile
-			     • Resume/CV
-			     • Email contact
-			     
-			     HOW TO CREATE CUSTOM BADGES:
-			     1. Visit: https://shields.io/
-			     2. Follow their instructions to generate a badge
-			     3. Copy the image URL they provide
-			     4. Paste it below in the <img src="YOUR_URL_HERE"> part
-			     
-			     TO ADD MORE BADGES:
-			     Copy and paste an entire <a> block and update:
-			     • href= (where the link goes)
-			     • alt= (description, helps with accessibility)
-			     • src= (the badge image URL)
-			     
-			     TO REMOVE A BADGE:
-			     Delete the entire <a> ... </a> block
-			     ================================================================ -->
+    <!-- =======================================================================
+      🔧 BADGE NAVIGATION: Links to Your Credentials & Profiles
+
+      These are clickable badges for:
+      • Your certifications
+      • GitHub profile
+      • Resume/CV
+      • Email contact
+
+      HOW TO CREATE CUSTOM BADGES:
+      1. Visit: https://shields.io/
+      2. Follow their instructions to generate a badge
+      3. Copy the image URL they provide
+      4. Paste it below in the <img src="YOUR_URL_HERE"> part
+
+      TO ADD MORE BADGES:
+      Copy and paste an entire <a> block and update:
+      • href= (where the link goes)
+      • alt= (description, helps with accessibility)
+      • src= (the badge image URL)
+
+      TO REMOVE A BADGE:
+      Delete the entire <a> ... </a> block
+		======================================================================== -->
     <nav class="buttons">
       <a href="https://www.credly.com/badges/b85bd0a5-0d6a-4d27-ba9b-1fee27e397f0/public_url" target="_blank"
         rel="noopener"><img alt="CompTIA A+ Certified"
@@ -245,30 +225,22 @@
     </nav>
   </header>
 
-  <!-- ===================================================================
-		     🔰 MAIN CONTENT SECTION
-		     
-		     This contains all your portfolio cards:
-		     • About me / Introduction
-		     • Featured/spotlight projects
-		     • Current projects
-		     • Skills, experience, achievements
-		     • Values and what you offer
-		     • Contact information
-		     ==================================================================== -->
+  <!-- =========================================================================
+    🔰 MAIN CONTENT SECTION
+
+    This contains all your portfolio cards:
+    • About me / Introduction
+    • Featured/spotlight projects
+    • Current projects
+    • Skills, experience, achievements
+    • Values and what you offer
+    • Contact information
+	========================================================================== -->
   <main>
 
-    <!-- ===================================================================
-			     🔧 "ABOUT ME" SECTION: Your Introduction
-			     
-			     Write a short, engaging introduction (2-3 sentences).
-			     
-			     FORMATTING TIPS:
-			     • Use <strong>text</strong> to make text bold
-			     • Use <em>text</em> to make text italic
-			     • Line breaks in the HTML don't affect the display
-			     • Keep paragraphs short for readability
-			     ==================================================================== -->
+    <!-- =======================================================================
+		  🔧 "ABOUT ME" SECTION
+		======================================================================== -->
     <section class="project-card">
       <h2>The Onliest Mattastic</h2>
       <p>
@@ -278,33 +250,17 @@
       </p>
     </section>
 
-    <!-- ===================================================================
-			     🔧 SPOTLIGHT PROJECT: Your Best Work
-			     
-			     This section showcases ONE flagship project that represents
-			     your best work or biggest accomplishment.
-			     
-			     This gets prime visibility on your portfolio.
-			     
-			     WHAT TO INCLUDE:
-			     • Project name and emoji
-			     • Why it's your best work
-			     • What it does / why it matters
-			     • Key achievements
-			     • Tech stack you used
-			     • Screenshots/images (optional)
-			     • Links to live version, code, docs
-			     ==================================================================== -->
+    <!-- =======================================================================
+		  🔧 SPOTLIGHT PROJECT
+		======================================================================== -->
     <div class="project-card spotlight">
       <h2>Spotlight</h2>
 
       <div class="project-card sub">
-
         <!-- 🔧 PROJECT NAME -->
         <h3>PowerCat — Precise PowerShell Utility</h3>
 
-        <!-- 🔧 WHY THIS PROJECT: Explain what makes this your standout work -->
-        <p>
+        <p> <!-- 🔧 WHY THIS PROJECT: Explain what makes this your standout work -->
           Developed an open-source PowerShell module published in the PowerShell Gallery that consolidates project
           source into AI-ready context with token estimation, customizable filtering, and Markdown-aware formatting.
         </p>
@@ -314,15 +270,13 @@
           automation workflows.
         </p>
 
-        <!-- 🔧 KEY ACHIEVEMENTS: What are you most proud of? -->
-        <p>
+        <p> <!-- 🔧 KEY ACHIEVEMENTS: What are you most proud of? -->
           <b>Key Achievements:</b>
           Published to official gallery · Comprehensive Pester test suite · CI/CD pipeline with GitHub Actions ·
           Multiple ergonomic aliases
         </p>
 
-        <!-- 🔧 TECH STACK: What tools/languages did you use? -->
-        <p>
+        <p> <!-- 🔧 TECH STACK: What tools/languages did you use? -->
           <b>Built with:</b>
           PowerShell · Pester (automated tests) · GitHub Actions (CI/CD)
         </p>
@@ -349,62 +303,47 @@
               src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
           </a>
         </nav>
+
       </div>
+
     </div>
 
-    <!-- ===================================================================
-			     🔧 CURRENTLY WORKING ON: Active Project
-			     
-			     This section showcases a major project you're actively developing.
-			     Great for showing growth, current interests, and work-in-progress.
-			     
-			     Include:
-			     • Project name
-			     • Current status (Alpha, Beta, Refactoring, etc.)
-			     • Overview of what you're building
-			     • Architectural improvements or learning moments
-			     • Documentation approach
-			     • Current focus/immediate priorities
-			     • Tech stack
-			     • Screenshots of progress
-			     • Links to code and documentation
-			     ==================================================================== -->
+    <!-- =======================================================================
+      🔧 CURRENTLY WORKING ON
+		======================================================================== -->
     <div class="project-card">
       <h2>Currently Working On</h2>
 
       <div class="project-card sub">
+        <h3>Vanguard & Flank</h3> <!-- 🔧 PROJECT NAME -->
 
-        <!-- 🔧 PROJECT NAME -->
-        <h3>Vanguard & Flank</h3>
-
-        <!-- 🔧 PROJECT OVERVIEW: What is and why are you building it? -->
-        <p>
+        <p> <!-- 🔧 PROJECT OVERVIEW: What is and why are you building it? -->
           A 2D turn-based tactical RPG utilizing a <strong>custom-built ECS framework</strong> within Godot. Originally
           built as a class project in a single monolithic file, now being refactored into production-quality code.
         </p>
 
-        <!-- 🔧 GROWTH & LEARNING: What's the biggest improvement? -->
-        <p>
+        <p> <!-- 🔧 GROWTH & LEARNING: What's the biggest improvement? -->
           <b>Architectural Evolution:</b>
           Demonstrates transformation from legacy code (single file utilizing Lua and the Love2D framework) to a
           maintainable ECS pattern to decouple game state from logic, ensuring high-performance data processing and
           modular system design.
         </p>
 
-        <!-- 🔧 TECH STACK: What are you using? -->
-        <p>
+        <p> <!-- 🔧 TECH STACK: What are you using? -->
           <b>Built with:</b> Godot · GDScript · Inkscape
         </p>
 
         <!-- 🔧 MEDIA GALLERY: Images showcasing project progress -->
         <div class="media-gallery">
           <h4>Project Showcase</h4>
+
           <div class="gallery-grid">
             <img alt="Battle Tactics Arena - File structure and architecture" src="./assets/media/BTA-fs.png"
               loading="lazy" decoding="async">
             <img alt="Battle Tactics Arena - Changelog and refactor progress" src="./assets/media/BTA-changelog.png"
               loading="lazy" decoding="async">
           </div>
+
         </div>
 
         <!-- 🔧 PROJECT LINKS: Code repo, live demo, dev blog, etc. -->
@@ -414,33 +353,23 @@
               src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
           </a>
         </nav>
+
       </div>
+
     </div>
 
-    <!-- ===================================================================
-			     🔧 FEATURED PROJECTS: Your Other Notable Work
-			     
-			     Showcase multiple completed projects that demonstrate
-			     different skills and interests.
-			     
-			     STRUCTURE FOR EACH PROJECT:
-			     • Project name and emoji
-			     • Brief description (2-3 sentences)
-			     • Key accomplishment or philosophy
-			     • Tech stack / tools used
-			     • Links to code, live version, docs, etc.
-			     
-			     TO ADD MORE PROJECTS:
-			     Copy one entire "project-card sub" <div> block and modify it.
-			     ==================================================================== -->
+    <!-- =======================================================================
+      🔧 FEATURED PROJECTS
+      To add more projects, copy one entire "project-card sub" <div> block
+      and modify it.
+		======================================================================== -->
     <div class="project-card">
       <h2>Projects</h2>
 
-      <!-- ===================================================================
-				     🔧 PROJECT 1
-				     ==================================================================== -->
+      <!-- =====================================================================
+			  🔧 PROJECT 1
+			====================================================================== -->
       <div class="project-card sub">
-
         <h3>HyperFix.nvim — Curated Neovim Distribution</h3>
 
         <p>
@@ -464,14 +393,13 @@
               src="https://img.shields.io/badge/GitHub-Code-bd93f9?style=for-the-badge&logo=github&logoColor=white&labelColor=6272a4">
           </a>
         </nav>
+
       </div>
 
-      <!-- ===================================================================
-				     🔧 PROJECT 2
-				     ==================================================================== -->
-
+      <!-- =====================================================================
+			  🔧 PROJECT 2
+			====================================================================== -->
       <div class="project-card sub">
-
         <h3>BacMac6T</h3>
 
         <p>
@@ -488,12 +416,13 @@
           Installed a custom active cooling system to maintain safe operating temperatures in a densely packed
           multi-drive enclosure.
         </p>
-      </div>
-      <!-- ===================================================================
-				     🔧 PROJECT 3:
-				     ==================================================================== -->
-      <div class="project-card sub">
 
+      </div>
+
+      <!-- =====================================================================
+			  🔧 PROJECT 3
+			====================================================================== -->
+      <div class="project-card sub">
         <h3>StatelessIO</h3>
 
         <p>
@@ -515,19 +444,11 @@
 
     </div>
 
-    <!-- ===================================================================
-			     🔧 SKILLS SECTION: Your Technical Skills
-			     
-			     List your technical skills organized by:
-			     • Core competencies (depth)
-			     • Supporting skills (breadth)
-			     • DevOps and workflow tools
-			     • Creative/game dev tools
-			     • IT and systems knowledge
-			     ==================================================================== -->
-
+    <!-- =======================================================================
+		  🔧 SKILLS SECTION
+		======================================================================== -->
     <div class="project-card">
-      <h2>Technical Spikes</h2>
+      <h2>Tech Stack</h2>
 
       <ul>
         <li><strong>Languages & Frameworks:</strong> C++, GDScript, JavaScript, Node.js, Lua, Bash, PowerShell</li>
@@ -535,14 +456,12 @@
         <li><strong>Infrastructure:</strong> Linux, Windows, Docker, GitHub Actions, Podman, BorgBackup, Tailscale</li>
         <li><strong>Tools:</strong> Git, Neovim, WezTerm, Obsidian</li>
       </ul>
+
     </div>
 
-    <!-- ===================================================================
-			     🔧 EXPERIENCE SECTION: Work History & Key Strengths
-			     
-			     Detail your work experience, accomplishments, and strengths.
-			     Focus on what you ACHIEVED, not just what you DID.
-			     ==================================================================== -->
+    <!-- =======================================================================
+		  🔧 EXPERIENCE SECTION
+		======================================================================== -->
     <div class="project-card">
       <h2>Experience & Strengths</h2>
 
@@ -576,11 +495,9 @@
       </ul>
     </div>
 
-    <!-- ===================================================================
-			     🔧 ACHIEVEMENTS SECTION: Certifications, Awards, Credentials
-			     
-			     List your professional credentials in order of relevance.
-			     ==================================================================== -->
+    <!-- =======================================================================
+		  🔧 ACHIEVEMENTS SECTION: Certifications, Awards, Credentials
+		======================================================================== -->
     <div class="project-card">
       <h2>Achievements</h2>
 
@@ -604,14 +521,12 @@
           <li><em>Steiner's Creative Writing Scholarship</em></li>
         </ul>
       </ul>
+
     </div>
 
-    <!-- ===================================================================
-			     🔧 CONTACT SECTION: Call to Action
-			     
-			     Invite visitors to reach out and connect.
-			     Include your contact badges/links here.
-			     ==================================================================== -->
+    <!-- =======================================================================
+		  🔧 CONTACT SECTION
+		======================================================================== -->
     <div class="project-card">
       <h2>Contact</h2>
 
@@ -627,15 +542,16 @@
         <a href="mailto:matthew.poole485@gmail.com" target="_blank" rel="noopener"><img alt="Email"
             src="https://img.shields.io/badge/Email-matthew.poole485%40gmail.com-bd93f9?style=for-the-badge&logo=gmail&logoColor=white&labelColor=6272a4"></a>
       </div>
+
     </div>
   </main>
 
-  <!-- ===================================================================
-		     🔰 IMAGE FULLSCREEN MODAL
-		     
-		     Hidden by default. Activated when you click an image.
-		     Allows viewing images in fullscreen.
-		     ==================================================================== -->
+  <!-- =========================================================================
+    🔰 IMAGE FULLSCREEN MODAL
+
+    Hidden by default. Activated when you click an image.
+    Allows viewing images in fullscreen.
+	========================================================================== -->
   <div id="image-modal" class="image-modal" role="dialog" aria-modal="true">
     <div class="image-modal-content">
       <button class="image-modal-close" aria-label="Close fullscreen image">
@@ -645,11 +561,10 @@
     </div>
   </div>
 
-  <!-- ===================================================================
-		     🔰 FOOTER: A Closing Quote or Message
-		     ==================================================================== -->
+  <!-- =========================================================================
+	  🔰 FOOTER: A Closing Quote or Message
+	========================================================================== -->
   <footer>
-    <!-- 🔧 Change this to your favorite quote. -->
     <p>
       <q><em>Sometimes the questions are complicated and the answers are simple.</em></q> — Dr. Seuss
     </p>
